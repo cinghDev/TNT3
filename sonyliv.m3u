@@ -1,17 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Maharashtra Tycoons - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769738826~acl=/*~id=85996492777742719650822305962606~hmac=70aa66d412e4f69897625bfcd7e99f11fd8042075f5782525856580dd0920bcf
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Maharashtra Tycoons - 29 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769738826~acl=/*~id=85996492777742719650822305962606~hmac=70aa66d412e4f69897625bfcd7e99f11fd8042075f5782525856580dd0920bcf
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Punjab Royals vs Delhi Dangal Warriors - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769738826~acl=/*~id=85996492777742719650822305962606~hmac=70aa66d412e4f69897625bfcd7e99f11fd8042075f5782525856580dd0920bcf
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Punjab Royals vs Delhi Dangal Warriors - 29 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769738826~acl=/*~id=85996492777742719650822305962606~hmac=70aa66d412e4f69897625bfcd7e99f11fd8042075f5782525856580dd0920bcf
+#EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Chennai Super Champs vs Mumbai Pickleball Power - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769738826~acl=/*~id=85996492777742719650822305962606~hmac=70aa66d412e4f69897625bfcd7e99f11fd8042075f5782525856580dd0920bcf
 #EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Pune United vs Hyderabad Super Stars - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 1 - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769738826~acl=/*~id=85996492777742719650822305962606~hmac=70aa66d412e4f69897625bfcd7e99f11fd8042075f5782525856580dd0920bcf
