@@ -1,19 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pegula vs Rybakina - SF - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pegula vs Rybakina - SF - 29 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pegula vs Rybakina - SF - 29 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Pegula vs Rybakina - SF - 29 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Rajasthan Lions vs Dubai Royals - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Rajasthan Lions vs Dubai Royals - 29 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jessica Pegula vs Elena Rybakina - Women's Singles - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 29 Jan 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Maharashtra Tycoons - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Maharashtra Tycoons - 29 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
+#EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Pune United vs Hyderabad Super Stars - 29 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 1 - 29 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769730324~acl=/*~id=96580982754307738518700095124459~hmac=75e69d7d2f7186cfe910dd0bced07278cc077b9e8e290063a0783974cba16d03
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769735792~acl=/*~id=21727995377742522676199586695432~hmac=508c59065a53c2cc9342d024bccf86f53337b699282530948b35d879dfc138c2
