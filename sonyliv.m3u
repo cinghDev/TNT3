@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Alexander Zverev - Semi-final - 30 Jan 2026	 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Alexander Zverev - Semi-final - 30 Jan 2026	 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Alexander Zverev - Semi-final - 30 Jan 2026	 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Alexander Zverev - Semi-final - 30 Jan 2026	 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 30 Jan 2026	 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 30 Jan 2026	 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 30 Jan 2026	 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 30 Jan 2026	 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Maharashtra Tycoons vs Delhi Warriors - 30 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Maharashtra Tycoons vs Delhi Warriors - 30 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 30 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 2 - 30 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769806114~acl=/*~id=38229631001021574566228308155247~hmac=5d74223f66b89eaf7ba757119fad0eb7c06f6535a940f4259516d033639db680
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769809765~acl=/*~id=44556497970164591111208407198021~hmac=6926d45c6bd975e6dedf546fa5b5122e100d36878a1c8f822104843ff02f35a0
