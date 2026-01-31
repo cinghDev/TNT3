@@ -1,5 +1,9 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Dubai Royals vs Pune Panthers - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Dubai Royals vs Pune Panthers - 31 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
 #EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Mumbai Pickle Power vs Bengaluru Jawans - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769907517~acl=/*~id=74510690879770281600484527456361~hmac=1ddf63e6bd38af8a58071bfa2bf3f2d29d0a8cab2ebe552545b288e07e9669ca
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 3 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769907517~acl=/*~id=74510690879770281600484527456361~hmac=1ddf63e6bd38af8a58071bfa2bf3f2d29d0a8cab2ebe552545b288e07e9669ca
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
