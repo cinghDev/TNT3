@@ -1,7 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Northen Brave vs Canterbury Kings - Final - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769885054~acl=/*~id=54581041166567442039605099700613~hmac=b3e60616c00f7e23d2591cf37ef386b495696ec2df5f5355ebdc826f0fd34609
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Martin De la Puente vs Tokito Oda - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769885054~acl=/*~id=54581041166567442039605099700613~hmac=b3e60616c00f7e23d2591cf37ef386b495696ec2df5f5355ebdc826f0fd34609
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769885054~acl=/*~id=54581041166567442039605099700613~hmac=b3e60616c00f7e23d2591cf37ef386b495696ec2df5f5355ebdc826f0fd34609
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769888088~acl=/*~id=47819648212540361678634132663488~hmac=dded7cf9f4a74a3e5f9497a912301ad2c60d7d00d2b7356f3a7efa37168252ce
