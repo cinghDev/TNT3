@@ -1,15 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Northen Brave vs Canterbury Kings - Final - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Elena Rybakina - Final - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Elena Rybakina - Final - 31 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Elena Rybakina - Final - 31 Jan 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Elena Rybakina - Final - 31 Jan 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Rajasthan Lions - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Rajasthan Lions - 31 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Martin De la Puente vs Tokito Oda - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769889303~acl=/*~id=86216032183156449805950542977140~hmac=8b36b69c053c1dd657420828aa117eac542959ce2f60116462c15b7dc7adfee5
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 3 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769891734~acl=/*~id=92946653899268211370927847331943~hmac=4c601d65cd7e7d66a6f7cfa82f90cdc1ee76b4115ca10cfad471bcb1e91caacf
