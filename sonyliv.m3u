@@ -1,15 +1,15 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Harrison/Skupsi - Final - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Harrison/Skupsi - Final - 31 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Harrison/Skupsi - Final - 31 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kubler/Polmans vs Harrison/Skupsi - Final - 31 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Auckland Hearts vs Wellington Blaze - Final - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Northen Brave vs Canterbury Kings - Final - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Kia Arena - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 2 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769875947~acl=/*~id=59751741777484346261231454978794~hmac=943af38db389c67df53f5b8ef2deff5c65ab5a930d7987201e2564aade888055
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769878981~acl=/*~id=18569982273985285865057266284830~hmac=b2a191af350ba8dd49fd7b942e4165e3e13cf7907f21d363fc7bb00b76232901
