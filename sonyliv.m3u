@@ -1,9 +1,23 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Dubai Royals vs Pune Panthers - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
 #EXTINF:-1 tvg-name="LIV" group-title="Cricket",Dubai Royals vs Pune Panthers - 31 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Eintracht Frankfurt vs Bayer Leverkusen - MD 20 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
 #EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Mumbai Pickle Power vs Bengaluru Jawans - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 3 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769910545~acl=/*~id=08257162789365754422372757040732~hmac=e0ecc38030fa1ae161772091def390f0f920420c719f783696b4193f24b6089e
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Delhi Dangal Warriors vs Maharashtra Kesari - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Wrestling",Delhi Dangal Warriors vs Maharashtra Kesari - 31 Jan 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",RB Leipzig vs Mainz - MD 20 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Werder Bremen vs Borussia M'gladbach - MD 20 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",FC Augsburg vs St. Pauli - MD 20 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hoffenheim vs Union Berlin - MD 20 - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Racing",Round 3 - Miami E-Prix - Qualifying Race - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769912976~acl=/*~id=16924724202279154147067385766157~hmac=e67d87fe996ed042cc0d694f4bafc9ebc34bf960b7782c38d9b8c887dc4d7f59
