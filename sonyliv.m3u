@@ -1,15 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 31 Jan 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
-#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Rajasthan Lions - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
-#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Gurugram Thunders vs Rajasthan Lions - 31 Jan 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
+#EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Mumbai Pickle Power vs Bengaluru Jawans - 31 Jan 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769907517~acl=/*~id=74510690879770281600484527456361~hmac=1ddf63e6bd38af8a58071bfa2bf3f2d29d0a8cab2ebe552545b288e07e9669ca
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 3 - 31 Jan 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769903269~acl=/*~id=71646364190011744578587166588424~hmac=1b0944bbf34c6f83ec12fecc6d24de1a4bcebd1dade5e8613200b5bf52be9b8a
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769907517~acl=/*~id=74510690879770281600484527456361~hmac=1ddf63e6bd38af8a58071bfa2bf3f2d29d0a8cab2ebe552545b288e07e9669ca
