@@ -1,17 +1,21 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",2nd T20I - 1 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 1 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 1 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 1 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Stream 1 - 1 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Delhi Warriors vs Gurugram Thunders - 1 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Delhi Warriors vs Gurugram Thunders - 1 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
+#EXTINF:-1 tvg-name="LIV" group-title="Pickleball",Hyderabad Superstars vs Dilli Dillwale - 1 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Novak Djokovic - Final - 1 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Novak Djokovic - Final - 1 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Novak Djokovic - Final - 1 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Novak Djokovic - Final - 1 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
-#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Pune Panthers vs Maharashtra Tycoons - 1 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
-#EXTINF:-1 tvg-name="LIV" group-title="Cricket",Pune Panthers vs Maharashtra Tycoons - 1 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI37ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Carlos Alcaraz vs Novak Djokovic - Final - 1 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Bahrain Championship Day 4 - 1 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769989978~acl=/*~id=99884522252281610826216053164602~hmac=941416ac59cdfeef722ed4aa1a4b392c3195683ba9e5dc43663fe6b53019be58
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769994231~acl=/*~id=27454841059622727822854266365670~hmac=0cb39f207bfab4b02d7d08184da808b1b3df4d3f37370b74a6a6227afe6cfc0d
