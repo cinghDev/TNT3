@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Player - Deeplink Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .tab-button {
+            padding: 15px 30px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .tab-button.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+            font-weight: bold;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+            font-family: monospace;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: transform 0.2s;
+            width: 100%;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .button:active {
+            transform: translateY(0);
+        }
+
+        .result-box {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .result-box.show {
+            display: block;
+        }
+
+        .result-box h3 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .result-link {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            word-break: break-all;
+            margin-bottom: 15px;
+            border: 2px solid #667eea;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+
+        .copy-button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            margin-right: 10px;
+        }
+
+        .copy-button:hover {
+            background: #45a049;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            color: #856404;
+        }
+
+        .alert-info {
+            background: #d1ecf1;
+            border: 1px solid #17a2b8;
+            color: #0c5460;
+        }
+
+        .channel-list {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .channel-item {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .channel-item:hover {
+            background: #f5f5f5;
+        }
+
+        .channel-item:last-child {
+            border-bottom: none;
+        }
+
+        .channel-name {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .channel-url {
+            font-size: 0.85em;
+            color: #666;
+            font-family: monospace;
+            word-break: break-all;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        .secret-input {
+            background: #fff3cd;
+            border-color: #ffc107;
+        }
+
+        .help-text {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎬 Ruby Player</h1>
+            <p>Encrypted Deeplink Generator</p>
+        </div>
+
+        <div class="content">
+            <div class="alert alert-warning">
+                <strong>⚠️ Security Notice:</strong> Keep your encryption secret safe! Never share it publicly.
+            </div>
+
+            <div class="form-group">
+                <label for="secretKey">🔐 Encryption Secret (AES Key)</label>
+                <input type="password" id="secretKey" class="secret-input" placeholder="Loading secret..." readonly>
+                <div class="help-text">Secret is loaded securely from server configuration</div>
+            </div>
+
+            <div class="tab-buttons">
+                <button class="tab-button active" onclick="switchTab('stream')">📺 Stream Link</button>
+                <button class="tab-button" onclick="switchTab('playlist')">📋 M3U Playlist</button>
+            </div>
+
+            <!-- Stream Tab -->
+            <div id="stream-tab" class="tab-content active">
+                <div class="form-group">
+                    <label for="streamUrl">Stream URL *</label>
+                    <input type="text" id="streamUrl" placeholder="https://example.com/stream.m3u8">
+                </div>
+
+                <div class="form-group">
+                    <label for="streamName">Stream Name (Optional)</label>
+                    <input type="text" id="streamName" placeholder="My Channel">
+                </div>
+
+                <div class="form-group">
+                    <label for="drmScheme">DRM Scheme (Optional)</label>
+                    <select id="drmScheme">
+                        <option value="">None</option>
+                        <option value="widevine">Widevine</option>
+                        <option value="playready">PlayReady</option>
+                        <option value="clearkey">ClearKey</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="licenseUrl">DRM License URL (Optional)</label>
+                    <input type="text" id="licenseUrl" placeholder="https://license.server.com/license">
+                </div>
+
+                <div class="form-group">
+                    <label for="clearKeyKid">ClearKey KID (Optional)</label>
+                    <input type="text" id="clearKeyKid" placeholder="Key ID for ClearKey">
+                </div>
+
+                <div class="form-group">
+                    <label for="clearKeyKey">ClearKey Key (Optional)</label>
+                    <input type="text" id="clearKeyKey" placeholder="Key for ClearKey">
+                </div>
+
+                <div class="form-group">
+                    <label for="userAgent">User-Agent (Optional)</label>
+                    <input type="text" id="userAgent" placeholder="Mozilla/5.0...">
+                </div>
+
+                <div class="form-group">
+                    <label for="referer">Referer (Optional)</label>
+                    <input type="text" id="referer" placeholder="https://example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="origin">Origin (Optional)</label>
+                    <input type="text" id="origin" placeholder="https://example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="cookies">Cookies (Optional)</label>
+                    <input type="text" id="cookies" placeholder="session=abc123; token=xyz">
+                </div>
+
+                <button class="button" onclick="generateStreamLink()">🔗 Generate Stream Link</button>
+            </div>
+
+            <!-- Playlist Tab -->
+            <div id="playlist-tab" class="tab-content">
+                <div class="alert alert-info">
+                    <strong>ℹ️ Info:</strong> Load an M3U playlist to browse channels and copy individual deeplinks. The playlist itself won't be added to the app.
+                </div>
+
+                <div class="form-group">
+                    <label for="playlistUrl">M3U Playlist URL *</label>
+                    <input type="text" id="playlistUrl" placeholder="https://example.com/playlist.m3u8">
+                    <div class="help-text">The playlist will be fetched and parsed to show all channels</div>
+                </div>
+
+                <button class="button" onclick="loadPlaylist()">📥 Load Playlist</button>
+
+                <div id="channelList" class="channel-list" style="display: none;"></div>
+            </div>
+
+            <!-- Result Box -->
+            <div id="resultBox" class="result-box">
+                <h3>✅ Generated Deeplink</h3>
+                <div class="result-link" id="resultLink"></div>
+                <button class="copy-button" onclick="copyToClipboard()">📋 Copy Link</button>
+                <button class="copy-button" style="background: #2196F3;" onclick="openLink()">🚀 Open in App</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script>
+        // Load secret from config.js (generated by GitHub Actions)
+        window.addEventListener('DOMContentLoaded', async () => {
+            try {
+                // Try to load config.js
+                const script = document.createElement('script');
+                script.src = 'config.js';
+                script.onerror = () => {
+                    // Fallback: ask user to enter secret
+                    const secretInput = document.getElementById('secretKey');
+                    secretInput.placeholder = 'Enter your secret key';
+                    secretInput.readOnly = false;
+                    secretInput.classList.add('secret-input');
+                    alert('⚠️ Secret not configured. Please enter your encryption secret manually.');
+                };
+                script.onload = () => {
+                    // Secret loaded from config.js
+                    if (window.RUBY_CONFIG && window.RUBY_CONFIG.SECRET_KEY) {
+                        document.getElementById('secretKey').value = window.RUBY_CONFIG.SECRET_KEY;
+                        console.log('✅ Secret loaded successfully');
+                    } else {
+                        throw new Error('Config loaded but secret not found');
+                    }
+                };
+                document.head.appendChild(script);
+            } catch (e) {
+                console.error('Failed to load secret:', e);
+                const secretInput = document.getElementById('secretKey');
+                secretInput.placeholder = 'Enter your secret key';
+                secretInput.readOnly = false;
+            }
+        });
+
+        let currentTab = 'stream';
+        let loadedChannels = [];
+
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById(tab + '-tab').classList.add('active');
+        }
+
+        function encrypt(text, secret) {
+            if (!secret) {
+                alert('Please enter your encryption secret!');
+                return null;
+            }
+
+            try {
+                // Generate key using SHA-256 (matching Android SecurityHelper)
+                const keyHash = CryptoJS.SHA256(secret);
+                const key = CryptoJS.lib.WordArray.create(keyHash.words.slice(0, 8)); // 32 bytes for AES-256
+                
+                // Generate IV using MD5 of secret (matching Android SecurityHelper)
+                const ivHash = CryptoJS.MD5(secret);
+                const iv = CryptoJS.lib.WordArray.create(ivHash.words); // 16 bytes
+                
+                const encrypted = CryptoJS.AES.encrypt(text, key, {
+                    iv: iv,
+                    mode: CryptoJS.mode.CBC,
+                    padding: CryptoJS.pad.Pkcs7
+                });
+                
+                // Convert to URL-safe Base64 (matching Android Base64.URL_SAFE)
+                let base64 = encrypted.ciphertext.toString(CryptoJS.enc.Base64);
+                // Make it URL-safe: replace + with -, / with _, and remove padding =
+                base64 = base64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+                
+                return base64;
+            } catch (e) {
+                alert('Encryption failed: ' + e.message);
+                return null;
+            }
+        }
+
+        function generateStreamLink() {
+            const secret = document.getElementById('secretKey').value;
+            const streamUrl = document.getElementById('streamUrl').value;
+
+            if (!secret) {
+                alert('Please enter your encryption secret!');
+                return;
+            }
+
+            if (!streamUrl) {
+                alert('Please enter a stream URL!');
+                return;
+            }
+
+            // Build StreamData JSON
+            const streamData = {
+                url: streamUrl,
+                name: document.getElementById('streamName').value || '',
+                title: document.getElementById('streamName').value || '',
+                streamId: '',
+                logoUrl: null,
+                group: null,
+                drmLicenseUrl: document.getElementById('licenseUrl').value || '',
+                drmScheme: document.getElementById('drmScheme').value || '',
+                clearKeyKid: document.getElementById('clearKeyKid').value || '',
+                clearKeyKey: document.getElementById('clearKeyKey').value || '',
+                userAgent: document.getElementById('userAgent').value || '',
+                referer: document.getElementById('referer').value || '',
+                origin: document.getElementById('origin').value || '',
+                cookies: document.getElementById('cookies').value || '',
+                customHeaders: {}
+            };
+
+            const json = JSON.stringify(streamData);
+            const encrypted = encrypt(json, secret);
+
+            if (encrypted) {
+                const encoded = encodeURIComponent(encrypted);
+                const deeplink = `https://rubyplayer.pages.dev/play?data=${encoded}`;
+                
+                showResult(deeplink);
+            }
+        }
+
+        async function loadPlaylist() {
+            const playlistUrl = document.getElementById('playlistUrl').value;
+            
+            if (!playlistUrl) {
+                alert('Please enter a playlist URL!');
+                return;
+            }
+
+            const channelList = document.getElementById('channelList');
+            channelList.style.display = 'block';
+            channelList.innerHTML = '<div class="loading">⏳ Loading playlist...</div>';
+
+            try {
+                // Use CORS proxy for fetching
+                const proxyUrl = 'https://api.allorigins.win/raw?url=';
+                const response = await fetch(proxyUrl + encodeURIComponent(playlistUrl));
+                const m3uContent = await response.text();
+
+                loadedChannels = parseM3U(m3uContent);
+
+                if (loadedChannels.length === 0) {
+                    channelList.innerHTML = '<div class="loading">❌ No channels found in playlist</div>';
+                    return;
+                }
+
+                displayChannels(loadedChannels, playlistUrl);
+            } catch (error) {
+                channelList.innerHTML = `<div class="loading">❌ Error loading playlist: ${error.message}</div>`;
+            }
+        }
+
+        function parseM3U(content) {
+            const channels = [];
+            const lines = content.split('\n');
+            let currentChannel = {};
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+
+                if (line.startsWith('#EXTINF:')) {
+                    const nameMatch = line.match(/,(.+)$/);
+                    currentChannel.name = nameMatch ? nameMatch[1].trim() : 'Unknown';
+
+                    const logoMatch = line.match(/tvg-logo="([^"]*)"/);
+                    currentChannel.logo = logoMatch ? logoMatch[1] : null;
+
+                    const groupMatch = line.match(/group-title="([^"]*)"/);
+                    currentChannel.group = groupMatch ? groupMatch[1] : null;
+                } else if (line.startsWith('#KODIPROP:')) {
+                    if (line.includes('license_type=')) {
+                        currentChannel.drmScheme = line.split('=')[1].trim();
+                    } else if (line.includes('license_key=')) {
+                        const keyData = line.split('=')[1].trim();
+                        if (keyData.includes(':')) {
+                            const [kid, key] = keyData.split(':');
+                            currentChannel.clearKeyKid = kid;
+                            currentChannel.clearKeyKey = key;
+                        } else {
+                            currentChannel.licenseUrl = keyData;
+                        }
+                    }
+                } else if (line.startsWith('#EXTVLCOPT:')) {
+                    if (line.includes('http-user-agent=')) {
+                        currentChannel.userAgent = line.split('=')[1].trim();
+                    } else if (line.includes('http-referrer=')) {
+                        currentChannel.referer = line.split('=')[1].trim();
+                    } else if (line.includes('http-origin=')) {
+                        currentChannel.origin = line.split('=')[1].trim();
+                    }
+                } else if (line && !line.startsWith('#')) {
+                    currentChannel.url = line;
+                    if (currentChannel.name && currentChannel.url) {
+                        channels.push({...currentChannel});
+                    }
+                    currentChannel = {};
+                }
+            }
+
+            return channels;
+        }
+
+        function displayChannels(channels, playlistUrl) {
+            const channelList = document.getElementById('channelList');
+            channelList.innerHTML = '';
+
+            channels.forEach((channel, index) => {
+                const item = document.createElement('div');
+                item.className = 'channel-item';
+                item.innerHTML = `
+                    <div class="channel-name">${channel.name}</div>
+                    <div class="channel-url">${channel.url.substring(0, 80)}${channel.url.length > 80 ? '...' : ''}</div>
+                `;
+                item.onclick = () => generateChannelLink(channel, playlistUrl);
+                channelList.appendChild(item);
+            });
+        }
+
+        function generateChannelLink(channel, playlistUrl) {
+            const secret = document.getElementById('secretKey').value;
+
+            if (!secret) {
+                alert('Please enter your encryption secret first!');
+                return;
+            }
+
+            const streamData = {
+                url: channel.url,
+                name: channel.name || '',
+                title: channel.name || '',
+                streamId: '',
+                logoUrl: channel.logo || null,
+                group: channel.group || null,
+                drmLicenseUrl: channel.licenseUrl || '',
+                drmScheme: channel.drmScheme || '',
+                clearKeyKid: channel.clearKeyKid || '',
+                clearKeyKey: channel.clearKeyKey || '',
+                userAgent: channel.userAgent || '',
+                referer: channel.referer || '',
+                origin: channel.origin || '',
+                cookies: '',
+                customHeaders: {}
+            };
+
+            const json = JSON.stringify(streamData);
+            const encrypted = encrypt(json, secret);
+
+            if (encrypted) {
+                const encoded = encodeURIComponent(encrypted);
+                // Simple deeplink without playlist parameter (just for playing the channel)
+                const deeplink = `https://rubyplayer.pages.dev/play?data=${encoded}`;
+                
+                showResult(deeplink);
+            }
+        }
+
+        function showResult(link) {
+            const resultBox = document.getElementById('resultBox');
+            const resultLink = document.getElementById('resultLink');
+            
+            resultLink.textContent = link;
+            resultBox.classList.add('show');
+            
+            // Scroll to result
+            resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+
+        function copyToClipboard() {
+            const link = document.getElementById('resultLink').textContent;
+            navigator.clipboard.writeText(link).then(() => {
+                alert('✅ Link copied to clipboard!');
+            }).catch(err => {
+                alert('❌ Failed to copy: ' + err);
+            });
+        }
+
+        function openLink() {
+            const link = document.getElementById('resultLink').textContent;
+            window.open(link, '_blank');
+        }
+    </script>
+</body>
+</html>
