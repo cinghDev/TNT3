@@ -331,12 +331,21 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="playlistUrl">M3U Playlist URL *</label>
+                    <label for="playlistUrl">M3U Playlist URL</label>
                     <input type="text" id="playlistUrl" placeholder="https://example.com/playlist.m3u8">
-                    <div class="help-text">The playlist will be fetched and parsed to show all channels</div>
+                    <div class="help-text">Enter URL and click Load, or paste M3U content below</div>
                 </div>
 
-                <button class="button" onclick="loadPlaylist()">📥 Load Playlist</button>
+                <button class="button" onclick="loadPlaylist()">📥 Load from URL</button>
+
+                <div style="margin: 20px 0; text-align: center; color: #999;">— OR —</div>
+
+                <div class="form-group">
+                    <label for="playlistContent">Paste M3U Content</label>
+                    <textarea id="playlistContent" placeholder="Paste your M3U playlist content here..." style="min-height: 150px; font-family: monospace; font-size: 0.9em;"></textarea>
+                </div>
+
+                <button class="button" onclick="parsePlaylistContent()">📋 Parse Content</button>
 
                 <div id="channelList" class="channel-list" style="display: none;"></div>
             </div>
@@ -481,10 +490,44 @@
             channelList.innerHTML = '<div class="loading">⏳ Loading playlist...</div>';
 
             try {
-                // Use CORS proxy for fetching
-                const proxyUrl = 'https://api.allorigins.win/raw?url=';
-                const response = await fetch(proxyUrl + encodeURIComponent(playlistUrl));
-                const m3uContent = await response.text();
+                let m3uContent = null;
+                
+                // Try direct fetch first (if URL supports CORS)
+                try {
+                    const directResponse = await fetch(playlistUrl);
+                    if (directResponse.ok) {
+                        m3uContent = await directResponse.text();
+                        console.log('✅ Direct fetch successful');
+                    }
+                } catch (e) {
+                    console.log('Direct fetch failed, trying proxies...');
+                }
+                
+                // If direct fetch failed, try CORS proxies
+                if (!m3uContent) {
+                    const proxies = [
+                        'https://corsproxy.io/?',
+                        'https://api.codetabs.com/v1/proxy?quest=',
+                        'https://cors-anywhere.herokuapp.com/'
+                    ];
+                    
+                    for (const proxy of proxies) {
+                        try {
+                            const response = await fetch(proxy + encodeURIComponent(playlistUrl));
+                            if (response.ok) {
+                                m3uContent = await response.text();
+                                console.log(`✅ Proxy fetch successful: ${proxy}`);
+                                break;
+                            }
+                        } catch (e) {
+                            console.log(`Proxy failed: ${proxy}`);
+                        }
+                    }
+                }
+                
+                if (!m3uContent) {
+                    throw new Error('Unable to fetch playlist. Please check the URL or try pasting the M3U content directly below.');
+                }
 
                 loadedChannels = parseM3U(m3uContent);
 
@@ -495,7 +538,34 @@
 
                 displayChannels(loadedChannels, playlistUrl);
             } catch (error) {
-                channelList.innerHTML = `<div class="loading">❌ Error loading playlist: ${error.message}</div>`;
+                channelList.innerHTML = `<div class="loading">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        function parsePlaylistContent() {
+            const content = document.getElementById('playlistContent').value;
+            
+            if (!content.trim()) {
+                alert('Please paste M3U content first!');
+                return;
+            }
+
+            const channelList = document.getElementById('channelList');
+            channelList.style.display = 'block';
+            channelList.innerHTML = '<div class="loading">⏳ Parsing playlist...</div>';
+
+            try {
+                loadedChannels = parseM3U(content);
+
+                if (loadedChannels.length === 0) {
+                    channelList.innerHTML = '<div class="loading">❌ No channels found in content</div>';
+                    return;
+                }
+
+                displayChannels(loadedChannels, 'pasted-content');
+                console.log(`✅ Parsed ${loadedChannels.length} channels from pasted content`);
+            } catch (error) {
+                channelList.innerHTML = `<div class="loading">❌ Error parsing content: ${error.message}</div>`;
             }
         }
 
