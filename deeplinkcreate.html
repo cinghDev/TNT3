@@ -531,11 +531,23 @@
                     }
                 } else if (line.startsWith('#EXTVLCOPT:')) {
                     if (line.includes('http-user-agent=')) {
-                        currentChannel.userAgent = line.split('=')[1].trim();
+                        currentChannel.userAgent = line.split('=', 2)[1].trim();
                     } else if (line.includes('http-referrer=')) {
-                        currentChannel.referer = line.split('=')[1].trim();
+                        currentChannel.referer = line.split('=', 2)[1].trim();
                     } else if (line.includes('http-origin=')) {
-                        currentChannel.origin = line.split('=')[1].trim();
+                        currentChannel.origin = line.split('=', 2)[1].trim();
+                    }
+                } else if (line.startsWith('#EXTHTTP:')) {
+                    // Parse JSON for cookies and other headers
+                    try {
+                        const jsonStr = line.substring('#EXTHTTP:'.length);
+                        const headers = JSON.parse(jsonStr);
+                        if (headers.cookie) currentChannel.cookies = headers.cookie;
+                        if (headers['User-agent']) currentChannel.userAgent = headers['User-agent'];
+                        if (headers.Referer) currentChannel.referer = headers.Referer;
+                        if (headers.Origin) currentChannel.origin = headers.Origin;
+                    } catch (e) {
+                        console.error('Failed to parse EXTHTTP JSON:', e);
                     }
                 } else if (line && !line.startsWith('#')) {
                     currentChannel.url = line;
@@ -585,7 +597,7 @@
                 userAgent: channel.userAgent || '',
                 referer: channel.referer || '',
                 origin: channel.origin || '',
-                cookies: '',
+                cookies: channel.cookies || '',
                 customHeaders: {}
             };
 
