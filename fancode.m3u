@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140433_5956_JFC_MSC_fc-web_1771148165144.jpg" group-title="Live Sports",Jamshedpur FC vs Mohammedan SC (ISL 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/140433_english_hls_200336e40473315_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140107_5826_AST-W_TOT-W_FC-Web.jpg" group-title="Live Sports",Aston Villa Women vs Tottenham Hotspur Women (Women's Super League 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/140107_english_hls_2e12e04a0791836_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140106_5826_MUN-W_LCL_FC-Web.jpg" group-title="Live Sports",Manchester United Women vs London City Lionesses (Women's Super League 2025-26)
@@ -11,8 +9,6 @@ https://in-mc-fdlive.fancode.com/mumbai/140105_english_hls_dc89781f6a43029_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140104_english_hls_0fd040db9850607_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131060_5427_RO_ATH_FC-Web.png" group-title="Live Sports",Real Oviedo vs Athletic Club (LALIGA 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/131060_english_hls_13fd06fd9422188_1ta-di_h264/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/WTT_web.jpg" group-title="Live Sports",Day 4 vs WTT Star Contenders (WTT Star Contenders)
-https://in-mc-fdlive.fancode.com/mumbai/140606_english_hls_2934273f9e52001_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="Live Sports",Centre Court vs Rotterdam, Netherlands (ATP 500 - ABN AMRO Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140200_english_hls_b59c49729023162_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-logo=" https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="Live Sports",World Feed vs Rotterdam, Netherlands (ATP 500 - ABN AMRO Open 2026)
