@@ -1,1 +1,9 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",UAE Women vs Nepal Women - 15 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771174819~acl=/*~id=73737843001686544001031776186747~hmac=c0854cd8ea6f8011486b8375fe5a8e13d5cd94c6f3ec33cc28949d4d189b0363
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",UAE Women vs Nepal Women - 15 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771174819~acl=/*~id=73737843001686544001031776186747~hmac=c0854cd8ea6f8011486b8375fe5a8e13d5cd94c6f3ec33cc28949d4d189b0363
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",UAE Women vs Nepal Women - 15 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771174819~acl=/*~id=73737843001686544001031776186747~hmac=c0854cd8ea6f8011486b8375fe5a8e13d5cd94c6f3ec33cc28949d4d189b0363
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",UAE Women vs Nepal Women - 15 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771174819~acl=/*~id=73737843001686544001031776186747~hmac=c0854cd8ea6f8011486b8375fe5a8e13d5cd94c6f3ec33cc28949d4d189b0363
