@@ -1,17 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Celtic vs VfB Stuttgart - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Lille vs Crvena Zvezda - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Panathinaikos vs Viktoria Plzen - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Ludogorets Razgrad vs Ferencvaros - Play-offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Drita Gjilan vs NK Celje - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Jagiellonia Bialystok vs Fiorentina - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Shkëndija vs Samsunspor - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Omonoia vs Rijeka - Play-Offs - Leg 1 - 20 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771579230~acl=/*~id=78691104829763988305731974659356~hmac=eea3c5287bb3fbb128a0a38d9b2e978ecafd89a6998ba9fa442b00ee8f18065b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037140/DAI20-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Bangladesh A Women vs Pakistan A Women - Semi-Final - 20 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771614416~acl=/*~id=83445653567370030962874645604166~hmac=69b8fff1ec47b4f0f056f3f4d02778f03699fcded516a04d4b4b45bb12f42861
