@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bayern Munich vs Eintracht Frankfurt - MD 23 - 21 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771734871~acl=/*~id=71091457486284238858222255061141~hmac=9d428176d3f9e7b3472e9907c16de55a60bda4d99d457e6bdf5ce5e7389b46b1
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Goal Arena - MD 23 - 21 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771734871~acl=/*~id=71091457486284238858222255061141~hmac=9d428176d3f9e7b3472e9907c16de55a60bda4d99d457e6bdf5ce5e7389b46b1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",RB Leipzig vs Borussia Dortmund - MD 23 - 21 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771736081~acl=/*~id=86226900426061096870450511514003~hmac=1b5befadecd9a563e604bf4911e28db5b3156cc94ca233e8ae3da4e1d078381e
