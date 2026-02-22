@@ -1,11 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",India A Women vs Bangladesh A Women - Final - 22 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771800895~acl=/*~id=59044686395913957044934271560044~hmac=2378b8cc9468d82c1aadd429cc333aabfaf706d4fad7d5ce1a4f244110f6b6bc
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",India A Women vs Bangladesh A Women - Final - 22 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771800895~acl=/*~id=59044686395913957044934271560044~hmac=2378b8cc9468d82c1aadd429cc333aabfaf706d4fad7d5ce1a4f244110f6b6bc
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",India A Women vs Bangladesh A Women - Final - 22 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771800895~acl=/*~id=59044686395913957044934271560044~hmac=2378b8cc9468d82c1aadd429cc333aabfaf706d4fad7d5ce1a4f244110f6b6bc
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",India A Women vs Bangladesh A Women - Final - 22 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12-criclive/std_lrh-800300010.m3u8?hdnea=exp=1771800895~acl=/*~id=59044686395913957044934271560044~hmac=2378b8cc9468d82c1aadd429cc333aabfaf706d4fad7d5ce1a4f244110f6b6bc
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Magical Kenya Open - Day 4 - 22 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771800895~acl=/*~id=59044686395913957044934271560044~hmac=2378b8cc9468d82c1aadd429cc333aabfaf706d4fad7d5ce1a4f244110f6b6bc
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771802712~acl=/*~id=30910879923436633826577064450140~hmac=53f8fe3549ec90c4f424491c7a6c8371f839f7a3dd12c77ad67a39f9ca4fb9b0
