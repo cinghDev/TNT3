@@ -1,3 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Eintracht Frankfurt vs Sporting CP - 24 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771994663~acl=/*~id=09918772403264045383982145203351~hmac=8a756c362d7fb05bff7f85c4408912be4ce2e1861581a4eeff30d740686749d8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771998298~acl=/*~id=96793704465681082183987469090320~hmac=95a8be16b8e1613e34aa9330cdb73987f60ae3d2add30c4a8b1f75e7ed67b34d
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771998298~acl=/*~id=96793704465681082183987469090320~hmac=95a8be16b8e1613e34aa9330cdb73987f60ae3d2add30c4a8b1f75e7ed67b34d
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771998298~acl=/*~id=96793704465681082183987469090320~hmac=95a8be16b8e1613e34aa9330cdb73987f60ae3d2add30c4a8b1f75e7ed67b34d
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771998298~acl=/*~id=96793704465681082183987469090320~hmac=95a8be16b8e1613e34aa9330cdb73987f60ae3d2add30c4a8b1f75e7ed67b34d
