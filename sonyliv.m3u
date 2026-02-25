@@ -1,3 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Real Madrid vs Chelsea - 25 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772073518~acl=/*~id=18931093285159496017552770058626~hmac=59ca3b5d2630888682f85803ef0889877b401b7fc59aef2d5d757efb4da05080
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",PSG vs HJK - 25 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772069866~acl=/*~id=38993979903978961600406154756440~hmac=81b1a1e21eef8755f9a64d0c96ff3a8589406465b63e3798983a658297cb6c68
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772073518~acl=/*~id=18931093285159496017552770058626~hmac=59ca3b5d2630888682f85803ef0889877b401b7fc59aef2d5d757efb4da05080
