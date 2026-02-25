@@ -1,9 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Atalanta vs Dortmund - Play-offs Leg 2 - 25 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772089973~acl=/*~id=49364924031226812933413134662752~hmac=23ffe35769fd85ad3e6af6fe73ab824eb4d06c2befe01718b9cdf47b9693af18
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Atalanta vs Dortmund - Play-offs Leg 2 - 25 Feb 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772089973~acl=/*~id=49364924031226812933413134662752~hmac=23ffe35769fd85ad3e6af6fe73ab824eb4d06c2befe01718b9cdf47b9693af18
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Atalanta vs Dortmund - Play-offs Leg 2 - 25 Feb 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772089973~acl=/*~id=49364924031226812933413134662752~hmac=23ffe35769fd85ad3e6af6fe73ab824eb4d06c2befe01718b9cdf47b9693af18
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Atalanta vs Dortmund - Play-offs Leg 2 - 25 Feb 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772089973~acl=/*~id=49364924031226812933413134662752~hmac=23ffe35769fd85ad3e6af6fe73ab824eb4d06c2befe01718b9cdf47b9693af18
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Real Madrid vs Benfica - Play-offs Leg 2 - 26 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772092410~acl=/*~id=72125246846974562696482949054546~hmac=2555a475e76843d6d0582d60dadd8005a05ad31e10c08a10ce34f65a03e6757f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Real Madrid vs Benfica - Play-offs Leg 2 - 26 Feb 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772092410~acl=/*~id=72125246846974562696482949054546~hmac=2555a475e76843d6d0582d60dadd8005a05ad31e10c08a10ce34f65a03e6757f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Real Madrid vs Benfica - Play-offs Leg 2 - 26 Feb 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772092410~acl=/*~id=72125246846974562696482949054546~hmac=2555a475e76843d6d0582d60dadd8005a05ad31e10c08a10ce34f65a03e6757f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Real Madrid vs Benfica - Play-offs Leg 2 - 26 Feb 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772092410~acl=/*~id=72125246846974562696482949054546~hmac=2555a475e76843d6d0582d60dadd8005a05ad31e10c08a10ce34f65a03e6757f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", PSG vs Monaco - Play-offs Leg 2 - 26 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772092410~acl=/*~id=72125246846974562696482949054546~hmac=2555a475e76843d6d0582d60dadd8005a05ad31e10c08a10ce34f65a03e6757f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Juventus vs Galatasaray - Play-offs Leg 2 - 26 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772092410~acl=/*~id=72125246846974562696482949054546~hmac=2555a475e76843d6d0582d60dadd8005a05ad31e10c08a10ce34f65a03e6757f
