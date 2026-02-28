@@ -1,3 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bayer Leverkusen vs Mainz - MD 24 - 28 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772330687~acl=/*~id=86489565317601060606334493869613~hmac=07ccea85d2ff582cd328f27d5092b2c270fe633b02b93158563fc9d4f3af6e7c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Goal Arena - MD 24 - 28 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772330687~acl=/*~id=86489565317601060606334493869613~hmac=07ccea85d2ff582cd328f27d5092b2c270fe633b02b93158563fc9d4f3af6e7c
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Investec South African Open Day 3 - 28 Feb 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772329469~acl=/*~id=07067608796510955981045850344810~hmac=263c63f1e91526e806c371c2bbecfd1b5f6faccf75ee817ae3f21c5892ec279d
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772330687~acl=/*~id=86489565317601060606334493869613~hmac=07ccea85d2ff582cd328f27d5092b2c270fe633b02b93158563fc9d4f3af6e7c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Borussia M'gladbach vs Union Berlin - MD 24 - 28 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772330687~acl=/*~id=86489565317601060606334493869613~hmac=07ccea85d2ff582cd328f27d5092b2c270fe633b02b93158563fc9d4f3af6e7c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hoffenheim vs St. Pauli - MD 24 - 28 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772330687~acl=/*~id=86489565317601060606334493869613~hmac=07ccea85d2ff582cd328f27d5092b2c270fe633b02b93158563fc9d4f3af6e7c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Werder Bremen vs Heidenheim - MD 24 - 28 Feb 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772330687~acl=/*~id=86489565317601060606334493869613~hmac=07ccea85d2ff582cd328f27d5092b2c270fe633b02b93158563fc9d4f3af6e7c
