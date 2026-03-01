@@ -138,12 +138,16 @@
         .logo-icon {
             width: 32px;
             height: 32px;
-            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-light) 100%);
             border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 20px rgba(225, 29, 72, 0.3);
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
 
         .nav-links {
@@ -908,7 +912,122 @@
             font-size: 1.1rem;
         }
 
+        /* Policy Modal */
+        .policy-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(5, 5, 5, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 3000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .policy-modal.show {
+            display: flex;
+        }
+
+        .policy-content {
+            background: rgba(26, 26, 26, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 3rem;
+            max-width: 800px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            animation: slideInUp 0.4s ease;
+        }
+
+        .policy-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: var(--text);
+            cursor: pointer;
+            font-size: 1.5rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .policy-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(90deg);
+        }
+
+        .policy-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .policy-content h3 {
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text);
+        }
+
+        .policy-content p {
+            color: var(--text-dim);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+
+        .policy-content ul {
+            color: var(--text-dim);
+            line-height: 1.8;
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .policy-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .policy-content {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            .policy-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .policy-content h3 {
+                font-size: 1.2rem;
+            }
+        }
+
         /* Responsive Design */
+        @media (max-width: 1200px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .download-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
         @media (max-width: 1024px) {
             .footer-content {
                 grid-template-columns: 1fr 1fr;
@@ -917,6 +1036,11 @@
 
             .floating-card {
                 display: none;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
             }
         }
 
@@ -927,21 +1051,27 @@
 
             h1 {
                 font-size: 2.5rem;
+                letter-spacing: -1.5px;
             }
 
             .hero {
-                min-height: 90vh;
-                padding: 6rem 1.5rem 3rem;
+                min-height: 85vh;
+                padding: 7rem 1.5rem 3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
             }
 
             .hero-buttons {
                 flex-direction: column;
-                align-items: stretch;
+                gap: 1rem;
             }
 
             .btn-primary, .btn-secondary {
                 width: 100%;
                 justify-content: center;
+                padding: 1rem 2rem;
             }
 
             .stats-grid {
@@ -951,15 +1081,17 @@
 
             .features-grid {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
             }
 
             .download-cards {
                 grid-template-columns: 1fr;
+                gap: 1.5rem;
             }
 
             .footer-content {
                 grid-template-columns: 1fr;
-                gap: 2rem;
+                gap: 2.5rem;
             }
 
             .footer-bottom {
@@ -972,12 +1104,31 @@
                 left: 1rem;
                 right: 1rem;
                 min-width: auto;
+                bottom: 1rem;
             }
 
             .tabs {
                 overflow-x: auto;
                 justify-content: flex-start;
                 padding-bottom: 0.5rem;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .tab {
+                flex-shrink: 0;
+                padding: 0.9rem 2rem;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+            }
+
+            .platforms, .download-section {
+                padding: 4rem 1.5rem;
+            }
+
+            .stats {
+                padding: 3rem 1.5rem;
             }
         }
 
@@ -987,7 +1138,12 @@
             }
 
             .logo {
-                font-size: 1.3rem;
+                font-size: 1.2rem;
+            }
+
+            .logo-icon {
+                width: 28px;
+                height: 28px;
             }
 
             h1 {
@@ -995,12 +1151,44 @@
                 letter-spacing: -1px;
             }
 
+            .hero-badge {
+                font-size: 0.75rem;
+                padding: 0.5rem 1.2rem;
+            }
+
             .section-title {
-                font-size: 2rem;
+                font-size: 1.8rem;
+                letter-spacing: -1px;
+            }
+
+            .section-subtitle {
+                font-size: 1rem;
             }
 
             .stat-number {
                 font-size: 2.5rem;
+            }
+
+            .stat-label {
+                font-size: 0.9rem;
+            }
+
+            .feature-card, .download-card {
+                padding: 2rem;
+            }
+
+            .feature-icon, .download-icon {
+                width: 50px;
+                height: 50px;
+            }
+
+            .feature-title, .download-title {
+                font-size: 1.2rem;
+            }
+
+            .btn-download {
+                padding: 0.9rem 2rem;
+                font-size: 0.95rem;
             }
         }
 
@@ -1024,9 +1212,7 @@
         <div class="nav-container">
             <a href="#" class="logo">
                 <div class="logo-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
-                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
-                    </svg>
+                    <img src="https://rubyplayer.pages.dev/logo.png" alt="Ruby Player Logo">
                 </div>
                 Ruby Player
             </a>
@@ -1369,18 +1555,16 @@
             <div>
                 <h4 class="footer-title">Community</h4>
                 <div class="footer-links">
-                    <a href="https://t.me/RubyplayerBr" class="footer-link">Telegram</a>
-                    <a href="#" class="footer-link">GitHub</a>
-                    <a href="#" class="footer-link">Discord</a>
+                    <a href="https://t.me/RubyplayerBr" class="footer-link" target="_blank" rel="noopener">Telegram</a>
                 </div>
             </div>
             
             <div>
                 <h4 class="footer-title">Legal</h4>
                 <div class="footer-links">
-                    <a href="#" class="footer-link">Privacy Policy</a>
-                    <a href="#" class="footer-link">Terms of Service</a>
-                    <a href="#" class="footer-link">License</a>
+                    <a href="#privacy" class="footer-link" onclick="showPolicy('privacy'); return false;">Privacy Policy</a>
+                    <a href="#terms" class="footer-link" onclick="showPolicy('terms'); return false;">Terms of Service</a>
+                    <a href="#disclaimer" class="footer-link" onclick="showPolicy('disclaimer'); return false;">Disclaimer</a>
                 </div>
             </div>
         </div>
@@ -1410,6 +1594,14 @@
         <p class="deeplink-text">
             If the app doesn't open automatically, please make sure Ruby Player is installed on your device.
         </p>
+    </div>
+
+    <!-- Policy Modal -->
+    <div class="policy-modal" id="policyModal">
+        <div class="policy-content">
+            <button class="policy-close" onclick="closePolicy()">×</button>
+            <div id="policyText"></div>
+        </div>
     </div>
 
     <script>
@@ -1480,11 +1672,212 @@
             document.getElementById('downloadProgress').classList.remove('show');
         }
 
+        // Policy Modal
+        const policies = {
+            privacy: {
+                title: 'Privacy Policy',
+                content: `
+                    <h2>Privacy Policy</h2>
+                    <p><strong>Last Updated:</strong> February 2025</p>
+                    
+                    <h3>1. Information We Collect</h3>
+                    <p>Ruby Player is designed with privacy in mind. We do not collect, store, or transmit any personal information to external servers.</p>
+                    <ul>
+                        <li>All playlist data is stored locally on your device</li>
+                        <li>No user accounts or registration required</li>
+                        <li>No analytics or tracking services</li>
+                        <li>No advertisements or third-party integrations</li>
+                    </ul>
+
+                    <h3>2. Data Storage</h3>
+                    <p>All application data including playlists, settings, and preferences are stored locally using:</p>
+                    <ul>
+                        <li>LocalStorage for web-based data</li>
+                        <li>Application data folder for desktop installations</li>
+                        <li>Device storage for mobile applications</li>
+                    </ul>
+
+                    <h3>3. Network Connections</h3>
+                    <p>Ruby Player connects to:</p>
+                    <ul>
+                        <li>Your IPTV provider's servers to stream content</li>
+                        <li>Playlist URLs you provide to fetch channel lists</li>
+                        <li>CDN servers for DRM license validation (when required by content)</li>
+                    </ul>
+
+                    <h3>4. Encrypted Sharing</h3>
+                    <p>When you share channels via deeplinks, the data is encrypted using AES-256 encryption. The encrypted data is included in the URL but never stored on our servers.</p>
+
+                    <h3>5. Your Rights</h3>
+                    <p>You have complete control over your data:</p>
+                    <ul>
+                        <li>Delete playlists and data at any time</li>
+                        <li>Export your data in standard M3U format</li>
+                        <li>No data retention after uninstallation</li>
+                    </ul>
+
+                    <h3>6. Contact</h3>
+                    <p>For privacy concerns, contact us via Telegram: @RubyplayerBr</p>
+                `
+            },
+            terms: {
+                title: 'Terms of Service',
+                content: `
+                    <h2>Terms of Service</h2>
+                    <p><strong>Last Updated:</strong> February 2025</p>
+                    
+                    <h3>1. Acceptance of Terms</h3>
+                    <p>By downloading and using Ruby Player, you agree to these Terms of Service. If you do not agree, please do not use the application.</p>
+
+                    <h3>2. License</h3>
+                    <p>Ruby Player is provided as free software. You are granted a non-exclusive, non-transferable license to use the application for personal use.</p>
+
+                    <h3>3. User Responsibilities</h3>
+                    <p>You are responsible for:</p>
+                    <ul>
+                        <li>Ensuring you have legal rights to access content you stream</li>
+                        <li>Complying with your local laws and regulations</li>
+                        <li>Obtaining proper authorization from content providers</li>
+                        <li>Not using the application for illegal purposes</li>
+                    </ul>
+
+                    <h3>4. Content Disclaimer</h3>
+                    <p>Ruby Player is a media player application. We do not:</p>
+                    <ul>
+                        <li>Provide, host, or distribute any content</li>
+                        <li>Endorse any specific IPTV service or provider</li>
+                        <li>Have control over third-party content or streams</li>
+                        <li>Guarantee availability or quality of external services</li>
+                    </ul>
+
+                    <h3>5. Prohibited Uses</h3>
+                    <p>You may not:</p>
+                    <ul>
+                        <li>Use the application to access pirated or illegal content</li>
+                        <li>Reverse engineer or modify the application</li>
+                        <li>Redistribute the application for commercial purposes</li>
+                        <li>Remove or alter any copyright notices</li>
+                    </ul>
+
+                    <h3>6. Warranty Disclaimer</h3>
+                    <p>Ruby Player is provided "AS IS" without warranties of any kind. We do not guarantee uninterrupted or error-free operation.</p>
+
+                    <h3>7. Limitation of Liability</h3>
+                    <p>We are not liable for any damages arising from the use or inability to use the application, including but not limited to data loss or service interruptions.</p>
+
+                    <h3>8. Updates and Changes</h3>
+                    <p>We reserve the right to modify these terms at any time. Continued use after changes constitutes acceptance of new terms.</p>
+
+                    <h3>9. Contact</h3>
+                    <p>For questions about these terms, contact us via Telegram: @RubyplayerBr</p>
+                `
+            },
+            disclaimer: {
+                title: 'Disclaimer',
+                content: `
+                    <h2>Disclaimer</h2>
+                    <p><strong>Last Updated:</strong> February 2025</p>
+                    
+                    <h3>Important Notice</h3>
+                    <p>Ruby Player is a media player application designed to play IPTV streams and local media files. This disclaimer clarifies our position and your responsibilities.</p>
+
+                    <h3>1. Content Responsibility</h3>
+                    <p><strong>Ruby Player does NOT:</strong></p>
+                    <ul>
+                        <li>Provide any IPTV subscriptions or services</li>
+                        <li>Host, store, or distribute any media content</li>
+                        <li>Include any pre-loaded channels or playlists</li>
+                        <li>Have partnerships with any IPTV providers</li>
+                        <li>Endorse or recommend any specific content sources</li>
+                    </ul>
+
+                    <h3>2. User Responsibility</h3>
+                    <p><strong>Users are solely responsible for:</strong></p>
+                    <ul>
+                        <li>Obtaining legal access to content they stream</li>
+                        <li>Ensuring compliance with copyright laws in their jurisdiction</li>
+                        <li>Verifying they have proper licenses or subscriptions</li>
+                        <li>Understanding and following local regulations</li>
+                    </ul>
+
+                    <h3>3. Legal Use Only</h3>
+                    <p>Ruby Player is intended for legal use only, including:</p>
+                    <ul>
+                        <li>Streaming content you have legal rights to access</li>
+                        <li>Playing personal media files</li>
+                        <li>Accessing legitimate IPTV services with proper subscriptions</li>
+                        <li>Testing and development purposes</li>
+                    </ul>
+
+                    <h3>4. No Warranty</h3>
+                    <p>The application is provided without any warranties:</p>
+                    <ul>
+                        <li>We do not guarantee compatibility with all services</li>
+                        <li>Stream quality depends on your provider and connection</li>
+                        <li>Features may not work with all content types</li>
+                        <li>Updates may change or remove features</li>
+                    </ul>
+
+                    <h3>5. Third-Party Services</h3>
+                    <p>When using Ruby Player with third-party services:</p>
+                    <ul>
+                        <li>You are subject to their terms and conditions</li>
+                        <li>We are not responsible for their content or policies</li>
+                        <li>Service availability is beyond our control</li>
+                        <li>Privacy policies of those services apply</li>
+                    </ul>
+
+                    <h3>6. DRM and Encryption</h3>
+                    <p>Ruby Player supports DRM technologies for legitimate protected content. This feature is intended only for content you have legal authorization to access.</p>
+
+                    <h3>7. Geographic Restrictions</h3>
+                    <p>Some content may be geo-restricted. Users are responsible for complying with geographic licensing restrictions and not circumventing them illegally.</p>
+
+                    <h3>8. Indemnification</h3>
+                    <p>By using Ruby Player, you agree to indemnify and hold harmless the developers from any claims arising from your use of the application.</p>
+
+                    <h3>9. Reporting Abuse</h3>
+                    <p>If you become aware of illegal use of Ruby Player, please report it to us via Telegram: @RubyplayerBr</p>
+
+                    <h3>10. Acceptance</h3>
+                    <p>By using Ruby Player, you acknowledge that you have read, understood, and agree to this disclaimer.</p>
+                `
+            }
+        };
+
+        function showPolicy(type) {
+            const modal = document.getElementById('policyModal');
+            const content = document.getElementById('policyText');
+            
+            if (policies[type]) {
+                content.innerHTML = policies[type].content;
+                modal.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closePolicy() {
+            const modal = document.getElementById('policyModal');
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal on outside click
+        document.getElementById('policyModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePolicy();
+            }
+        });
+
         // Smooth Scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href === '#' || href.startsWith('#privacy') || href.startsWith('#terms') || href.startsWith('#disclaimer')) {
+                    return;
+                }
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
+                const target = document.querySelector(href);
                 if (target) {
                     target.scrollIntoView({
                         behavior: 'smooth',
