@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby Player - Professional IPTV & Media Player</title>
+    <meta name="description" content="Professional-grade IPTV and media player for PC, Android, and TV. Built with cutting-edge technology for seamless streaming.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --black: #000000;
+            --white: #ffffff;
+            --gray-50: #fafafa;
+            --gray-100: #f5f5f5;
+            --gray-200: #e5e5e5;
+            --gray-300: #d4d4d4;
+            --gray-400: #a3a3a3;
+            --gray-500: #737373;
+            --gray-600: #525252;
+            --gray-700: #404040;
+            --gray-800: #262626;
+            --gray-900: #171717;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--black);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--gray-900);
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--gray-400);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover {
+            color: var(--white);
+        }
+
+        .btn-download-nav {
+            background: var(--white);
+            color: var(--black);
+            padding: 0.65rem 1.5rem;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .btn-download-nav:hover {
+            background: var(--gray-200);
+            transform: translateY(-1px);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 10rem 2rem 6rem;
+            text-align: center;
+            background: radial-gradient(ellipse at top, var(--gray-900) 0%, var(--black) 50%);
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--gray-900);
+            border: 1px solid var(--gray-800);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            color: var(--gray-300);
+        }
+
+        h1 {
+            font-size: 4.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            letter-spacing: -2px;
+        }
+
+        .hero-subtitle {
+            font-size: 1.35rem;
+            color: var(--gray-400);
+            margin-bottom: 3rem;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--white);
+            color: var(--black);
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s;
+            border: 2px solid var(--white);
+        }
+
+        .btn-primary:hover {
+            background: var(--gray-100);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s;
+            border: 2px solid var(--gray-700);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--white);
+            background: var(--gray-900);
+        }
+
+        /* Platform Tabs */
+        .platform-tabs {
+            max-width: 1400px;
+            margin: 4rem auto 0;
+            padding: 0 2rem;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            border-bottom: 1px solid var(--gray-900);
+            margin-bottom: 3rem;
+        }
+
+        .tab {
+            padding: 1rem 2rem;
+            background: transparent;
+            border: none;
+            color: var(--gray-500);
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .tab:hover {
+            color: var(--gray-300);
+        }
+
+        .tab.active {
+            color: var(--white);
+            border-bottom-color: var(--white);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Features Grid */
+        .features-section {
+            padding: 6rem 2rem;
+            background: var(--black);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 4rem;
+        }
+
+        .section-title {
+            font-size: 2.75rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        .section-subtitle {
+            font-size: 1.15rem;
+            color: var(--gray-400);
+        }
+
+        .features-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: var(--gray-900);
+            border: 1px solid var(--gray-800);
+            border-radius: 12px;
+            padding: 2.5rem;
+            transition: all 0.3s;
+        }
+
+        .feature-card:hover {
+            border-color: var(--gray-700);
+            transform: translateY(-4px);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--white);
+            color: var(--black);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .feature-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .feature-description {
+            color: var(--gray-400);
+            line-height: 1.7;
+        }
+
+        /* Placeholder Section */
+        .placeholder-section {
+            background: var(--gray-900);
+            border: 2px dashed var(--gray-800);
+            border-radius: 12px;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .placeholder-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--gray-500);
+        }
+
+        .placeholder-text {
+            color: var(--gray-600);
+            font-size: 0.95rem;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            padding: 6rem 2rem;
+            background: var(--gray-900);
+            border-top: 1px solid var(--gray-800);
+            border-bottom: 1px solid var(--gray-800);
+        }
+
+        .stats-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+            letter-spacing: -2px;
+        }
+
+        .stat-label {
+            color: var(--gray-400);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--black);
+            padding: 4rem 2rem 2rem;
+            border-top: 1px solid var(--gray-900);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-brand {
+            max-width: 350px;
+        }
+
+        .footer-logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+
+        .footer-description {
+            color: var(--gray-500);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1.5rem;
+            color: var(--gray-400);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .footer-link {
+            color: var(--gray-500);
+            text-decoration: none;
+            transition: color 0.2s;
+            font-size: 0.95rem;
+        }
+
+        .footer-link:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid var(--gray-900);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--gray-600);
+            font-size: 0.9rem;
+        }
+
+        /* Deep Link Overlay */
+        #deeplink-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--black);
+            z-index: 2000;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid var(--gray-800);
+            border-top-color: var(--white);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 2rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .deeplink-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .deeplink-text {
+            color: var(--gray-400);
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            .hero {
+                padding: 8rem 1.5rem 4rem;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .tabs {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Ruby Player</a>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#platforms" class="nav-link">Platforms</a>
+                <a href="#download" class="nav-link">Download</a>
+                <a href="https://t.me/RubyplayerBr" class="btn-download-nav">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">Available on 3 Platforms</div>
+            <h1>Professional IPTV & Media Player</h1>
+            <p class="hero-subtitle">
+                Experience seamless streaming with enterprise-grade DRM support, advanced playlist management, 
+                and a beautiful interface designed for PC, Android, and TV.
+            </p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download Now
+                </a>
+                <a href="#features" class="btn-secondary">
+                    Learn More
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Tabs -->
+    <section class="platform-tabs" id="platforms">
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('pc')">💻 PC Edition</button>
+            <button class="tab" onclick="switchTab('android')">📱 Android</button>
+            <button class="tab" onclick="switchTab('tv')">📺 Android TV</button>
+        </div>
+
+        <!-- PC Features -->
+        <div class="tab-content active" id="pc-content">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3 class="feature-title">Advanced Video Player</h3>
+                    <p class="feature-description">
+                        Powered by Shaka Player with support for HLS, DASH, MPEG-TS, and all major video formats. 
+                        Hardware acceleration for smooth 4K playback.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔐</div>
+                    <h3 class="feature-title">Enterprise DRM Support</h3>
+                    <p class="feature-description">
+                        Full support for Widevine, PlayReady, and ClearKey DRM. Auto-detection for JioTV and 
+                        Hotstar encrypted streams with seamless playback.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📋</div>
+                    <h3 class="feature-title">Smart Playlist Management</h3>
+                    <p class="feature-description">
+                        Import M3U/M3U8 playlists with automatic header parsing. Support for KODIPROP, EXTVLCOPT, 
+                        and pipe-separated headers. Multi-User-Agent fallback system.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3 class="feature-title">XTream Codes Integration</h3>
+                    <p class="feature-description">
+                        Native XTream Codes API support with Live TV, VOD, and Series. Category browsing, 
+                        search, and automatic stream URL generation.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3 class="feature-title">Wishlist & Favorites</h3>
+                    <p class="feature-description">
+                        Save your favorite channels with right-click context menu. Export wishlist as M3U, 
+                        share via encrypted deeplinks, and sync across devices.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔗</div>
+                    <h3 class="feature-title">Secure Deeplink Sharing</h3>
+                    <p class="feature-description">
+                        Share channels securely with AES-256 encrypted deeplinks. Cross-platform support 
+                        for PC, Android, and TV with automatic protocol handling.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">Modern Dark Theme</h3>
+                    <p class="feature-description">
+                        Beautiful dark interface with smooth animations. Customizable sidebar, grid/list views, 
+                        and thumbnail caching for fast browsing.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Performance Optimized</h3>
+                    <p class="feature-description">
+                        Virtual scrolling for large playlists (1000+ channels). Lazy loading, batch rendering, 
+                        and efficient memory management for smooth experience.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3 class="feature-title">Advanced Configuration</h3>
+                    <p class="feature-description">
+                        Custom headers (User-Agent, Referer, Origin, Cookies), proxy support, and network 
+                        optimization. Full control over streaming parameters.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Android Placeholder -->
+        <div class="tab-content" id="android-content">
+            <div class="placeholder-section">
+                <h3 class="placeholder-title">📱 Android Features</h3>
+                <p class="placeholder-text">This section will be filled by the Android developer</p>
+            </div>
+        </div>
+
+        <!-- TV Placeholder -->
+        <div class="tab-content" id="tv-content">
+            <div class="placeholder-section">
+                <h3 class="placeholder-title">📺 Android TV Features</h3>
+                <p class="placeholder-text">This section will be filled by the TV developer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Platforms</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Channels Supported</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">4K</div>
+                <div class="stat-label">Max Resolution</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Free & Open</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="features-section" id="download">
+        <div class="section-header">
+            <h2 class="section-title">Download Ruby Player</h2>
+            <p class="section-subtitle">Choose your platform and start streaming in seconds</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">💻</div>
+                <h3 class="feature-title">Windows PC</h3>
+                <p class="feature-description" style="margin-bottom: 1.5rem;">
+                    Full-featured desktop application with advanced playlist management and DRM support.
+                </p>
+                <a href="https://github.com/greenhck/TNT3/releases/download/lovelyakash41-at-tele/RubyPlayer.exe" 
+                   class="btn-primary" style="width: 100%; justify-content: center;">
+                    Download for Windows
+                </a>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h3 class="feature-title">Android Mobile</h3>
+                <p class="feature-description" style="margin-bottom: 1.5rem;">
+                    Optimized for smartphones with touch-friendly interface and offline support.
+                </p>
+                <a href="https://t.me/RubyplayerBr/22" 
+                   class="btn-primary" style="width: 100%; justify-content: center;">
+                    Download for Android
+                </a>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📺</div>
+                <h3 class="feature-title">Android TV</h3>
+                <p class="feature-description" style="margin-bottom: 1.5rem;">
+                    Designed for big screens with remote control support and Leanback interface.
+                </p>
+                <a href="https://github.com/greenhck/TNT3/releases/download/lovelyakash41-at-tele/ruby-player.apk" 
+                   class="btn-primary" style="width: 100%; justify-content: center;">
+                    Download for TV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">Ruby Player</div>
+                <p class="footer-description">
+                    A professional-grade IPTV and media player built with cutting-edge technology. 
+                    Designed for performance, security, and user experience across all platforms.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Product</h4>
+                <div class="footer-links">
+                    <a href="#features" class="footer-link">Features</a>
+                    <a href="#platforms" class="footer-link">Platforms</a>
+                    <a href="#download" class="footer-link">Download</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Community</h4>
+                <div class="footer-links">
+                    <a href="https://t.me/RubyplayerBr" class="footer-link">Telegram Channel</a>
+                    <a href="https://t.me/lovelyakash41" class="footer-link">Developer</a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-title">Legal</h4>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>© 2024 Ruby Player. All rights reserved.</div>
+            <div>Developed by <a href="https://t.me/lovelyakash41" style="color: var(--white); text-decoration: none;">@lovelyakash41</a></div>
+        </div>
+    </footer>
+
+    <!-- Deep Link Overlay (Preserved functionality) -->
+    <div id="deeplink-overlay">
+        <div class="spinner"></div>
+        <h2 class="deeplink-title">Opening Shared Channel...</h2>
+        <p class="deeplink-text">
+            Ruby Player should open automatically. If not, click the button below.
+        </p>
+        <button id="btn-force" class="btn-primary" onclick="forceOpen()" style="margin-top: 1rem;">
+            Open in App
+        </button>
+        <p style="margin-top: 2rem; color: var(--gray-500);">
+            Don't have the app? 
+            <a href="https://t.me/RubyplayerBr/22" style="color: var(--white); text-decoration: underline;">
+                Download here
+            </a>
+        </p>
+    </div>
+
+    <script>
+        // Tab switching
+        function switchTab(platform) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+            document.getElementById(platform + '-content').classList.add('active');
+        }
+
+        // Deep link handling (preserved from original)
+        const urlParams = new URLSearchParams(window.location.search);
+        const data = urlParams.get('data');
+        const isPlaylist = window.location.pathname.startsWith('/playlist');
+        const schemeHost = isPlaylist ? "playlist" : "play";
+        const customSchemeUrl = "rubyplayer://" + schemeHost + "?data=" + (data ? data : "");
+        const intentUrl = "intent://" + schemeHost + "?data=" + data + "#Intent;scheme=rubyplayer;package=com.niet.rubyplayer;end";
+
+        if (data) {
+            // Update overlay text
+            if (isPlaylist) {
+                document.querySelector('.deeplink-title').innerText = "Opening Shared Playlist...";
+            }
+
+            // Show overlay
+            document.getElementById('deeplink-overlay').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+
+            // Auto-redirect attempts
+            setTimeout(function () {
+                window.location.href = customSchemeUrl;
+            }, 500);
+
+            setTimeout(function () {
+                window.location.href = intentUrl;
+            }, 1000);
+        }
+
+        function forceOpen() {
+            if (data) {
+                window.location.href = customSchemeUrl;
+            }
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
