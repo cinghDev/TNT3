@@ -1,321 +1,2296 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruby Player Deep Link Generator</title>
+    <meta name="google-site-verification" content="JoSAYJv7bUeJMbgQaTPDBpBerWVfYHO60UYENKygDcs" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Ruby Player - Next-Gen IPTV Player | Free Download for PC, Android & TV</title>
+    <meta name="description" content="Ruby Player: Revolutionary IPTV streaming app with 4K support, enterprise DRM, XTream Codes, and encrypted sharing. Download free for Windows, Android Mobile & TV.">
+    <meta name="keywords" content="IPTV player, Ruby Player, free IPTV, M3U player, XTream Codes, Android TV, Windows IPTV, 4K streaming, DRM player, live TV, playlist manager, best IPTV app">
+    <meta name="author" content="Ruby Player">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rubyplayer.pages.dev/">
+    <meta property="og:title" content="Ruby Player - Next-Gen IPTV Player">
+    <meta property="og:description" content="Revolutionary IPTV streaming with 4K, DRM, and encrypted sharing. Free for PC, Android & TV.">
+    <meta property="og:image" content="https://rubyplayer.pages.dev/logo.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rubyplayer.pages.dev/">
+    <meta property="twitter:title" content="Ruby Player - Next-Gen IPTV Player">
+    <meta property="twitter:description" content="Revolutionary IPTV streaming with 4K, DRM, and encrypted sharing.">
+    <meta property="twitter:image" content="https://rubyplayer.pages.dev/logo.png">
+    
+    <link rel="canonical" href="https://rubyplayer.pages.dev/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Ruby Player",
+      "operatingSystem": ["Windows", "Android"],
+      "applicationCategory": "MultimediaApplication",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "ratingCount": "2847"}
+    }
+    </script>
+
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
+        :root {
+            --ruby: #E11D48;
+            --ruby-dark: #BE123C;
+            --ruby-light: #FB7185;
+            --dark: #0A0A0A;
+            --darker: #050505;
+            --gray: #1A1A1A;
+            --gray-light: #2A2A2A;
+            --text: #FFFFFF;
+            --text-dim: #A1A1AA;
+            --accent: #3B82F6;
+        }
+
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #821600 0%, #c41e00 100%);
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--darker);
+            color: var(--text);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.4;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(225, 29, 72, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(225, 29, 72, 0.1) 0%, transparent 40%);
+            animation: bgShift 20s ease infinite;
+        }
+
+        @keyframes bgShift {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(50px, -50px) scale(1.1); }
+            66% { transform: translate(-50px, 50px) scale(0.9); }
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 10, 10, 0.7);
+            backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s;
+        }
+
+        nav.scrolled {
+            background: rgba(10, 10, 10, 0.95);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.5px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        .nav-link {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: var(--text);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--ruby);
+            transition: width 0.3s;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .btn-nav {
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            color: var(--text);
+            padding: 0.7rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(225, 29, 72, 0.3);
+        }
+
+        .btn-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(225, 29, 72, 0.5);
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
             min-height: 100vh;
             display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8rem 2rem 4rem;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(225, 29, 72, 0.1);
+            border: 1px solid rgba(225, 29, 72, 0.3);
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: var(--ruby-light);
+            animation: fadeInUp 0.8s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            letter-spacing: -3px;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, var(--text) 0%, var(--ruby-light) 50%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            background-size: 200% auto;
+            animation: gradientShift 3s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% center; }
+            50% { background-position: 100% center; }
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            color: var(--text-dim);
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease 0.6s both;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            color: var(--text);
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 10px 40px rgba(225, 29, 72, 0.4);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn-primary:hover::before {
+            left: 100%;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 50px rgba(225, 29, 72, 0.6);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+            padding: 1.2rem 3rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.3s;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
+        }
+
+        /* Floating Elements */
+        .floating-card {
+            position: absolute;
+            background: rgba(26, 26, 26, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 1.5rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .floating-card-1 {
+            top: 20%;
+            left: 5%;
+            animation-delay: 0s;
+        }
+
+        .floating-card-2 {
+            top: 60%;
+            right: 5%;
+            animation-delay: 2s;
+        }
+
+        .floating-card-3 {
+            bottom: 15%;
+            left: 10%;
+            animation-delay: 4s;
+        }
+
+        /* Stats Section */
+        .stats {
+            position: relative;
+            padding: 4rem 2rem;
+            background: rgba(26, 26, 26, 0.5);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .stats-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem;
+            text-align: center;
+        }
+
+        .stat-item {
+            animation: fadeInUp 0.8s ease both;
+        }
+
+        .stat-number {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            letter-spacing: -2px;
+        }
+
+        .stat-label {
+            color: var(--text-dim);
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        /* Platform Tabs */
+        .platforms {
+            position: relative;
+            padding: 6rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -2px;
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 4rem;
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-dim);
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-family: inherit;
+        }
+
+        .tab:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .tab.active {
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            border-color: var(--ruby);
+            color: var(--text);
+            box-shadow: 0 10px 30px rgba(225, 29, 72, 0.4);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+        }
+
+        .feature-card {
+            background: rgba(26, 26, 26, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2.5rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(225, 29, 72, 0.1) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .feature-card:hover::before {
+            opacity: 1;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(225, 29, 72, 0.5);
+            box-shadow: 0 20px 60px rgba(225, 29, 72, 0.2);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 10px 30px rgba(225, 29, 72, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-icon svg {
+            width: 28px;
+            height: 28px;
+            color: var(--text);
+        }
+
+        .feature-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-description {
+            color: var(--text-dim);
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Placeholder */
+        .placeholder {
+            background: rgba(26, 26, 26, 0.4);
+            border: 2px dashed rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .placeholder-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-dim);
+        }
+
+        .placeholder-text {
+            color: var(--text-dim);
+            opacity: 0.6;
+        }
+
+        /* Download Section */
+        .download-section {
+            position: relative;
+            padding: 6rem 2rem;
+            background: linear-gradient(180deg, transparent 0%, rgba(225, 29, 72, 0.05) 100%);
+        }
+
+        .download-cards {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .download-card {
+            background: rgba(26, 26, 26, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 3rem;
+            text-align: center;
+            transition: all 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .download-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(225, 29, 72, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.4s;
+        }
+
+        .download-card:hover::before {
+            opacity: 1;
+        }
+
+        .download-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--ruby);
+            box-shadow: 0 25px 70px rgba(225, 29, 72, 0.3);
+        }
+
+        .download-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem;
+            box-shadow: 0 15px 40px rgba(225, 29, 72, 0.4);
+            position: relative;
+            z-index: 1;
+        }
+
+        .download-icon svg {
+            width: 40px;
+            height: 40px;
+            color: var(--text);
+        }
+
+        .download-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .download-description {
+            color: var(--text-dim);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-download {
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            color: var(--text);
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(225, 29, 72, 0.4);
+            position: relative;
+            z-index: 1;
+            text-decoration: none;
+        }
+
+        .btn-download:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(225, 29, 72, 0.6);
+        }
+
+        /* Footer */
+        footer {
+            position: relative;
+            padding: 4rem 2rem 2rem;
+            background: rgba(10, 10, 10, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-brand {
+            max-width: 350px;
+        }
+
+        .footer-logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .footer-description {
+            color: var(--text-dim);
+            line-height: 1.8;
+        }
+
+        .footer-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .footer-link {
+            color: var(--text-dim);
+            text-decoration: none;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .footer-link:hover {
+            color: var(--ruby-light);
+            padding-left: 5px;
+        }
+
+        .footer-bottom {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        /* Download Progress */
+        .download-progress {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: rgba(26, 26, 26, 0.95);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            min-width: 350px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+            display: none;
+            z-index: 2000;
+            animation: slideInUp 0.4s ease;
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .download-progress.show {
+            display: block;
+        }
+
+        .download-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .download-title-progress {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .download-close {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            font-size: 1.5rem;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.3s;
+        }
+
+        .download-close:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text);
+        }
+
+        .download-info {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--ruby) 0%, var(--ruby-light) 100%);
+            width: 0%;
+            transition: width 0.3s;
+            border-radius: 10px;
+        }
+
+        /* Deeplink Overlay */
+        #deeplink-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(5, 5, 5, 0.98);
+            backdrop-filter: blur(20px);
+            z-index: 3000;
+            display: none;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            text-align: center;
+            padding: 2rem;
         }
-        
-        .container {
-            background: white;
+
+        .deeplink-card {
+            background: rgba(26, 26, 26, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 3rem;
+            max-width: 500px;
+            width: 100%;
+            animation: slideInUp 0.4s ease;
+        }
+
+        .deeplink-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 15px 40px rgba(225, 29, 72, 0.4);
+        }
+
+        .deeplink-icon img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+
+        .deeplink-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .deeplink-text {
+            color: var(--text-dim);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .deeplink-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .btn-open-app {
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-dark) 100%);
+            color: var(--text);
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(225, 29, 72, 0.4);
+            text-decoration: none;
+        }
+
+        .btn-open-app:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 40px rgba(225, 29, 72, 0.6);
+        }
+
+        .btn-download-alt {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-download-alt:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .deeplink-card {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            .deeplink-title {
+                font-size: 1.5rem;
+            }
+
+            .deeplink-text {
+                font-size: 1rem;
+            }
+        }
+
+        /* Policy Modal */
+        .policy-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(5, 5, 5, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 3000;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            overflow-y: auto;
+        }
+
+        .policy-modal.show {
+            display: flex;
+        }
+
+        .policy-content {
+            background: rgba(26, 26, 26, 0.95);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 3rem;
             max-width: 800px;
             width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            animation: slideInUp 0.4s ease;
         }
-        
-        h1 {
-            color: #821600;
-            margin-bottom: 10px;
-            font-size: 28px;
-        }
-        
-        .subtitle {
-            color: #666;
-            margin-bottom: 30px;
-            font-size: 14px;
-        }
-        
-        .input-group {
-            margin-bottom: 20px;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 8px;
-            color: #333;
-            font-weight: 600;
-            font-size: 14px;
-        }
-        
-        input, textarea {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 14px;
-            transition: border-color 0.3s;
-        }
-        
-        input:focus, textarea:focus {
-            outline: none;
-            border-color: #821600;
-        }
-        
-        textarea {
-            min-height: 120px;
-            resize: vertical;
-            font-family: monospace;
-        }
-        
-        button {
-            background: linear-gradient(135deg, #821600 0%, #c41e00 100%);
-            color: white;
+
+        .policy-close {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
             border: none;
-            padding: 14px 30px;
-            border-radius: 8px;
-            font-size: 16px;
-            font-weight: 600;
+            color: var(--text);
             cursor: pointer;
-            width: 100%;
-            transition: transform 0.2s, box-shadow 0.2s;
+            font-size: 1.5rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
         }
-        
-        button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(130, 22, 0, 0.4);
+
+        .policy-close:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: rotate(90deg);
         }
-        
-        button:active {
-            transform: translateY(0);
+
+        .policy-content h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, var(--ruby) 0%, var(--ruby-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
-        
-        .output-group {
-            margin-top: 30px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            display: none;
+
+        .policy-content h3 {
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: var(--text);
         }
-        
-        .output-group.show {
-            display: block;
+
+        .policy-content p {
+            color: var(--text-dim);
+            line-height: 1.8;
+            margin-bottom: 1rem;
         }
-        
-        .output-link {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            word-break: break-all;
-            font-family: monospace;
-            font-size: 13px;
-            margin-top: 10px;
-            border: 2px solid #821600;
+
+        .policy-content ul {
+            color: var(--text-dim);
+            line-height: 1.8;
+            margin-left: 2rem;
+            margin-bottom: 1rem;
         }
-        
-        .copy-btn {
-            background: #28a745;
-            margin-top: 10px;
-            padding: 10px 20px;
-            font-size: 14px;
+
+        .policy-content li {
+            margin-bottom: 0.5rem;
         }
-        
-        .copy-btn:hover {
-            background: #218838;
+
+        @media (max-width: 768px) {
+            .policy-content {
+                padding: 2rem;
+                margin: 1rem;
+            }
+
+            .policy-content h2 {
+                font-size: 1.5rem;
+            }
+
+            .policy-content h3 {
+                font-size: 1.2rem;
+            }
         }
-        
-        .success-msg {
-            color: #28a745;
-            margin-top: 10px;
-            font-weight: 600;
-            display: none;
+
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .download-cards {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
-        
-        .info-box {
-            background: #e7f3ff;
-            border-left: 4px solid #2196F3;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 4px;
-            font-size: 13px;
-            color: #333;
+
+        @media (max-width: 1024px) {
+            .footer-content {
+                grid-template-columns: 1fr 1fr;
+                gap: 3rem;
+            }
+
+            .floating-card {
+                display: none;
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
         }
-        
-        .example {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 10px;
-            margin-top: 10px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-family: monospace;
-            word-break: break-all;
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                letter-spacing: -1.5px;
+            }
+
+            .hero {
+                min-height: 85vh;
+                padding: 7rem 1.5rem 3rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .btn-primary, .btn-secondary {
+                width: 100%;
+                justify-content: center;
+                padding: 1rem 2rem;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .download-cards {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .download-progress {
+                left: 1rem;
+                right: 1rem;
+                min-width: auto;
+                bottom: 1rem;
+            }
+
+            .tabs {
+                overflow-x: auto;
+                justify-content: flex-start;
+                padding-bottom: 0.5rem;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .tab {
+                flex-shrink: 0;
+                padding: 0.9rem 2rem;
+            }
+
+            .section-title {
+                font-size: 2.5rem;
+            }
+
+            .platforms, .download-section {
+                padding: 4rem 1.5rem;
+            }
+
+            .stats {
+                padding: 3rem 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-container {
+                padding: 1rem 1.5rem;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .logo-icon {
+                width: 28px;
+                height: 28px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                letter-spacing: -1px;
+            }
+
+            .hero-badge {
+                font-size: 0.75rem;
+                padding: 0.5rem 1.2rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+                letter-spacing: -1px;
+            }
+
+            .section-subtitle {
+                font-size: 1rem;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+
+            .stat-label {
+                font-size: 0.9rem;
+            }
+
+            .feature-card, .download-card {
+                padding: 2rem;
+            }
+
+            .feature-icon, .download-icon {
+                width: 50px;
+                height: 50px;
+            }
+
+            .feature-title, .download-title {
+                font-size: 1.2rem;
+            }
+
+            .btn-download {
+                padding: 0.9rem 2rem;
+                font-size: 0.95rem;
+            }
+        }
+
+        /* Smooth Scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Selection */
+        ::selection {
+            background: var(--ruby);
+            color: var(--text);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🎬 Ruby Player Deep Link Generator</h1>
-        <p class="subtitle">Convert stream URLs into encrypted deep links for Ruby Player</p>
-        
-        <div class="info-box">
-            <strong>ℹ️ How to use:</strong><br>
-            1. Paste your stream URL (with or without pipe-separated parameters)<br>
-            2. Optionally add a stream name<br>
-            3. Click "Generate Deep Link"<br>
-            4. Copy and share the generated link
+    <div class="bg-animation"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <img src="https://rubyplayer.pages.dev/logo.png" alt="Ruby Player Logo">
+                </div>
+                Ruby Player
+            </a>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#platforms" class="nav-link">Platforms</a>
+                <a href="#download" class="nav-link">Download</a>
+                <a href="https://t.me/RubyplayerBr" class="btn-nav">Join Community</a>
+            </div>
         </div>
-        
-        <div class="input-group">
-            <label for="streamUrl">Stream URL *</label>
-            <textarea id="streamUrl" placeholder="Paste your stream URL here...
-Example: https://example.com/stream.m3u8|Cookie=...&Referer=..."></textarea>
-            <div class="example">
-                Example: https://example.com/stream.mpd?data=...|drmScheme=clearkey&drmLicense=...&Cookie=...
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="floating-card floating-card-1">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #E11D48, #BE123C); border-radius: 10px;"></div>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">4K Streaming</div>
+                    <div style="font-size: 0.85rem; color: var(--text-dim);">Ultra HD Quality</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="floating-card floating-card-2">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #3B82F6, #2563EB); border-radius: 10px;"></div>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">DRM Protected</div>
+                    <div style="font-size: 0.85rem; color: var(--text-dim);">Enterprise Security</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="floating-card floating-card-3">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 10px;"></div>
+                <div>
+                    <div style="font-weight: 600; margin-bottom: 0.25rem;">XTream Codes</div>
+                    <div style="font-size: 0.85rem; color: var(--text-dim);">Full API Support</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                </svg>
+                Available on 3 Platforms
+            </div>
+            <h1>
+                The Future of<br/>
+                <span class="gradient-text">IPTV Streaming</span>
+            </h1>
+            <p class="hero-subtitle">
+                Experience next-generation streaming with enterprise-grade DRM, 4K support, 
+                and encrypted sharing. Built for power users who demand the best.
+            </p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download Free
+                </a>
+                <a href="#features" class="btn-secondary">
+                    Explore Features
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item" style="animation-delay: 0.1s;">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Platforms</div>
+            </div>
+            <div class="stat-item" style="animation-delay: 0.2s;">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Channels</div>
+            </div>
+            <div class="stat-item" style="animation-delay: 0.3s;">
+                <div class="stat-number">4K</div>
+                <div class="stat-label">Max Quality</div>
+            </div>
+            <div class="stat-item" style="animation-delay: 0.4s;">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Free</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Tabs Section -->
+    <section class="platforms" id="platforms">
+        <div class="section-header">
+            <h2 class="section-title">Choose Your Platform</h2>
+            <p class="section-subtitle">Powerful features across all devices</p>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('pc')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h3l-1 1v2h12v-2l-1-1h3c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 13H4V5h16v11z"/>
+                </svg>
+                Windows PC
+            </button>
+            <button class="tab" onclick="switchTab('android')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/>
+                </svg>
+                Android
+            </button>
+            <button class="tab" onclick="switchTab('tv')">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/>
+                </svg>
+                Android TV
+            </button>
+        </div>
+
+        <!-- PC Features -->
+        <div class="tab-content active" id="pc-content">
+            <div class="features-grid" id="features">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Advanced Video Engine</h3>
+                    <p class="feature-description">
+                        Powered by Shaka Player with HLS, DASH, MPEG-TS support. Hardware-accelerated 4K playback with adaptive bitrate streaming.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Enterprise DRM</h3>
+                    <p class="feature-description">
+                        Full Widevine, PlayReady, and ClearKey support. Auto-detection for JioTV and Hotstar with seamless encrypted playback.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Smart Playlist Manager</h3>
+                    <p class="feature-description">
+                        Import M3U/M3U8 with auto-header parsing. KODIPROP, EXTVLCOPT support. Multi-User-Agent fallback for blocked servers.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">XTream Codes API</h3>
+                    <p class="feature-description">
+                        Native XTream integration with Live TV, VOD, and Series. Category browsing, search, and automatic stream generation.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Wishlist System</h3>
+                    <p class="feature-description">
+                        Save favorites with right-click menu. Export as M3U, share via encrypted deeplinks, and sync across devices.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Encrypted Sharing</h3>
+                    <p class="feature-description">
+                        Share channels securely with AES-256 deeplinks. Cross-platform support with automatic protocol handling.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Modern Interface</h3>
+                    <p class="feature-description">
+                        Beautiful dark theme with smooth animations. Grid/list views, thumbnail caching, and customizable sidebar.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Performance Optimized</h3>
+                    <p class="feature-description">
+                        Virtual scrolling for 1000+ channels. Lazy loading, batch rendering, and efficient memory management.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Advanced Config</h3>
+                    <p class="feature-description">
+                        Custom headers (User-Agent, Referer, Origin, Cookies), proxy support, and full network control.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Android Features -->
+        <div class="tab-content" id="android-content">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Phone-to-TV Casting</h3>
+                    <p class="feature-description">
+                        Cast videos from your phone to any Android TV or another phone on the same WiFi network. Seamless device discovery and pairing with real-time streaming.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">5-Band Audio Equalizer</h3>
+                    <p class="feature-description">
+                        Professional audio control with 5-band equalizer, bass boost, and 3D virtualizer. Customize your sound experience with persistent settings across sessions.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Picture-in-Picture Mode</h3>
+                    <p class="feature-description">
+                        Watch videos while using other apps. Automatic PIP mode with resizable floating window and full playback controls.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">EPG Support</h3>
+                    <p class="feature-description">
+                        Full Electronic Program Guide integration with automatic updates. View current and upcoming programs with detailed information.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Video Downloader</h3>
+                    <p class="feature-description">
+                        Download videos for offline viewing with progress tracking and notification support. Manage downloads with built-in file manager.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Clipboard Monitor</h3>
+                    <p class="feature-description">
+                        Automatically detect M3U URLs and stream links copied to clipboard. Quick-play feature for instant streaming.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Private Space</h3>
+                    <p class="feature-description">
+                        Secure PIN-protected area for private playlists and content. Keep your personal content separate and secure.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Queue Management</h3>
+                    <p class="feature-description">
+                        Create and manage multiple playlists with drag-and-drop reordering. Build your perfect viewing queue.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Wishlist & Favorites</h3>
+                    <p class="feature-description">
+                        Save your favorite channels and videos for quick access. Multi-select support for batch operations.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TV Features -->
+        <div class="tab-content" id="tv-content">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">TV Remote Receiver</h3>
+                    <p class="feature-description">
+                        Your TV automatically becomes a receiver for phone casting. Accept pairing requests and receive videos from any paired mobile device on your network.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">D-Pad Navigation</h3>
+                    <p class="feature-description">
+                        Full TV remote control support with optimized D-pad navigation. Navigate through content effortlessly with your TV remote.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Network Discovery</h3>
+                    <p class="feature-description">
+                        Automatic device discovery using NSD (Network Service Discovery). Your TV is instantly visible to all Ruby Player devices on the same WiFi.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Big Screen Experience</h3>
+                    <p class="feature-description">
+                        Optimized UI for large screens with 4K support. Enjoy your content in stunning quality on your Android TV or smart TV.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Secure Pairing</h3>
+                    <p class="feature-description">
+                        Pairing confirmation dialog ensures only authorized devices can cast to your TV. Accept or reject pairing requests with a single click.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Instant Playback</h3>
+                    <p class="feature-description">
+                        Receive and play videos instantly from paired devices. No buffering, no delays - just seamless streaming from phone to TV.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Audio Equalizer</h3>
+                    <p class="feature-description">
+                        Same powerful 5-band equalizer available on TV. Optimize audio output for your home theater system.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Leanback UI</h3>
+                    <p class="feature-description">
+                        Android TV Leanback interface for comfortable 10-foot viewing experience. Designed specifically for TV navigation.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Multi-Device Support</h3>
+                    <p class="feature-description">
+                        Connect multiple phones to one TV. Family members can take turns casting their favorite content to the big screen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download-section" id="download">
+        <div class="section-header">
+            <h2 class="section-title">Download Now</h2>
+            <p class="section-subtitle">Get started in seconds. No registration required.</p>
+        </div>
+
+        <div class="download-cards">
+            <div class="download-card">
+                <div class="download-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 3H4c-1.1 0-2 .9-2 2v11c0 1.1.9 2 2 2h3l-1 1v2h12v-2l-1-1h3c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 13H4V5h16v11z"/>
+                    </svg>
+                </div>
+                <h3 class="download-title">Windows PC</h3>
+                <p class="download-description">
+                    Full-featured desktop app with advanced playlist management and DRM. Universal installer for 32-bit & 64-bit.
+                </p>
+                <button onclick="downloadFile('https://drive.google.com/uc?export=download&id=1X4jNV_WsHRrOdvdcdx-5cLclvOcaSPj2', 'RubyPlayer-Windows.exe')" class="btn-download">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download for Windows
+                </button>
+            </div>
+
+            <div class="download-card">
+                <div class="download-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/>
+                    </svg>
+                </div>
+                <h3 class="download-title">Android Mobile</h3>
+                <p class="download-description">
+                    Optimized for smartphones with touch-friendly interface and offline support. Works on Android 5.0+.
+                </p>
+                <button onclick="downloadFile('https://docs.google.com/uc?export=download&id=1lwda3fC3vFcI30cpr4t54kYrDrEKtiEH', 'RubyPlayer-Android.apk')" class="btn-download">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download for Android
+                </button>
+            </div>
+
+            <div class="download-card">
+                <div class="download-icon">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.1-.9-2-2-2zm0 14H3V5h18v12z"/>
+                    </svg>
+                </div>
+                <h3 class="download-title">Android TV</h3>
+                <p class="download-description">
+                    Designed for big screens with remote control support and Leanback interface. Perfect for living room.
+                </p>
+                <button onclick="downloadFile('https://docs.google.com/uc?export=download&id=1lwda3fC3vFcI30cpr4t54kYrDrEKtiEH', 'RubyPlayer-AndroidTV.apk')" class="btn-download">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download for TV
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">Ruby Player</div>
+                <p class="footer-description">
+                    Next-generation IPTV and media player for PC, Android, and TV. Stream with enterprise-grade DRM and advanced playlist management.
+                </p>
+            </div>
+            
+            <div>
+                <h4 class="footer-title">Product</h4>
+                <div class="footer-links">
+                    <a href="#features" class="footer-link">Features</a>
+                    <a href="#platforms" class="footer-link">Platforms</a>
+                    <a href="#download" class="footer-link">Download</a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="footer-title">Community</h4>
+                <div class="footer-links">
+                    <a href="https://t.me/RubyplayerBr" class="footer-link" target="_blank" rel="noopener">Telegram</a>
+                </div>
+            </div>
+            
+            <div>
+                <h4 class="footer-title">Legal</h4>
+                <div class="footer-links">
+                    <a href="#privacy" class="footer-link" onclick="showPolicy('privacy'); return false;">Privacy Policy</a>
+                    <a href="#terms" class="footer-link" onclick="showPolicy('terms'); return false;">Terms of Service</a>
+                    <a href="#disclaimer" class="footer-link" onclick="showPolicy('disclaimer'); return false;">Disclaimer</a>
+                </div>
             </div>
         </div>
         
-        <div class="input-group">
-            <label for="streamName">Stream Name (Optional)</label>
-            <input type="text" id="streamName" placeholder="e.g., Sports Channel HD">
+        <div class="footer-bottom">
+            <div>© 2025 Ruby Player. All rights reserved.</div>
+            <div>Built with passion for streaming excellence</div>
         </div>
-        
-        <button onclick="generateDeepLink()">🔗 Generate Deep Link</button>
-        
-        <div class="output-group" id="outputGroup">
-            <label>Generated Deep Link:</label>
-            <div class="output-link" id="outputLink"></div>
-            <button class="copy-btn" onclick="copyToClipboard()">📋 Copy Link</button>
-            <div class="success-msg" id="successMsg">✓ Copied to clipboard!</div>
+    </footer>
+
+    <!-- Download Progress -->
+    <div class="download-progress" id="downloadProgress">
+        <div class="download-header">
+            <span class="download-title-progress" id="downloadTitle">Downloading...</span>
+            <button class="download-close" onclick="closeDownloadProgress()">×</button>
+        </div>
+        <div class="download-info" id="downloadInfo">Preparing download...</div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+    </div>
+
+    <!-- Deeplink Overlay -->
+    <div id="deeplink-overlay">
+        <div class="deeplink-card">
+            <div class="deeplink-icon">
+                <img src="https://rubyplayer.pages.dev/logo.png" alt="Ruby Player">
+            </div>
+            <h2 class="deeplink-title">Open in Ruby Player</h2>
+            <p class="deeplink-text">
+                Click the button below to open this content in Ruby Player app.
+            </p>
+            <div class="deeplink-buttons">
+                <button class="btn-open-app" id="openAppBtn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                        <polyline points="15 3 21 3 21 9"/>
+                        <line x1="10" y1="14" x2="21" y2="3"/>
+                    </svg>
+                    Open in App
+                </button>
+                <a href="#download" class="btn-download-alt" onclick="closeDeeplink(); document.querySelector('#download').scrollIntoView({behavior: 'smooth'});">
+                    Don't have the app? Download here
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Policy Modal -->
+    <div class="policy-modal" id="policyModal">
+        <div class="policy-content">
+            <button class="policy-close" onclick="closePolicy()">×</button>
+            <div id="policyText"></div>
         </div>
     </div>
 
     <script>
-        function base64UrlEncode(str) {
-            return btoa(encodeURIComponent(str).replace(/%([0-9A-F]{2})/g, (match, p1) => {
-                return String.fromCharCode('0x' + p1);
-            }))
-            .replace(/\+/g, '-')
-            .replace(/\//g, '_')
-            .replace(/=/g, '');
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Tab Switching
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.closest('.tab').classList.add('active');
+            
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(tabName + '-content').classList.add('active');
         }
 
-        function generateDeepLink() {
-            const streamUrl = document.getElementById('streamUrl').value.trim();
-            const streamName = document.getElementById('streamName').value.trim();
+        // Download Handler
+        function downloadFile(url, filename) {
+            const progressDiv = document.getElementById('downloadProgress');
+            const titleEl = document.getElementById('downloadTitle');
+            const infoEl = document.getElementById('downloadInfo');
+            const fillEl = document.getElementById('progressFill');
             
-            if (!streamUrl) {
-                alert('Please enter a stream URL');
-                return;
-            }
+            progressDiv.classList.add('show');
+            titleEl.textContent = 'Downloading ' + filename;
+            infoEl.textContent = 'Starting download...';
+            fillEl.style.width = '0%';
             
-            // Decode URL-encoded pipes first
-            const decodedUrl = streamUrl.replace(/%7C/g, '|').replace(/%7c/g, '|');
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += Math.random() * 15;
+                if (progress > 90) progress = 90;
+                fillEl.style.width = progress + '%';
+                infoEl.textContent = Math.round(progress) + '% complete';
+            }, 500);
             
-            // Parse pipe-separated URL
-            const parts = decodedUrl.split('|');
-            const cleanUrl = parts[0];
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
             
-            // Initialize StreamData object with all fields
-            const streamData = {
-                url: cleanUrl,
-                userAgent: "",
-                referer: "",
-                origin: "",
-                cookies: "",
-                drmScheme: "",
-                drmLicenseUrl: "",
-                clearKeyKid: "",
-                clearKeyKey: ""
-            };
-            
-            // Parse pipe-separated parameters
-            if (parts.length > 1) {
-                const allParams = parts.slice(1).flatMap(p => p.split('&'));
+            setTimeout(() => {
+                clearInterval(interval);
+                fillEl.style.width = '100%';
+                infoEl.textContent = 'Download started! Check your downloads folder.';
+                titleEl.textContent = 'Download Started';
                 
-                allParams.forEach(param => {
-                    const [key, ...valueParts] = param.split('=');
-                    const value = valueParts.join('='); // Handle values with = in them
-                    
-                    if (!key || !value) return;
-                    
-                    const keyLower = key.toLowerCase();
-                    
-                    if (keyLower === 'cookie') {
-                        streamData.cookies = value;
-                    } else if (keyLower === 'referer') {
-                        streamData.referer = value;
-                    } else if (keyLower === 'origin') {
-                        streamData.origin = value;
-                    } else if (keyLower === 'user-agent') {
-                        streamData.userAgent = value;
-                    } else if (keyLower === 'drmscheme') {
-                        streamData.drmScheme = value;
-                    } else if (keyLower === 'drmlicense') {
-                        // Check if it's a URL or KID:KEY format
-                        if (value.startsWith('http://') || value.startsWith('https://')) {
-                            streamData.drmLicenseUrl = value;
-                        } else if (value.includes(':')) {
-                            // ClearKey format: kid:key
-                            const [kid, key] = value.split(':');
-                            streamData.clearKeyKid = kid || "";
-                            streamData.clearKeyKey = key || "";
-                            streamData.drmScheme = "clearkey";
-                        }
-                    }
-                });
-            }
-            
-            // Convert to JSON and encode
-            const jsonData = JSON.stringify(streamData);
-            const encodedData = base64UrlEncode(jsonData);
-            
-            // Generate the deep link
-            const deepLink = `https://rubyplayer.pages.dev/play?data=${encodedData}`;
-            
-            // Display the result
-            document.getElementById('outputLink').textContent = deepLink;
-            document.getElementById('outputGroup').classList.add('show');
-            document.getElementById('successMsg').style.display = 'none';
+                setTimeout(() => {
+                    progressDiv.classList.remove('show');
+                }, 3000);
+            }, 3000);
         }
-        
-        function copyToClipboard() {
-            const link = document.getElementById('outputLink').textContent;
+
+        function closeDownloadProgress() {
+            document.getElementById('downloadProgress').classList.remove('show');
+        }
+
+        // Policy Modal
+        const policies = {
+            privacy: {
+                title: 'Privacy Policy',
+                content: `
+                    <h2>Privacy Policy</h2>
+                    <p><strong>Last Updated:</strong> February 2025</p>
+                    
+                    <h3>1. Information We Collect</h3>
+                    <p>Ruby Player is designed with privacy in mind. We do not collect, store, or transmit any personal information to external servers.</p>
+                    <ul>
+                        <li>All playlist data is stored locally on your device</li>
+                        <li>No user accounts or registration required</li>
+                        <li>No analytics or tracking services</li>
+                        <li>No advertisements or third-party integrations</li>
+                    </ul>
+
+                    <h3>2. Data Storage</h3>
+                    <p>All application data including playlists, settings, and preferences are stored locally using:</p>
+                    <ul>
+                        <li>LocalStorage for web-based data</li>
+                        <li>Application data folder for desktop installations</li>
+                        <li>Device storage for mobile applications</li>
+                    </ul>
+
+                    <h3>3. Network Connections</h3>
+                    <p>Ruby Player connects to:</p>
+                    <ul>
+                        <li>Your IPTV provider's servers to stream content</li>
+                        <li>Playlist URLs you provide to fetch channel lists</li>
+                        <li>CDN servers for DRM license validation (when required by content)</li>
+                    </ul>
+
+                    <h3>4. Encrypted Sharing</h3>
+                    <p>When you share channels via deeplinks, the data is encrypted using AES-256 encryption. The encrypted data is included in the URL but never stored on our servers.</p>
+
+                    <h3>5. Your Rights</h3>
+                    <p>You have complete control over your data:</p>
+                    <ul>
+                        <li>Delete playlists and data at any time</li>
+                        <li>Export your data in standard M3U format</li>
+                        <li>No data retention after uninstallation</li>
+                    </ul>
+
+                    <h3>6. Contact</h3>
+                    <p>For privacy concerns, contact us via Telegram: @RubyplayerBr</p>
+                `
+            },
+            terms: {
+                title: 'Terms of Service',
+                content: `
+                    <h2>Terms of Service</h2>
+                    <p><strong>Last Updated:</strong> February 2025</p>
+                    
+                    <h3>1. Acceptance of Terms</h3>
+                    <p>By downloading and using Ruby Player, you agree to these Terms of Service. If you do not agree, please do not use the application.</p>
+
+                    <h3>2. License</h3>
+                    <p>Ruby Player is provided as free software. You are granted a non-exclusive, non-transferable license to use the application for personal use.</p>
+
+                    <h3>3. User Responsibilities</h3>
+                    <p>You are responsible for:</p>
+                    <ul>
+                        <li>Ensuring you have legal rights to access content you stream</li>
+                        <li>Complying with your local laws and regulations</li>
+                        <li>Obtaining proper authorization from content providers</li>
+                        <li>Not using the application for illegal purposes</li>
+                    </ul>
+
+                    <h3>4. Content Disclaimer</h3>
+                    <p>Ruby Player is a media player application. We do not:</p>
+                    <ul>
+                        <li>Provide, host, or distribute any content</li>
+                        <li>Endorse any specific IPTV service or provider</li>
+                        <li>Have control over third-party content or streams</li>
+                        <li>Guarantee availability or quality of external services</li>
+                    </ul>
+
+                    <h3>5. Prohibited Uses</h3>
+                    <p>You may not:</p>
+                    <ul>
+                        <li>Use the application to access pirated or illegal content</li>
+                        <li>Reverse engineer or modify the application</li>
+                        <li>Redistribute the application for commercial purposes</li>
+                        <li>Remove or alter any copyright notices</li>
+                    </ul>
+
+                    <h3>6. Warranty Disclaimer</h3>
+                    <p>Ruby Player is provided "AS IS" without warranties of any kind. We do not guarantee uninterrupted or error-free operation.</p>
+
+                    <h3>7. Limitation of Liability</h3>
+                    <p>We are not liable for any damages arising from the use or inability to use the application, including but not limited to data loss or service interruptions.</p>
+
+                    <h3>8. Updates and Changes</h3>
+                    <p>We reserve the right to modify these terms at any time. Continued use after changes constitutes acceptance of new terms.</p>
+
+                    <h3>9. Contact</h3>
+                    <p>For questions about these terms, contact us via Telegram: @RubyplayerBr</p>
+                `
+            },
+            disclaimer: {
+                title: 'Disclaimer',
+                content: `
+                    <h2>Disclaimer</h2>
+                    <p><strong>Last Updated:</strong> February 2025</p>
+                    
+                    <h3>Important Notice</h3>
+                    <p>Ruby Player is a media player application designed to play IPTV streams and local media files. This disclaimer clarifies our position and your responsibilities.</p>
+
+                    <h3>1. Content Responsibility</h3>
+                    <p><strong>Ruby Player does NOT:</strong></p>
+                    <ul>
+                        <li>Provide any IPTV subscriptions or services</li>
+                        <li>Host, store, or distribute any media content</li>
+                        <li>Include any pre-loaded channels or playlists</li>
+                        <li>Have partnerships with any IPTV providers</li>
+                        <li>Endorse or recommend any specific content sources</li>
+                    </ul>
+
+                    <h3>2. User Responsibility</h3>
+                    <p><strong>Users are solely responsible for:</strong></p>
+                    <ul>
+                        <li>Obtaining legal access to content they stream</li>
+                        <li>Ensuring compliance with copyright laws in their jurisdiction</li>
+                        <li>Verifying they have proper licenses or subscriptions</li>
+                        <li>Understanding and following local regulations</li>
+                    </ul>
+
+                    <h3>3. Legal Use Only</h3>
+                    <p>Ruby Player is intended for legal use only, including:</p>
+                    <ul>
+                        <li>Streaming content you have legal rights to access</li>
+                        <li>Playing personal media files</li>
+                        <li>Accessing legitimate IPTV services with proper subscriptions</li>
+                        <li>Testing and development purposes</li>
+                    </ul>
+
+                    <h3>4. No Warranty</h3>
+                    <p>The application is provided without any warranties:</p>
+                    <ul>
+                        <li>We do not guarantee compatibility with all services</li>
+                        <li>Stream quality depends on your provider and connection</li>
+                        <li>Features may not work with all content types</li>
+                        <li>Updates may change or remove features</li>
+                    </ul>
+
+                    <h3>5. Third-Party Services</h3>
+                    <p>When using Ruby Player with third-party services:</p>
+                    <ul>
+                        <li>You are subject to their terms and conditions</li>
+                        <li>We are not responsible for their content or policies</li>
+                        <li>Service availability is beyond our control</li>
+                        <li>Privacy policies of those services apply</li>
+                    </ul>
+
+                    <h3>6. DRM and Encryption</h3>
+                    <p>Ruby Player supports DRM technologies for legitimate protected content. This feature is intended only for content you have legal authorization to access.</p>
+
+                    <h3>7. Geographic Restrictions</h3>
+                    <p>Some content may be geo-restricted. Users are responsible for complying with geographic licensing restrictions and not circumventing them illegally.</p>
+
+                    <h3>8. Indemnification</h3>
+                    <p>By using Ruby Player, you agree to indemnify and hold harmless the developers from any claims arising from your use of the application.</p>
+
+                    <h3>9. Reporting Abuse</h3>
+                    <p>If you become aware of illegal use of Ruby Player, please report it to us via Telegram: @RubyplayerBr</p>
+
+                    <h3>10. Acceptance</h3>
+                    <p>By using Ruby Player, you acknowledge that you have read, understood, and agree to this disclaimer.</p>
+                `
+            }
+        };
+
+        function showPolicy(type) {
+            const modal = document.getElementById('policyModal');
+            const content = document.getElementById('policyText');
             
-            navigator.clipboard.writeText(link).then(() => {
-                const successMsg = document.getElementById('successMsg');
-                successMsg.style.display = 'block';
-                setTimeout(() => {
-                    successMsg.style.display = 'none';
-                }, 3000);
-            }).catch(err => {
-                // Fallback for older browsers
-                const textArea = document.createElement('textarea');
-                textArea.value = link;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-                
-                const successMsg = document.getElementById('successMsg');
-                successMsg.style.display = 'block';
-                setTimeout(() => {
-                    successMsg.style.display = 'none';
-                }, 3000);
+            if (policies[type]) {
+                content.innerHTML = policies[type].content;
+                modal.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closePolicy() {
+            const modal = document.getElementById('policyModal');
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal on outside click
+        document.getElementById('policyModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePolicy();
+            }
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href === '#' || href.startsWith('#privacy') || href.startsWith('#terms') || href.startsWith('#disclaimer')) {
+                    return;
+                }
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
             });
+        });
+
+        // Deeplink Handling
+        let deeplinkUrl = null;
+
+        function closeDeeplink() {
+            document.getElementById('deeplink-overlay').style.display = 'none';
+            document.body.style.overflow = '';
         }
-        
-        // Allow Enter key to generate
-        document.getElementById('streamUrl').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter' && e.ctrlKey) {
-                generateDeepLink();
+
+        function openInApp() {
+            if (deeplinkUrl) {
+                window.location.href = deeplinkUrl;
+                // Show success message after attempting to open
+                setTimeout(() => {
+                    const btn = document.getElementById('openAppBtn');
+                    const originalText = btn.innerHTML;
+                    btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg> Opening...';
+                    btn.disabled = true;
+                }, 100);
             }
+        }
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const deeplinkData = urlParams.get('data');
+            
+            if (deeplinkData) {
+                console.log('Deeplink detected on page load');
+                
+                const isPlaylistDeeplink = window.location.pathname.includes('/playlist');
+                
+                // Build the custom scheme URL
+                if (isPlaylistDeeplink) {
+                    deeplinkUrl = `rubyplayer://playlist?data=${deeplinkData}`;
+                } else {
+                    deeplinkUrl = `rubyplayer://play?data=${deeplinkData}`;
+                }
+                
+                // Show the overlay with buttons
+                document.getElementById('deeplink-overlay').style.display = 'flex';
+                document.body.style.overflow = 'hidden';
+                
+                // Add click handler to open button
+                document.getElementById('openAppBtn').addEventListener('click', openInApp);
+            }
+        });
+
+        // Protocol Handler Registration
+        if (navigator.registerProtocolHandler) {
+            try {
+                navigator.registerProtocolHandler(
+                    'rubyplayer',
+                    window.location.origin + '/play?data=%s',
+                    'Ruby Player'
+                );
+            } catch (e) {
+                console.log('Protocol handler registration not supported:', e);
+            }
+        }
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .download-card, .stat-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Parallax effect for floating cards
+        window.addEventListener('mousemove', (e) => {
+            const cards = document.querySelectorAll('.floating-card');
+            const mouseX = e.clientX / window.innerWidth;
+            const mouseY = e.clientY / window.innerHeight;
+            
+            cards.forEach((card, index) => {
+                const speed = (index + 1) * 10;
+                const x = (mouseX - 0.5) * speed;
+                const y = (mouseY - 0.5) * speed;
+                card.style.transform = `translate(${x}px, ${y}px)`;
+            });
         });
     </script>
 </body>
