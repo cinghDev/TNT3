@@ -1,3 +1,11 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772970451~acl=/*~id=76235036543350211240959643949863~hmac=a1e73b2efd09ac1108ead2a85c178901b4ea5f0959a50bfc109281eea0e47de0
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772970451~acl=/*~id=76235036543350211240959643949863~hmac=a1e73b2efd09ac1108ead2a85c178901b4ea5f0959a50bfc109281eea0e47de0
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772970451~acl=/*~id=76235036543350211240959643949863~hmac=a1e73b2efd09ac1108ead2a85c178901b4ea5f0959a50bfc109281eea0e47de0
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 326 - Holloway vs Oliveira 2  - 8 Mar 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-UFC/std_lrh-800300010.m3u8?hdnea=exp=1772970451~acl=/*~id=76235036543350211240959643949863~hmac=a1e73b2efd09ac1108ead2a85c178901b4ea5f0959a50bfc109281eea0e47de0
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",2nd ODI - 8 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1772969240~acl=/*~id=39785722241778909835934393448467~hmac=e4b815863c733b8a68b25317c1c77883e77cf3c3f9cfef3681096e0febc5d021
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1772970451~acl=/*~id=76235036543350211240959643949863~hmac=a1e73b2efd09ac1108ead2a85c178901b4ea5f0959a50bfc109281eea0e47de0
