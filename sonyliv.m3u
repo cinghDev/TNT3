@@ -1,3 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Leeds United vs Norwich City - Round 5 - 8 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773028628~acl=/*~id=83182814935190653110604386797524~hmac=1017f4744843c4ef02d8c669dfd9e896e0e2c0620b23cf713e455bc90e5f1dd5
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",St. Pauli vs Eintracht Frankfurt - MD 25 - 8 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773027417~acl=/*~id=63857942864054480760646971929544~hmac=18133fe97471e4089c3f4ddab02a2d3018efdfa513eb22c4e9a82c93bc87100c
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773028628~acl=/*~id=83182814935190653110604386797524~hmac=1017f4744843c4ef02d8c669dfd9e896e0e2c0620b23cf713e455bc90e5f1dd5
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Union Berlin vs Werder Bremen - MD 25 - 8 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773028628~acl=/*~id=83182814935190653110604386797524~hmac=1017f4744843c4ef02d8c669dfd9e896e0e2c0620b23cf713e455bc90e5f1dd5
