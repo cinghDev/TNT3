@@ -1,9 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Liverpool - Round Of 16 - Leg 1 - 10 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773210153~acl=/*~id=92749982471205822285495409207013~hmac=1d25da4933b5e412f2e4591dbe33ad55f098e45d05947d495ec1377da577e62c
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Liverpool - Round Of 16 - Leg 1 - 10 Mar 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773210153~acl=/*~id=92749982471205822285495409207013~hmac=1d25da4933b5e412f2e4591dbe33ad55f098e45d05947d495ec1377da577e62c
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Liverpool - Round Of 16 - Leg 1 - 10 Mar 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773210153~acl=/*~id=92749982471205822285495409207013~hmac=1d25da4933b5e412f2e4591dbe33ad55f098e45d05947d495ec1377da577e62c
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Galatasaray vs Liverpool - Round Of 16 - Leg 1 - 10 Mar 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773210153~acl=/*~id=92749982471205822285495409207013~hmac=1d25da4933b5e412f2e4591dbe33ad55f098e45d05947d495ec1377da577e62c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Newcastle vs Barcelona - Round Of 16 - Leg 1 - 11 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773215615~acl=/*~id=98379319144554108388003129348114~hmac=a230a0236c620c55021de9a6602b0ee7e9ed5dd3c2c1e73968453553c188098a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Newcastle vs Barcelona - Round Of 16 - Leg 1 - 11 Mar 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773215615~acl=/*~id=98379319144554108388003129348114~hmac=a230a0236c620c55021de9a6602b0ee7e9ed5dd3c2c1e73968453553c188098a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Newcastle vs Barcelona - Round Of 16 - Leg 1 - 11 Mar 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773215615~acl=/*~id=98379319144554108388003129348114~hmac=a230a0236c620c55021de9a6602b0ee7e9ed5dd3c2c1e73968453553c188098a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Newcastle vs Barcelona - Round Of 16 - Leg 1 - 11 Mar 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773215615~acl=/*~id=98379319144554108388003129348114~hmac=a230a0236c620c55021de9a6602b0ee7e9ed5dd3c2c1e73968453553c188098a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Atletico vs Tottenham - Round Of 16 - Leg 1 - 11 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773215615~acl=/*~id=98379319144554108388003129348114~hmac=a230a0236c620c55021de9a6602b0ee7e9ed5dd3c2c1e73968453553c188098a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Atalanta vs Bayern - Round Of 16 - Leg 1 - 11 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773215615~acl=/*~id=98379319144554108388003129348114~hmac=a230a0236c620c55021de9a6602b0ee7e9ed5dd3c2c1e73968453553c188098a
