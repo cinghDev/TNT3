@@ -1,3 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chanmari FC vs Dempo Sports Club - 12 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773364552~acl=/*~id=27816274981437833037666761299538~hmac=5eb3a6e292c2e50d6bb84553fd48517bee520d5c9f7ce9dd553f814a814212e5
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Auction - 12 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773359704~acl=/*~id=58294405306528316850041183792504~hmac=0a52ae96e0beb70accd96fbc67ddbaa3eb8166b585a729e5d76e8fcbc1473380
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773364552~acl=/*~id=27816274981437833037666761299538~hmac=5eb3a6e292c2e50d6bb84553fd48517bee520d5c9f7ce9dd553f814a814212e5
