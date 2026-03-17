@@ -1,9 +1,21 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Man City vs Real Madrid - Round Of 16 - Leg 2 - 18 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Man City vs Real Madrid - Round Of 16 - Leg 2 - 18 Mar 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Man City vs Real Madrid - Round Of 16 - Leg 2 - 18 Mar 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Man City vs Real Madrid - Round Of 16 - Leg 2 - 18 Mar 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs PSG - Round Of 16 - Leg 2 - 18 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Arsenal vs Leverkusen - Round Of 16 - Leg 2 - 18 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773815375~acl=/*~id=66861017408485877680302194877493~hmac=da71d77b44f285b0f7582c80febd362e29d327b1668e509942f7eef5b9a5021c
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773815375~acl=/*~id=66861017408485877680302194877493~hmac=da71d77b44f285b0f7582c80febd362e29d327b1668e509942f7eef5b9a5021c
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773815375~acl=/*~id=66861017408485877680302194877493~hmac=da71d77b44f285b0f7582c80febd362e29d327b1668e509942f7eef5b9a5021c
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sporting CP vs Bodo/Glimt - Round Of 16 - Leg 2 - 17 Mar 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773815375~acl=/*~id=66861017408485877680302194877493~hmac=da71d77b44f285b0f7582c80febd362e29d327b1668e509942f7eef5b9a5021c
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1773819015~acl=/*~id=04174354208964388018534480319780~hmac=18f9090856a647b96cd8c0368b492fc2cb89db7e50e02a87b296763f3b4dea35
