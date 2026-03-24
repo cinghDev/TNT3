@@ -133,10 +133,9 @@
         }
 
         .hero-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 80px;
-            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
             position: relative;
             z-index: 1;
         }
@@ -168,6 +167,7 @@
             display: flex;
             gap: 16px;
             align-items: center;
+            justify-content: center;
         }
 
         .btn-primary {
@@ -220,40 +220,6 @@
             font-weight: 500;
             color: var(--primary);
             margin-top: 24px;
-        }
-
-        .hero-visual {
-            position: relative;
-            height: 500px;
-        }
-
-        .phone-mockup {
-            position: absolute;
-            right: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 300px;
-            height: 600px;
-            background: linear-gradient(135deg, var(--primary), #1a5a7f);
-            border-radius: 40px;
-            box-shadow: 0 20px 60px rgba(40, 114, 161, 0.3);
-            animation: phoneFloat 6s ease-in-out infinite;
-        }
-
-        @keyframes phoneFloat {
-            0%, 100% { transform: translateY(-50%) rotate(-2deg); }
-            50% { transform: translateY(-55%) rotate(2deg); }
-        }
-
-        .phone-screen {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            right: 20px;
-            bottom: 20px;
-            background: var(--dark);
-            border-radius: 30px;
-            overflow: hidden;
         }
 
         /* Features */
@@ -541,20 +507,6 @@
 
         /* Responsive */
         @media (max-width: 1024px) {
-            .hero-content {
-                grid-template-columns: 1fr;
-                gap: 60px;
-            }
-
-            .hero-visual {
-                height: 400px;
-            }
-
-            .phone-mockup {
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-
             .features-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -653,11 +605,6 @@
                             <line x1="12" y1="18" x2="12.01" y2="18"></line>
                         </svg>
                         Version 0.0.1 • Android 5.0+
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <div class="phone-mockup">
-                        <div class="phone-screen"></div>
                     </div>
                 </div>
             </div>
