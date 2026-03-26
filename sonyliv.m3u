@@ -1,3 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Rajasthan United FC vs Diamond Harbour FC - 26 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000099/Rajastha2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774563013~acl=/*~id=23604850157937692022077353886124~hmac=2723f3c51e068d4be9843e9d97fecab9d6afe2812337df813adbc918b288141c
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Indian Open Day 1 - 26 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Hero_Ind2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774559371~acl=/*~id=18983736991126409782277621504329~hmac=13be70fac42196998eec0f3e9a2d3f562c87be0c6fe26ad28785381389b1d314
+https://sonydaimenew.akamaized.net/hls/live/2022315/Hero_Ind2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774563013~acl=/*~id=23604850157937692022077353886124~hmac=2723f3c51e068d4be9843e9d97fecab9d6afe2812337df813adbc918b288141c
