@@ -1,9 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Italy vs Northern Ireland - Playoff Semi-finals - 27 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022321/EQ_Italy2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774606175~acl=/*~id=03316405741697682750690702722865~hmac=d950443f24b4f32e2e8ccd37e2a2150aba3eab3ea3ba73ddf5de251c3c998539
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Czechia vs Republic of Ireland - Playoff Semi-finals - 27 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/EQ_Czech2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774606175~acl=/*~id=03316405741697682750690702722865~hmac=d950443f24b4f32e2e8ccd37e2a2150aba3eab3ea3ba73ddf5de251c3c998539
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Wales vs Bosnia-Herzegovina - Playoff Semi-finals - 27 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/EQ_Wales2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774606175~acl=/*~id=03316405741697682750690702722865~hmac=d950443f24b4f32e2e8ccd37e2a2150aba3eab3ea3ba73ddf5de251c3c998539
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Slovakia vs Kosovo - Playoff Semi-finals - 27 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/EQ_Slova2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774606175~acl=/*~id=03316405741697682750690702722865~hmac=d950443f24b4f32e2e8ccd37e2a2150aba3eab3ea3ba73ddf5de251c3c998539
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Croatia vs Colombia - 27 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037140/IntlFrd_2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774608602~acl=/*~id=82421139639226912106782878326074~hmac=7702cd64d27f25e7be0cc9f457ead1ded79febbfa3778befa75440212d791382
