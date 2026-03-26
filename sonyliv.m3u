@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Rajasthan United FC vs Diamond Harbour FC - 26 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000099/Rajastha2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774569688~acl=/*~id=81994063269889618755667461622489~hmac=2ad09028f289ab5ac406bcc8f8e7795f47e06ff0bdf5694e5e1d3227be6bd38c
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Hero Indian Open Day 1 - 26 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Hero_Ind2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774569688~acl=/*~id=81994063269889618755667461622489~hmac=2ad09028f289ab5ac406bcc8f8e7795f47e06ff0bdf5694e5e1d3227be6bd38c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Gokulam Kerala FC vs Shillong Lajong FC - 26 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/Gokulam_2603/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774576378~acl=/*~id=02439118243080152421743663958324~hmac=b5800dc6d4d20f365ff7c4036e9e6a4f5cabe84a3bd06c3d69968f742f8a6a19
