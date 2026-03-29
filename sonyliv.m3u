@@ -1,9 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Adesanya vs Pyfer - 29 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/UFC_FN_A2803/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774785540~acl=/*~id=90537211023366501081981644433611~hmac=cb49f71291c07e1140a36264a4c991ab510d95a74e53cece7dde82d885a30b49
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Adesanya vs Pyfer - 29 Mar 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005445/UFC_FN_A2803/HIN/std_lrh-800300010.m3u8?hdnea=exp=1774785540~acl=/*~id=90537211023366501081981644433611~hmac=cb49f71291c07e1140a36264a4c991ab510d95a74e53cece7dde82d885a30b49
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Adesanya vs Pyfer - 29 Mar 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005445/UFC_FN_A2803/TAM/std_lrh-800300010.m3u8?hdnea=exp=1774785540~acl=/*~id=90537211023366501081981644433611~hmac=cb49f71291c07e1140a36264a4c991ab510d95a74e53cece7dde82d885a30b49
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Adesanya vs Pyfer - 29 Mar 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2005445/UFC_FN_A2803/TEL/std_lrh-800300010.m3u8?hdnea=exp=1774785540~acl=/*~id=90537211023366501081981644433611~hmac=cb49f71291c07e1140a36264a4c991ab510d95a74e53cece7dde82d885a30b49
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 29 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/NZvsSAwo2803/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774797686~acl=/*~id=86683551925784447670176642250696~hmac=9ffada604b9b4ab6f672438519c30eeafbfc8f7fe6d1f4d51fa409afac895edf
