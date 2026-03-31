@@ -1,25 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",2nd ODI - 1 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/NZWomen_3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775034179~acl=/*~id=27559815466751441132501019322555~hmac=150075382bff714973ee9d81c4da035e3534587fb9a28c28dcf02415b5096864
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bosnia-Herzegovina vs Italy - Playoff Final - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/EQ_Bosni3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",England vs Japan - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/England_3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sweden vs Poland - Playoff Final - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037142/EQ_Swede3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
+https://sonydaimenew.akamaized.net/hls/live/2022320/EQ_Bosni3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775034179~acl=/*~id=27559815466751441132501019322555~hmac=150075382bff714973ee9d81c4da035e3534587fb9a28c28dcf02415b5096864
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Kosovo vs Türkiye - Playoff Final - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037143/EQ_Kosov3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
+https://sonydaimenew.akamaized.net/hls/live/2037143/EQ_Kosov3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775034179~acl=/*~id=27559815466751441132501019322555~hmac=150075382bff714973ee9d81c4da035e3534587fb9a28c28dcf02415b5096864
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Czechia vs Denmark - Playoff Final - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022321/EQ_Czech3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
+https://sonydaimenew.akamaized.net/hls/live/2022321/EQ_Czech3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775034179~acl=/*~id=27559815466751441132501019322555~hmac=150075382bff714973ee9d81c4da035e3534587fb9a28c28dcf02415b5096864
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Spain vs Egypt - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037140/Spain_vs3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
+https://sonydaimenew.akamaized.net/hls/live/2037140/Spain_vs3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775034179~acl=/*~id=27559815466751441132501019322555~hmac=150075382bff714973ee9d81c4da035e3534587fb9a28c28dcf02415b5096864
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Netherlands vs Ecuador - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/Netherla3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Austria vs Korea Republic - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037141/Austria_3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Ukraine vs Albania - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037139/Ukraine_3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Slovakia vs Romania - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Slovakia3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Wales vs Northern Ireland - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2105080/Wales_vs3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Republic of Ireland vs North Macedonia - 1 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094590/Republic3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775031741~acl=/*~id=56139058020121333177047722776044~hmac=6f8b87bd9ebb1b6695dfd4b35f1a05ab3cb93e42d89d319479c3335d0a8fa1ce
+https://sonydaimenew.akamaized.net/hls/live/2094589/Netherla3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775034179~acl=/*~id=27559815466751441132501019322555~hmac=150075382bff714973ee9d81c4da035e3534587fb9a28c28dcf02415b5096864
