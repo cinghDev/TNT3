@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Gokulam Kerala FC vs Aizawl FC - 31 Mar 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/GokulamK3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1774997651~acl=/*~id=90188162309004199271621654816887~hmac=20557bdfd5983824c15b7069439bc7ac518013312115e59601aac4c0df8012c2
+https://sonydaimenew.akamaized.net/hls/live/2018457/GokulamK3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775001288~acl=/*~id=68680347017223388228676499165784~hmac=1a5aad31ab96031218d78e1401d1e92d45f867589cbe17506247288fe6cb3175
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Kazakhstan vs Comoros - 31 Mar 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/Kazakhst3103/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775001288~acl=/*~id=68680347017223388228676499165784~hmac=1a5aad31ab96031218d78e1401d1e92d45f867589cbe17506247288fe6cb3175
