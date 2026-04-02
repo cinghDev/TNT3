@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Real Kashmir FC vs Diamond Harbour FC - 2 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/RealKash0204/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775172337~acl=/*~id=54087893690311219887411031202159~hmac=1fb0dc18a00a1e33277b8caf72754cf16e6089ded2c003153efced23dc8a12c3
+https://sonydaimenew.akamaized.net/hls/live/20000291/RealKash0204/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775176584~acl=/*~id=77354367647601554490815190338892~hmac=0c74a551b4d77f3f604c3549c47c66d8a6c0467aab36d4a588a54fba81fa453a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Dempo Sports Club vs Namdhari FC - 2 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/DempoSpo0204/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775176584~acl=/*~id=77354367647601554490815190338892~hmac=0c74a551b4d77f3f604c3549c47c66d8a6c0467aab36d4a588a54fba81fa453a
