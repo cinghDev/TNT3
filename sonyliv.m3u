@@ -1,13 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Port Vale - Quarter-Final - 4 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775367007~acl=/*~id=75031065116682569186463378719015~hmac=6825d0f37bd176c5733819d4909e5a216b23b6d2b7ada756ddc8674914180ded
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Port Vale - Quarter-Final - 4 Apr 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/HIN/std_lrh-800300010.m3u8?hdnea=exp=1775367007~acl=/*~id=75031065116682569186463378719015~hmac=6825d0f37bd176c5733819d4909e5a216b23b6d2b7ada756ddc8674914180ded
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Port Vale - Quarter-Final - 4 Apr 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/TAM/std_lrh-800300010.m3u8?hdnea=exp=1775367007~acl=/*~id=75031065116682569186463378719015~hmac=6825d0f37bd176c5733819d4909e5a216b23b6d2b7ada756ddc8674914180ded
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Port Vale - Quarter-Final - 4 Apr 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/TEL/std_lrh-800300010.m3u8?hdnea=exp=1775367007~acl=/*~id=75031065116682569186463378719015~hmac=6825d0f37bd176c5733819d4909e5a216b23b6d2b7ada756ddc8674914180ded
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Port Vale - Quarter-Final - 4 Apr 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/ChelseaV0404/KAN/std_lrh-800300010.m3u8?hdnea=exp=1775367007~acl=/*~id=75031065116682569186463378719015~hmac=6825d0f37bd176c5733819d4909e5a216b23b6d2b7ada756ddc8674914180ded
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Southampton vs Arsenal - Quarter-Final - 5 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/Southamp0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775370044~acl=/*~id=91343521502246063939642115332106~hmac=a50a4a072d896216f800062366d8dc36269cc6835970ac567d96fbc18cdcc484
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",VfB Stuttgart vs Borussia Dortmund - MD 28 - 4 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000295/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775367007~acl=/*~id=75031065116682569186463378719015~hmac=6825d0f37bd176c5733819d4909e5a216b23b6d2b7ada756ddc8674914180ded
+https://sonydaimenew.akamaized.net/hls/live/20000295/Bundesli0404/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775370044~acl=/*~id=91343521502246063939642115332106~hmac=a50a4a072d896216f800062366d8dc36269cc6835970ac567d96fbc18cdcc484
