@@ -1,3 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Dempo Sports Club vs Aizawl FC - 11 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022319/DempoSpo1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775951825~acl=/*~id=53606722928792816586398562338057~hmac=76724620419ab0a4ac7a1cb33a0f4475809a547643311a34b3c0ace76c7a03a3
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Borussia Dortmund vs Bayer Leverkusen - MD 29 - 11 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775959115~acl=/*~id=20483889842127478935775573127001~hmac=80544e467b5077658528c7da377f280a1486f03639f6590971f0e60874f41c03
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Diamond Harbour FC vs Chanmari FC - 11 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/DiamondH1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775959115~acl=/*~id=20483889842127478935775573127001~hmac=80544e467b5077658528c7da377f280a1486f03639f6590971f0e60874f41c03
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",RB Leipzig vs Borussia Mönchengladbach - MD 29 - 11 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775959115~acl=/*~id=20483889842127478935775573127001~hmac=80544e467b5077658528c7da377f280a1486f03639f6590971f0e60874f41c03
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Heidenheim vs Union Berlin - MD 29 - 11 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775959115~acl=/*~id=20483889842127478935775573127001~hmac=80544e467b5077658528c7da377f280a1486f03639f6590971f0e60874f41c03
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Wolfsburg vs Eintracht Frankfurt - MD 29 - 11 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775959115~acl=/*~id=20483889842127478935775573127001~hmac=80544e467b5077658528c7da377f280a1486f03639f6590971f0e60874f41c03
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Goal Arena - MD 29 - 11 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/Bundesli1104/ENG/std_lrh-800300010.m3u8?hdnea=exp=1775959115~acl=/*~id=20483889842127478935775573127001~hmac=80544e467b5077658528c7da377f280a1486f03639f6590971f0e60874f41c03
