@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Namdhari FC vs Chanmari FC - 17 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/Namdhari1704/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776468479~acl=/*~id=21158781117743245568659391908058~hmac=346cb82a49f6cbc8612283186c57007806111d103d32e094ff55e99425694d1e
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Benfica vs Club Brugge - Semi-Final - Leg 1 - 17 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/Benfica_1704/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776468479~acl=/*~id=21158781117743245568659391908058~hmac=346cb82a49f6cbc8612283186c57007806111d103d32e094ff55e99425694d1e
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Benfica vs Club Brugge - Semi-Final - 17 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022320/Benfica_1704/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776472727~acl=/*~id=77720165079801768680021945894007~hmac=81c6806b87e105ca904fa286d4bca164cbf93813040800318e38e087aa7a480c
