@@ -1,3 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Diamond Harbour FC vs Gokulam Kerala FC - 18 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/Diamond_1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776555776~acl=/*~id=35788054445864855303466441831256~hmac=74db00256e4b5819f6bf7176e684179f741985153e073760da64fabdff2d8d51
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hoffenheim vs Borussia Dortmund - MD 30 - 18 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022318/BLIGA_Ho1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776560633~acl=/*~id=30290552078417848560881876340410~hmac=98fea8f73042cc72d722a12fb509d49173842e16d6044c1213530808f4f2bfd7
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bayer Leverkusen vs Augsburg - MD 30 - 18 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/BLIGA_Ba1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776560633~acl=/*~id=30290552078417848560881876340410~hmac=98fea8f73042cc72d722a12fb509d49173842e16d6044c1213530808f4f2bfd7
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Shillong Lajong FC vs Aizawl FC - 18 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/IFL_Shil1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776560633~acl=/*~id=30290552078417848560881876340410~hmac=98fea8f73042cc72d722a12fb509d49173842e16d6044c1213530808f4f2bfd7
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Goal Arena - MD 30 - 18 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/BLIGA_Go1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776560633~acl=/*~id=30290552078417848560881876340410~hmac=98fea8f73042cc72d722a12fb509d49173842e16d6044c1213530808f4f2bfd7
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Union Berlin vs Wolfsburg - MD 30 - 18 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/BLIGA_Un1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776560633~acl=/*~id=30290552078417848560881876340410~hmac=98fea8f73042cc72d722a12fb509d49173842e16d6044c1213530808f4f2bfd7
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Werder Bremen vs Hamburger SV - MD 30 - 18 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/BLIGA_We1804/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776560633~acl=/*~id=30290552078417848560881876340410~hmac=98fea8f73042cc72d722a12fb509d49173842e16d6044c1213530808f4f2bfd7
