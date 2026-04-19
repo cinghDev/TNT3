@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bayern Munich vs VfB Stuttgart - MD 30 - 19 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022322/BLIGA_Ba1904/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776658882~acl=/*~id=25656206533685687049258389476055~hmac=e3656903fde3dae012d1e53de4fea45abf3cdceeb585c428817e6b3f42e42dac
+https://sonydaimenew.akamaized.net/hls/live/2022322/BLIGA_Ba1904/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776661307~acl=/*~id=32311763613803528982103899435811~hmac=a599891bd049e7a76cabe5592c9dddb47ab67b826ce8ae686d0b8f369ff980a8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Borussia Mönchengladbach vs Mainz - MD 30 - 19 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/BLIGA_Bo1904/ENG/std_lrh-800300010.m3u8?hdnea=exp=1776661307~acl=/*~id=32311763613803528982103899435811~hmac=a599891bd049e7a76cabe5592c9dddb47ab67b826ce8ae686d0b8f369ff980a8
