@@ -1,1 +1,11 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Sterling vs Zalal  - 26 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000298/UFC_Figh2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777203913~acl=/*~id=78619041512399941552725447318176~hmac=86bda8d298b55a3cc8f1270202230cec4c55fbdc8554575b0032421cc29d4bc2
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Sterling vs Zalal  - 26 Apr 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/20000298/UFC_Figh2504/HIN/std_lrh-800300010.m3u8?hdnea=exp=1777203913~acl=/*~id=78619041512399941552725447318176~hmac=86bda8d298b55a3cc8f1270202230cec4c55fbdc8554575b0032421cc29d4bc2
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Sterling vs Zalal  - 26 Apr 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/20000298/UFC_Figh2504/TAM/std_lrh-800300010.m3u8?hdnea=exp=1777203913~acl=/*~id=78619041512399941552725447318176~hmac=86bda8d298b55a3cc8f1270202230cec4c55fbdc8554575b0032421cc29d4bc2
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Sterling vs Zalal  - 26 Apr 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/20000298/UFC_Figh2504/TEL/std_lrh-800300010.m3u8?hdnea=exp=1777203913~acl=/*~id=78619041512399941552725447318176~hmac=86bda8d298b55a3cc8f1270202230cec4c55fbdc8554575b0032421cc29d4bc2
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Sterling vs Zalal  - 26 Apr 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/20000298/UFC_Figh2504/KAN/std_lrh-800300010.m3u8?hdnea=exp=1777203913~acl=/*~id=78619041512399941552725447318176~hmac=86bda8d298b55a3cc8f1270202230cec4c55fbdc8554575b0032421cc29d4bc2
