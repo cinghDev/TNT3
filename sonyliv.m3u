@@ -1,15 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Mainz vs Bayern Munich - MD 31 - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000297/BLIGA_Ma2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",FC Koln vs Bayer Leverkusen - MD 31 - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000295/BLIGA_Ko2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chanmari FC vs Diamond Harbour FC - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/IFL_Chan2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Wolfsburg vs Borussia Monchengladbach - MD 31 - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000296/BLIGA_Wo2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Augsburg vs Eintracht Frankfurt - MD 31 - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/BLIGA_Au2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Heidenheim vs St. Pauli - MD 31 - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/BLIGA_He2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Goal Arena - MD 31 - 25 Apr 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/BLIGA_Go2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777165974~acl=/*~id=61231235730012375377741311907106~hmac=9700d56a22c85827a1f25de53202895a5b2b3ef154dff5470f1b8d785bf471ba
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Manchester City vs Southampton - Semi-Final - 25 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/FA_CUP_M2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777175712~acl=/*~id=60311382476551072625884074993305~hmac=16f79d19299b89b5215c41e632b52d6ab88b4276892ff734cf58ece3c7dde904
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Manchester City vs Southampton - Semi-Final - 25 Apr 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/FA_CUP_M2504/HIN/std_lrh-800300010.m3u8?hdnea=exp=1777175712~acl=/*~id=60311382476551072625884074993305~hmac=16f79d19299b89b5215c41e632b52d6ab88b4276892ff734cf58ece3c7dde904
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Manchester City vs Southampton - Semi-Final - 25 Apr 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/FA_CUP_M2504/TAM/std_lrh-800300010.m3u8?hdnea=exp=1777175712~acl=/*~id=60311382476551072625884074993305~hmac=16f79d19299b89b5215c41e632b52d6ab88b4276892ff734cf58ece3c7dde904
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Manchester City vs Southampton - Semi-Final - 25 Apr 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094588/FA_CUP_M2504/TEL/std_lrh-800300010.m3u8?hdnea=exp=1777175712~acl=/*~id=60311382476551072625884074993305~hmac=16f79d19299b89b5215c41e632b52d6ab88b4276892ff734cf58ece3c7dde904
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Manchester City vs Southampton - Semi-Final - 25 Apr 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/FA_CUP_M2504/KAN/std_lrh-800300010.m3u8?hdnea=exp=1777175712~acl=/*~id=60311382476551072625884074993305~hmac=16f79d19299b89b5215c41e632b52d6ab88b4276892ff734cf58ece3c7dde904
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hamburger SV vs Hoffenheim - MD 31 - 25 Apr 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/BLIGA_Ha2504/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777175712~acl=/*~id=60311382476551072625884074993305~hmac=16f79d19299b89b5215c41e632b52d6ab88b4276892ff734cf58ece3c7dde904
