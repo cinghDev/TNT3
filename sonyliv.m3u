@@ -1,13 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Bayern Munich vs Heidenheim - MD 32 - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/Bundesli0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777778748~acl=/*~id=71511226183178611232837221471839~hmac=8bb101b111e1ccdf403707fd6512dcfb8f9b45387cf28774c14b503098458460
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Eintracht Frankfurt vs Hamburger SV - MD 32 - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/BLIGA_Ei0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777778748~acl=/*~id=71511226183178611232837221471839~hmac=8bb101b111e1ccdf403707fd6512dcfb8f9b45387cf28774c14b503098458460
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Werder Bremen vs FC Augsburg - MD 32 - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/BLIGA_We0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777778748~acl=/*~id=71511226183178611232837221471839~hmac=8bb101b111e1ccdf403707fd6512dcfb8f9b45387cf28774c14b503098458460
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Union Berlin vs FC Koln - MD 32 - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/BLIGA_Un0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777778748~acl=/*~id=71511226183178611232837221471839~hmac=8bb101b111e1ccdf403707fd6512dcfb8f9b45387cf28774c14b503098458460
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hoffenheim vs VfB Stuttgart - MD 32 - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037141/BLIGA_Ho0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777778748~acl=/*~id=71511226183178611232837221471839~hmac=8bb101b111e1ccdf403707fd6512dcfb8f9b45387cf28774c14b503098458460
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Racing", Round 7 - Berlin E - Prix - Final Race - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022317/R7_Berli0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777778748~acl=/*~id=71511226183178611232837221471839~hmac=8bb101b111e1ccdf403707fd6512dcfb8f9b45387cf28774c14b503098458460
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football", Bayer Leverkusen vs RB Leipzig - MD 32 - 2 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022316/BLIGA_Ba0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777781199~acl=/*~id=40446289541012704410765516542029~hmac=cf00d3214ff3e709a97b4d74892d96cc32975390edd69794d7e09403f54eea9e
