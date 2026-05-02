@@ -1,5 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Della Maddalena vs Prates - 2 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037140/UFC_Dell0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777762805~acl=/*~id=59302618501769263830883647280773~hmac=fb84eb8d6a2ae42840e6bd8306b1d7aeba4d6475a5a1809316dd44e9dcb19ecd
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Della Maddalena vs Prates - 2 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037140/UFC_Dell0205/HIN/std_lrh-800300010.m3u8?hdnea=exp=1777762805~acl=/*~id=59302618501769263830883647280773~hmac=fb84eb8d6a2ae42840e6bd8306b1d7aeba4d6475a5a1809316dd44e9dcb19ecd
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Della Maddalena vs Prates - 2 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037140/UFC_Dell0205/TAM/std_lrh-800300010.m3u8?hdnea=exp=1777762805~acl=/*~id=59302618501769263830883647280773~hmac=fb84eb8d6a2ae42840e6bd8306b1d7aeba4d6475a5a1809316dd44e9dcb19ecd
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Della Maddalena vs Prates - 2 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2037140/UFC_Dell0205/TEL/std_lrh-800300010.m3u8?hdnea=exp=1777762805~acl=/*~id=59302618501769263830883647280773~hmac=fb84eb8d6a2ae42840e6bd8306b1d7aeba4d6475a5a1809316dd44e9dcb19ecd
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Della Maddalena vs Prates - 2 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2037140/UFC_Dell0205/KAN/std_lrh-800300010.m3u8?hdnea=exp=1777762805~acl=/*~id=59302618501769263830883647280773~hmac=fb84eb8d6a2ae42840e6bd8306b1d7aeba4d6475a5a1809316dd44e9dcb19ecd
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Racing",Round 7 - Berlin E - Prix - Qualifying Race - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/Formula_0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777759768~acl=/*~id=90594993191433335282143847562661~hmac=1dd9372e12bcabb3f8c19bb474ffd32d9ef0bcc45a41fa4d566bc24ab4c842d6
-#EXTINF:-1 tvg-name="LIV" group-title="Golf", Turkish Airlines Open - Day 3 - 2 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022320/TurkishA0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777759768~acl=/*~id=90594993191433335282143847562661~hmac=1dd9372e12bcabb3f8c19bb474ffd32d9ef0bcc45a41fa4d566bc24ab4c842d6
+https://sonydaimenew.akamaized.net/hls/live/2018458/Formula_0205/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777762805~acl=/*~id=59302618501769263830883647280773~hmac=fb84eb8d6a2ae42840e6bd8306b1d7aeba4d6475a5a1809316dd44e9dcb19ecd
