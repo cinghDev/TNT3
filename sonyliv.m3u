@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="LIV" group-title="Golf", Turkish Airlines Open - Day 4 - 3 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/DP_World0305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777839676~acl=/*~id=15803475918902143622679826847235~hmac=bf92b4aa0af44976fa0abcf5a660a42735e50d2353c0a4f3b9e80c58eec8861d
+https://sonydaimenew.akamaized.net/hls/live/2094588/DP_World0305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777844534~acl=/*~id=77095047650448414397854176421381~hmac=3cebb2befcdf582bd4d3b7080e2dce3596fd0cf3c872ef605d2bf50c517a41d5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Racing", Round 8 - Berlin E - Prix - Qualifying Race - 3 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/R8_Berli0305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777844534~acl=/*~id=77095047650448414397854176421381~hmac=3cebb2befcdf582bd4d3b7080e2dce3596fd0cf3c872ef605d2bf50c517a41d5
