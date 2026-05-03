@@ -1,1 +1,7 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Diamond Harbour FC vs Sreenidi Deccan FC - 3 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037142/INDIAN_F0305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777858513~acl=/*~id=96493307344271862988791351303207~hmac=8be037896e6d5a6601c454d4248ea2b05970810dcc1ab063eb165e4a99e61541
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",FC St. Pauli vs FSV Mainz - MD 32 - 3 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2105080/StPauli_0305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777858513~acl=/*~id=96493307344271862988791351303207~hmac=8be037896e6d5a6601c454d4248ea2b05970810dcc1ab063eb165e4a99e61541
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Racing", Round 8 - Berlin E - Prix - Final Race - 3 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037143/Formula_0305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1777858513~acl=/*~id=96493307344271862988791351303207~hmac=8be037896e6d5a6601c454d4248ea2b05970810dcc1ab063eb165e4a99e61541
