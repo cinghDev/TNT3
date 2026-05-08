@@ -1,3 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Borussia Dortmund vs Frankfurt - MD 33 - 08 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/BLIGA_Bo0805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778305939~acl=/*~id=42845721728620989408134438994417~hmac=c1743313050761c945fd8a79ec7fe35ff33f81e5018ecedba21e51b8a85f047b
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Virginia - Day 2 - 8 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/LIV_Golf0805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778301519~acl=/*~id=76548763693539419412247270605599~hmac=4514154aa4701b4ae29985b60716e565cc5bf771a1bbfb886b008a93c1c6a80d
+https://sonydaimenew.akamaized.net/hls/live/2018457/LIV_Golf0805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778305939~acl=/*~id=42845721728620989408134438994417~hmac=c1743313050761c945fd8a79ec7fe35ff33f81e5018ecedba21e51b8a85f047b
