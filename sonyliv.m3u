@@ -1,3 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Virginia - Day 3 - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/LivGolf_0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778407368~acl=/*~id=91568360074282455189083472812667~hmac=5d09d3767e928dd4cc1036d1ab30093791afaa714fd4f667fba96443dcc8c512
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778411007~acl=/*~id=02272470018079506917345433072498~hmac=c7c4b55be2e65e031d432b82451fb7450c9e4c060375cb93b288613e017f7739
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/HIN/std_lrh-800300010.m3u8?hdnea=exp=1778411007~acl=/*~id=02272470018079506917345433072498~hmac=c7c4b55be2e65e031d432b82451fb7450c9e4c060375cb93b288613e017f7739
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/TAM/std_lrh-800300010.m3u8?hdnea=exp=1778411007~acl=/*~id=02272470018079506917345433072498~hmac=c7c4b55be2e65e031d432b82451fb7450c9e4c060375cb93b288613e017f7739
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/TEL/std_lrh-800300010.m3u8?hdnea=exp=1778411007~acl=/*~id=02272470018079506917345433072498~hmac=c7c4b55be2e65e031d432b82451fb7450c9e4c060375cb93b288613e017f7739
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/KAN/std_lrh-800300010.m3u8?hdnea=exp=1778411007~acl=/*~id=02272470018079506917345433072498~hmac=c7c4b55be2e65e031d432b82451fb7450c9e4c060375cb93b288613e017f7739
