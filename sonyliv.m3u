@@ -1,13 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",VfB Stuttgart vs Bayer Leverkusen - MD 33 - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000296/Bliga_Vf0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778381859~acl=/*~id=21143804798484719849314986343348~hmac=dbbfb3722001c201ce9a73009010b128d4449e8ac4727666ea7082eb5a79df6f
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chanmari FC vs Dempo Sports Club - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/IFL_Chan0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778381859~acl=/*~id=21143804798484719849314986343348~hmac=dbbfb3722001c201ce9a73009010b128d4449e8ac4727666ea7082eb5a79df6f
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",RB Leipzig vs St Pauli - MD 33 - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/Bliga_Rb0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778381859~acl=/*~id=21143804798484719849314986343348~hmac=dbbfb3722001c201ce9a73009010b128d4449e8ac4727666ea7082eb5a79df6f
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hoffenheim vs Werder Bremen - MD 33 - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Blinga_H0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778381859~acl=/*~id=21143804798484719849314986343348~hmac=dbbfb3722001c201ce9a73009010b128d4449e8ac4727666ea7082eb5a79df6f
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Augsburg vs Borussia Mönchengladbach - MD 33 - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000297/Bliga_Au0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778381859~acl=/*~id=21143804798484719849314986343348~hmac=dbbfb3722001c201ce9a73009010b128d4449e8ac4727666ea7082eb5a79df6f
-#EXTINF:-1 tvg-name="LIV" group-title="Golf", Estrella Damm Catalunya Championship - Day 3 - 9 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/Cataluny0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778381859~acl=/*~id=21143804798484719849314986343348~hmac=dbbfb3722001c201ce9a73009010b128d4449e8ac4727666ea7082eb5a79df6f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Wolfsburg vs Bayern Munich - MD 33 - 9 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/Bliga_Wo0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778385512~acl=/*~id=97738391576627375912019210279120~hmac=02f845f1006520d73937c88a7f9fc0b0f0e1ea5602467b879ca70b52a8fbcb0a
