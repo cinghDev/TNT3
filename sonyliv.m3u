@@ -1,13 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778429313~acl=/*~id=88623140610707469621584981753465~hmac=8b1ea88da75d64e78bcabf87e445e4d30b0c27c0b1ab0f736121e9295c414aef
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/HIN/std_lrh-800300010.m3u8?hdnea=exp=1778429313~acl=/*~id=88623140610707469621584981753465~hmac=8b1ea88da75d64e78bcabf87e445e4d30b0c27c0b1ab0f736121e9295c414aef
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/TAM/std_lrh-800300010.m3u8?hdnea=exp=1778429313~acl=/*~id=88623140610707469621584981753465~hmac=8b1ea88da75d64e78bcabf87e445e4d30b0c27c0b1ab0f736121e9295c414aef
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/TEL/std_lrh-800300010.m3u8?hdnea=exp=1778429313~acl=/*~id=88623140610707469621584981753465~hmac=8b1ea88da75d64e78bcabf87e445e4d30b0c27c0b1ab0f736121e9295c414aef
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC 328 - Chimaev vs Strickland - 10 May 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UFC_328_0905/KAN/std_lrh-800300010.m3u8?hdnea=exp=1778429313~acl=/*~id=88623140610707469621584981753465~hmac=8b1ea88da75d64e78bcabf87e445e4d30b0c27c0b1ab0f736121e9295c414aef
-#EXTINF:-1 tvg-name="LIV" group-title="Archery",Recurve Team finals - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000298/Archery_1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778429313~acl=/*~id=88623140610707469621584981753465~hmac=8b1ea88da75d64e78bcabf87e445e4d30b0c27c0b1ab0f736121e9295c414aef
+#EXTINF:-1 tvg-name="LIV" group-title="Archery",Recurve Individual final fours - 10 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/Recurve_1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778439623~acl=/*~id=16432986434922079845858599073119~hmac=7b76fef37d89f26aa20445c86be9b5bf865ccc00069352b0e5a2ad5670bc8c34
