@@ -1,7 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 10 May 2026  [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/criclive1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778472424~acl=/*~id=99284576897811871819140927332968~hmac=79ab955cdc1aef82b226b10c4db258786fc19789abcf2786e7f6cb3df656f7a5
+https://sonydaimenew.akamaized.net/hls/live/20000291/criclive1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778475581~acl=/*~id=20285215124345177810594685996094~hmac=55eac3fff96d232be7d82ac73d4042bc55a554c5d0bd72cab11413f7695b527f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Mainz vs Union Berlin - MD 33 - 10 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/Bliga_Ma1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778475581~acl=/*~id=20285215124345177810594685996094~hmac=55eac3fff96d232be7d82ac73d4042bc55a554c5d0bd72cab11413f7695b527f
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",FC Koln vs Heidenheim - MD 33 - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Bliga_FC1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778472424~acl=/*~id=99284576897811871819140927332968~hmac=79ab955cdc1aef82b226b10c4db258786fc19789abcf2786e7f6cb3df656f7a5
+https://sonydaimenew.akamaized.net/hls/live/2005445/Bliga_FC1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778475581~acl=/*~id=20285215124345177810594685996094~hmac=55eac3fff96d232be7d82ac73d4042bc55a554c5d0bd72cab11413f7695b527f
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Virginia - Day 4 - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/Virginia1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778472424~acl=/*~id=99284576897811871819140927332968~hmac=79ab955cdc1aef82b226b10c4db258786fc19789abcf2786e7f6cb3df656f7a5
+https://sonydaimenew.akamaized.net/hls/live/2094588/Virginia1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778475581~acl=/*~id=20285215124345177810594685996094~hmac=55eac3fff96d232be7d82ac73d4042bc55a554c5d0bd72cab11413f7695b527f
