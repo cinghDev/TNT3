@@ -1,9 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st ODI - 10 May 2026  [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/criclive1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778465109~acl=/*~id=24358584688480192130008564217403~hmac=eaef5a4a6e97a28247911fab1f9f09a38402b1305b6aafc9fec0a25cdaea3c85
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sreenidi Deccan FC vs Shillong Lajong FC - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/Sreenidi1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778465109~acl=/*~id=24358584688480192130008564217403~hmac=eaef5a4a6e97a28247911fab1f9f09a38402b1305b6aafc9fec0a25cdaea3c85
+https://sonydaimenew.akamaized.net/hls/live/20000291/criclive1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778468756~acl=/*~id=21295968083101129444361005043611~hmac=dd70cec279017b7cfce84a59dffdad8bdcb386ec9f297ca2b89eccb7965bfefe
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hamburger SV vs Freiburg - MD 33 - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/Bliga_Ha1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778465109~acl=/*~id=24358584688480192130008564217403~hmac=eaef5a4a6e97a28247911fab1f9f09a38402b1305b6aafc9fec0a25cdaea3c85
+https://sonydaimenew.akamaized.net/hls/live/2094589/Bliga_Ha1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778468756~acl=/*~id=21295968083101129444361005043611~hmac=dd70cec279017b7cfce84a59dffdad8bdcb386ec9f297ca2b89eccb7965bfefe
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",FC Koln vs Heidenheim - MD 33 - 10 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/Bliga_FC1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778468756~acl=/*~id=21295968083101129444361005043611~hmac=dd70cec279017b7cfce84a59dffdad8bdcb386ec9f297ca2b89eccb7965bfefe
 #EXTINF:-1 tvg-name="LIV" group-title="Golf", Estrella Damm Catalunya Championship - Day 4 - 10 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000299/Cataluny1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778465109~acl=/*~id=24358584688480192130008564217403~hmac=eaef5a4a6e97a28247911fab1f9f09a38402b1305b6aafc9fec0a25cdaea3c85
+https://sonydaimenew.akamaized.net/hls/live/20000299/Cataluny1005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778468756~acl=/*~id=21295968083101129444361005043611~hmac=dd70cec279017b7cfce84a59dffdad8bdcb386ec9f297ca2b89eccb7965bfefe
