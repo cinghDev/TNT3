@@ -1,3 +1,13 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Manchester City - Final - 16 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/FACUP_Ch1605/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778978669~acl=/*~id=84435013892553070522029221474302~hmac=057e248e6776d6ab8a72a0dfe1bf41c601e16df379855971f9237b6de9e857e8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Manchester City - Final - 16 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2005445/FACUP_Ch1605/HIN/std_lrh-800300010.m3u8?hdnea=exp=1778978669~acl=/*~id=84435013892553070522029221474302~hmac=057e248e6776d6ab8a72a0dfe1bf41c601e16df379855971f9237b6de9e857e8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Manchester City - Final - 16 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005445/FACUP_Ch1605/TAM/std_lrh-800300010.m3u8?hdnea=exp=1778978669~acl=/*~id=84435013892553070522029221474302~hmac=057e248e6776d6ab8a72a0dfe1bf41c601e16df379855971f9237b6de9e857e8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Manchester City - Final - 16 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2005445/FACUP_Ch1605/TEL/std_lrh-800300010.m3u8?hdnea=exp=1778978669~acl=/*~id=84435013892553070522029221474302~hmac=057e248e6776d6ab8a72a0dfe1bf41c601e16df379855971f9237b6de9e857e8
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Chelsea vs Manchester City - Final - 16 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2005445/FACUP_Ch1605/KAN/std_lrh-800300010.m3u8?hdnea=exp=1778978669~acl=/*~id=84435013892553070522029221474302~hmac=057e248e6776d6ab8a72a0dfe1bf41c601e16df379855971f9237b6de9e857e8
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd ODI - 16 May 2026  [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/EngW_vs_1605/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778974420~acl=/*~id=41698935028448692630219439687170~hmac=218e75792564d6fae962e4d41c88e66c75ae3426ea643de1b2f819b7b2f7a492
+https://sonydaimenew.akamaized.net/hls/live/20000293/EngW_vs_1605/ENG/std_lrh-800300010.m3u8?hdnea=exp=1778978669~acl=/*~id=84435013892553070522029221474302~hmac=057e248e6776d6ab8a72a0dfe1bf41c601e16df379855971f9237b6de9e857e8
