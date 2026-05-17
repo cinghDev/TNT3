@@ -1,1 +1,11 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Allen vs Costa - 17 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2037139/UFC_Figh1605/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779019316~acl=/*~id=44462925289940840085012395836480~hmac=728301b3eb0ec9df9017211fcb25bac20f0cd3e43ffe9225c2dc16d8f512469a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Allen vs Costa - 17 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/UFC_Figh1605/HIN/std_lrh-800300010.m3u8?hdnea=exp=1779019316~acl=/*~id=44462925289940840085012395836480~hmac=728301b3eb0ec9df9017211fcb25bac20f0cd3e43ffe9225c2dc16d8f512469a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Allen vs Costa - 17 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2037139/UFC_Figh1605/TAM/std_lrh-800300010.m3u8?hdnea=exp=1779019316~acl=/*~id=44462925289940840085012395836480~hmac=728301b3eb0ec9df9017211fcb25bac20f0cd3e43ffe9225c2dc16d8f512469a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Allen vs Costa - 17 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2037139/UFC_Figh1605/TEL/std_lrh-800300010.m3u8?hdnea=exp=1779019316~acl=/*~id=44462925289940840085012395836480~hmac=728301b3eb0ec9df9017211fcb25bac20f0cd3e43ffe9225c2dc16d8f512469a
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Allen vs Costa - 17 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2037139/UFC_Figh1605/KAN/std_lrh-800300010.m3u8?hdnea=exp=1779019316~acl=/*~id=44462925289940840085012395836480~hmac=728301b3eb0ec9df9017211fcb25bac20f0cd3e43ffe9225c2dc16d8f512469a
