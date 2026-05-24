@@ -1,1 +1,11 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Sport",Saturday Night's Main Event - 24 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/WWE_Satu2305/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779624880~acl=/*~id=36833346779216182326347890251931~hmac=164f735d93910b68e385502b767b7a382163da2effdb5e001bad529dd0adea36
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Sport",Saturday Night's Main Event - 24 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/WWE_Satu2305/HIN/std_lrh-800300010.m3u8?hdnea=exp=1779624880~acl=/*~id=36833346779216182326347890251931~hmac=164f735d93910b68e385502b767b7a382163da2effdb5e001bad529dd0adea36
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Sport",Saturday Night's Main Event - 24 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/WWE_Satu2305/TAM/std_lrh-800300010.m3u8?hdnea=exp=1779624880~acl=/*~id=36833346779216182326347890251931~hmac=164f735d93910b68e385502b767b7a382163da2effdb5e001bad529dd0adea36
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Sport",Saturday Night's Main Event - 24 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094588/WWE_Satu2305/TEL/std_lrh-800300010.m3u8?hdnea=exp=1779624880~acl=/*~id=36833346779216182326347890251931~hmac=164f735d93910b68e385502b767b7a382163da2effdb5e001bad529dd0adea36
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Sport",Saturday Night's Main Event - 24 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/WWE_Satu2305/KAN/std_lrh-800300010.m3u8?hdnea=exp=1779624880~acl=/*~id=36833346779216182326347890251931~hmac=164f735d93910b68e385502b767b7a382163da2effdb5e001bad529dd0adea36
