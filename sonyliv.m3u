@@ -1,11 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Oksana Selekhmeteva - Round 1 - 24 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779658813~acl=/*~id=85136069641420695054682696164451~hmac=6cc4eb6f734b69162989bebc63f9e5b0bf521831e9516a460272faca94e9080d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Oksana Selekhmeteva - Round 1 - 24 May 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/HIN/std_lrh-800300010.m3u8?hdnea=exp=1779658813~acl=/*~id=85136069641420695054682696164451~hmac=6cc4eb6f734b69162989bebc63f9e5b0bf521831e9516a460272faca94e9080d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Oksana Selekhmeteva - Round 1 - 24 May 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/TAM/std_lrh-800300010.m3u8?hdnea=exp=1779658813~acl=/*~id=85136069641420695054682696164451~hmac=6cc4eb6f734b69162989bebc63f9e5b0bf521831e9516a460272faca94e9080d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Oksana Selekhmeteva - Round 1 - 24 May 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/TEL/std_lrh-800300010.m3u8?hdnea=exp=1779658813~acl=/*~id=85136069641420695054682696164451~hmac=6cc4eb6f734b69162989bebc63f9e5b0bf521831e9516a460272faca94e9080d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Oksana Selekhmeteva - Round 1 - 24 May 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/KAN/std_lrh-800300010.m3u8?hdnea=exp=1779658813~acl=/*~id=85136069641420695054682696164451~hmac=6cc4eb6f734b69162989bebc63f9e5b0bf521831e9516a460272faca94e9080d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sinja Kraus vs Belinda Bencic - Round 1 - 24 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779663666~acl=/*~id=64480345682226388200797262026625~hmac=d0d5ddf7cda3d8403d5e5ac0f514533a381c9a8bef33bb78da0893c60d7c9784
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sinja Kraus vs Belinda Bencic - Round 1 - 24 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/HIN/std_lrh-800300010.m3u8?hdnea=exp=1779663666~acl=/*~id=64480345682226388200797262026625~hmac=d0d5ddf7cda3d8403d5e5ac0f514533a381c9a8bef33bb78da0893c60d7c9784
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sinja Kraus vs Belinda Bencic - Round 1 - 24 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/TAM/std_lrh-800300010.m3u8?hdnea=exp=1779663666~acl=/*~id=64480345682226388200797262026625~hmac=d0d5ddf7cda3d8403d5e5ac0f514533a381c9a8bef33bb78da0893c60d7c9784
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sinja Kraus vs Belinda Bencic - Round 1 - 24 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/TEL/std_lrh-800300010.m3u8?hdnea=exp=1779663666~acl=/*~id=64480345682226388200797262026625~hmac=d0d5ddf7cda3d8403d5e5ac0f514533a381c9a8bef33bb78da0893c60d7c9784
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Sinja Kraus vs Belinda Bencic - Round 1 - 24 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2022315/Roland_G2405/KAN/std_lrh-800300010.m3u8?hdnea=exp=1779663666~acl=/*~id=64480345682226388200797262026625~hmac=d0d5ddf7cda3d8403d5e5ac0f514533a381c9a8bef33bb78da0893c60d7c9784
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Middlesex vs Surrey - 24 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/Cricket_2405/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779663666~acl=/*~id=64480345682226388200797262026625~hmac=d0d5ddf7cda3d8403d5e5ac0f514533a381c9a8bef33bb78da0893c60d7c9784
