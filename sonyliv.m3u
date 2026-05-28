@@ -1,13 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 5 - Round 2 - 28 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779999159~acl=/*~id=59641262620328576078996980361677~hmac=f2a80f1952426e5abc0bdec379ce46e29ad3d95f895e0ff396f55878b1e4845f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 5 - Round 2 - 28 May 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi2805/HIN/std_lrh-800300010.m3u8?hdnea=exp=1779999159~acl=/*~id=59641262620328576078996980361677~hmac=f2a80f1952426e5abc0bdec379ce46e29ad3d95f895e0ff396f55878b1e4845f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 5 - Round 2 - 28 May 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi2805/TAM/std_lrh-800300010.m3u8?hdnea=exp=1779999159~acl=/*~id=59641262620328576078996980361677~hmac=f2a80f1952426e5abc0bdec379ce46e29ad3d95f895e0ff396f55878b1e4845f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 5 - Round 2 - 28 May 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi2805/TEL/std_lrh-800300010.m3u8?hdnea=exp=1779999159~acl=/*~id=59641262620328576078996980361677~hmac=f2a80f1952426e5abc0bdec379ce46e29ad3d95f895e0ff396f55878b1e4845f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 5 - Round 2 - 28 May 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi2805/KAN/std_lrh-800300010.m3u8?hdnea=exp=1779999159~acl=/*~id=59641262620328576078996980361677~hmac=f2a80f1952426e5abc0bdec379ce46e29ad3d95f895e0ff396f55878b1e4845f
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",South Korea - Day 1 - 28 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/Golf_Sou2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1779999159~acl=/*~id=59641262620328576078996980361677~hmac=f2a80f1952426e5abc0bdec379ce46e29ad3d95f895e0ff396f55878b1e4845f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jannik Sinner vs Juan Manuel Cerundolo - Men's Singles - 28 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/RG_PC_DA2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780011901~acl=/*~id=45029806447673817151469747460441~hmac=22599562aae417414327605a1da1a89f7e4f42b42b8b7e0274ca8ef30064d342
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",Austrian Alpine Open - Day 1 - 28 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000293/DP_World2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780011901~acl=/*~id=45029806447673817151469747460441~hmac=22599562aae417414327605a1da1a89f7e4f42b42b8b7e0274ca8ef30064d342
