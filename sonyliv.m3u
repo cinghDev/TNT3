@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jannik Sinner vs Juan Manuel Cerundolo - Men's Singles - 28 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/RG_PC_DA2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780011901~acl=/*~id=45029806447673817151469747460441~hmac=22599562aae417414327605a1da1a89f7e4f42b42b8b7e0274ca8ef30064d342
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Austrian Alpine Open - Day 1 - 28 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/DP_World2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780011901~acl=/*~id=45029806447673817151469747460441~hmac=22599562aae417414327605a1da1a89f7e4f42b42b8b7e0274ca8ef30064d342
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Coco Gauff vs Maiar Sherif Ahmed Abdelaziz - Women's Singles - 28 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/RG_Day5_2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780027658~acl=/*~id=36952547232260559948349701829805~hmac=08c3e4c84dd7e14e14f5025b9545371e70a4e97d9cf087ba3b94704d44ed5781
