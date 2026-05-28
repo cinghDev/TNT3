@@ -1,13 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st T20I - 28 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000295/EnglandW2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780044650~acl=/*~id=50004747229835906043072033168919~hmac=cdedf1adb49842c2241cd196cf81784d46595944304d554cc524b5e0fcef1791
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st T20I - 28 May 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/20000295/EnglandW2805/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780044650~acl=/*~id=50004747229835906043072033168919~hmac=cdedf1adb49842c2241cd196cf81784d46595944304d554cc524b5e0fcef1791
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st T20I - 28 May 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/20000295/EnglandW2805/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780044650~acl=/*~id=50004747229835906043072033168919~hmac=cdedf1adb49842c2241cd196cf81784d46595944304d554cc524b5e0fcef1791
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st T20I - 28 May 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/20000295/EnglandW2805/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780044650~acl=/*~id=50004747229835906043072033168919~hmac=cdedf1adb49842c2241cd196cf81784d46595944304d554cc524b5e0fcef1791
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st T20I - 28 May 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/20000295/EnglandW2805/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780044650~acl=/*~id=50004747229835906043072033168919~hmac=cdedf1adb49842c2241cd196cf81784d46595944304d554cc524b5e0fcef1791
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Matteo Arnaldi vs Stefanos Tsitsipas - Men's Singles - 28 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022315/RG_C14_D2805/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780044650~acl=/*~id=50004747229835906043072033168919~hmac=cdedf1adb49842c2241cd196cf81784d46595944304d554cc524b5e0fcef1791
