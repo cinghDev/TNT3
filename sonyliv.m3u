@@ -1,5 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Nuno Borges vs Andrey Rublev - Round 3 - 29 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2022316/RG_Day6_2905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780098558~acl=/*~id=27255081568989971765175450715942~hmac=bda0b41b3656068bfd9535acd593a1034d5281258e5519dba0bc060345d8febf
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",Shi Ming vs Puja Tomar - Day 2 - 29 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000299/RoadtoUF2905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780098558~acl=/*~id=27255081568989971765175450715942~hmac=bda0b41b3656068bfd9535acd593a1034d5281258e5519dba0bc060345d8febf
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Joao Fonseca vs Novak Djokovic - Round 3 - 29 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_MULTI2905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780122848~acl=/*~id=55682007671261522568424460589636~hmac=de9ef5ce9f378094b1f2e85aaeac6450ea93391f1df60d2e8d14847903ba7b92
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Joao Fonseca vs Novak Djokovic - Round 3 - 29 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_MULTI2905/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780122848~acl=/*~id=55682007671261522568424460589636~hmac=de9ef5ce9f378094b1f2e85aaeac6450ea93391f1df60d2e8d14847903ba7b92
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Joao Fonseca vs Novak Djokovic - Round 3 - 29 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_MULTI2905/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780122848~acl=/*~id=55682007671261522568424460589636~hmac=de9ef5ce9f378094b1f2e85aaeac6450ea93391f1df60d2e8d14847903ba7b92
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Joao Fonseca vs Novak Djokovic - Round 3 - 29 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_MULTI2905/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780122848~acl=/*~id=55682007671261522568424460589636~hmac=de9ef5ce9f378094b1f2e85aaeac6450ea93391f1df60d2e8d14847903ba7b92
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Joao Fonseca vs Novak Djokovic - Round 3 - 29 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_MULTI2905/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780122848~acl=/*~id=55682007671261522568424460589636~hmac=de9ef5ce9f378094b1f2e85aaeac6450ea93391f1df60d2e8d14847903ba7b92
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Worcestershire vs Warwickshire - 29 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/Vitality2905/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780122848~acl=/*~id=55682007671261522568424460589636~hmac=de9ef5ce9f378094b1f2e85aaeac6450ea93391f1df60d2e8d14847903ba7b92
