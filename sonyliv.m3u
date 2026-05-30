@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Iva Jovic vs Naomi Osaka - Women's Singles - 30 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Suzan3005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780176180~acl=/*~id=54424175301034909828493448558616~hmac=6b5338b7438e79f144dd5a7cd0d01c529466b252d5dc677bce4e788a16f43e23
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Suzan3005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780182237~acl=/*~id=06113631691716483437104626452314~hmac=13df4178cfd64255b751d6646547877643c803071bdfe333aa1a3f0d7d79cb45
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Fight Sports",UFC Fight Night - Song vs Figueiredo - 30 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/UFC_FN_S3005/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780182237~acl=/*~id=06113631691716483437104626452314~hmac=13df4178cfd64255b751d6646547877643c803071bdfe333aa1a3f0d7d79cb45
