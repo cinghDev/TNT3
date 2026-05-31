@@ -1,3 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Court Suzanne Lenglen - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/RG_SL_Da3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780291572~acl=/*~id=59871655212635116816452403271298~hmac=f622195177ceb71730756507b4e8245daab8391a3e4f67ab2f9922079460d292
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Casper Ruud vs Joao Fonseca - Round 4 - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780304962~acl=/*~id=07315111645463059728092953423576~hmac=1f355fff40ea151dcfdb0d0351f47c63dc384a25de07de193d38df6451df3313
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Casper Ruud vs Joao Fonseca - Round 4 - 31 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780304962~acl=/*~id=07315111645463059728092953423576~hmac=1f355fff40ea151dcfdb0d0351f47c63dc384a25de07de193d38df6451df3313
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Casper Ruud vs Joao Fonseca - Round 4 - 31 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780304962~acl=/*~id=07315111645463059728092953423576~hmac=1f355fff40ea151dcfdb0d0351f47c63dc384a25de07de193d38df6451df3313
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Casper Ruud vs Joao Fonseca - Round 4 - 31 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780304962~acl=/*~id=07315111645463059728092953423576~hmac=1f355fff40ea151dcfdb0d0351f47c63dc384a25de07de193d38df6451df3313
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Casper Ruud vs Joao Fonseca - Round 4 - 31 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780304962~acl=/*~id=07315111645463059728092953423576~hmac=1f355fff40ea151dcfdb0d0351f47c63dc384a25de07de193d38df6451df3313
