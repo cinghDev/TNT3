@@ -1,13 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Austrian Alpine Open - Day 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/Austrian3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Women's Singles - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_DAY8_3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780275160~acl=/*~id=99258640095424691581848324383156~hmac=ede79907f236d6902380fc2ca39056492cf932af0fb7bf4248da617b0fcbe04b
