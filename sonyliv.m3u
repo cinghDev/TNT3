@@ -1,3 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Women's Singles - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_DAY8_3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780275160~acl=/*~id=99258640095424691581848324383156~hmac=ede79907f236d6902380fc2ca39056492cf932af0fb7bf4248da617b0fcbe04b
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jesper de Jong vs Alexander Zverev - Round 4 - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780281854~acl=/*~id=28967050344572004265402274670022~hmac=ce0fabbc4bdd8a814bcb65da92f381c9926a9a64c4eaa19daaf236b6e179a833
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jesper de Jong vs Alexander Zverev - Round 4 - 31 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780281854~acl=/*~id=28967050344572004265402274670022~hmac=ce0fabbc4bdd8a814bcb65da92f381c9926a9a64c4eaa19daaf236b6e179a833
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jesper de Jong vs Alexander Zverev - Round 4 - 31 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780281854~acl=/*~id=28967050344572004265402274670022~hmac=ce0fabbc4bdd8a814bcb65da92f381c9926a9a64c4eaa19daaf236b6e179a833
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jesper de Jong vs Alexander Zverev - Round 4 - 31 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780281854~acl=/*~id=28967050344572004265402274670022~hmac=ce0fabbc4bdd8a814bcb65da92f381c9926a9a64c4eaa19daaf236b6e179a833
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jesper de Jong vs Alexander Zverev - Round 4 - 31 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780281854~acl=/*~id=28967050344572004265402274670022~hmac=ce0fabbc4bdd8a814bcb65da92f381c9926a9a64c4eaa19daaf236b6e179a833
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Warwickshire vs Northampton - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000300/Vitality3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780281854~acl=/*~id=28967050344572004265402274670022~hmac=ce0fabbc4bdd8a814bcb65da92f381c9926a9a64c4eaa19daaf236b6e179a833
