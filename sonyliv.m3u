@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",South Korea - Day 4 - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/LIVGolf_3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780252085~acl=/*~id=68694444901269614889058495798996~hmac=eba80c712c368f45e7bddda938b067e744a53069335a7d23c8fd8040a792a130
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",Austrian Alpine Open - Day 4 - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000293/Austrian3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780252085~acl=/*~id=68694444901269614889058495798996~hmac=eba80c712c368f45e7bddda938b067e744a53069335a7d23c8fd8040a792a130
