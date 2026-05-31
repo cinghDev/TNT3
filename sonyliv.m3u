@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Mirra Andreeva vs Jil Teichmann - Women's Singles - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018458/RG_SL_Da3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780287323~acl=/*~id=56959038237355102638814552420349~hmac=ffe76547e52913ec2f45a79b4ced9bcc2222756f151734cb6d56917309c704b0
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Warwickshire vs Northampton - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000300/Vitality3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780287323~acl=/*~id=56959038237355102638814552420349~hmac=ffe76547e52913ec2f45a79b4ced9bcc2222756f151734cb6d56917309c704b0
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Court Suzanne Lenglen - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018458/RG_SL_Da3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780291572~acl=/*~id=59871655212635116816452403271298~hmac=f622195177ceb71730756507b4e8245daab8391a3e4f67ab2f9922079460d292
