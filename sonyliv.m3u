@@ -1,5 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",South Korea - Day 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/LIVGolf_3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780252085~acl=/*~id=68694444901269614889058495798996~hmac=eba80c712c368f45e7bddda938b067e744a53069335a7d23c8fd8040a792a130
+https://sonydaimenew.akamaized.net/hls/live/20000292/LIVGolf_3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Austrian Alpine Open - Day 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/Austrian3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780252085~acl=/*~id=68694444901269614889058495798996~hmac=eba80c712c368f45e7bddda938b067e744a53069335a7d23c8fd8040a792a130
+https://sonydaimenew.akamaized.net/hls/live/20000293/Austrian3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
