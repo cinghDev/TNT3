@@ -1,15 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Marta Kostyuk vs Iga Swiatek - Round 4 - 31 May 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",South Korea - Day 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/LIVGolf_3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Elina Svitolina vs Belinda Bencic - Round 4 - 31 May 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi3105/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Austrian Alpine Open - Day 4 - 31 May 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/Austrian3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780263020~acl=/*~id=25246236045196373759566898856902~hmac=26781de256faaefa10a204c160389ce434709a8b9905b198450c8b0e428f37ab
+https://sonydaimenew.akamaized.net/hls/live/20000293/Austrian3105/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780269099~acl=/*~id=69564106013983691535958532254748~hmac=0560d7bfc85d015a578518dd1ee1818e7164dab12a30ff8cb129d72fc9440456
