@@ -1,3 +1,11 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Madison Keys vs Diana Shnaider - Women's Singles - 01 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_SL_Da0106/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780362555~acl=/*~id=70794614740842257745671419038572~hmac=5208235047b8d00761022e4c036330bf42452ede98a31c29bfd042fa6ded4fb5
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Naomi Osaka - Round 4 - 1 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_Multi0106/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780383166~acl=/*~id=74738730121402573419985425812017~hmac=8a8b49bfae9d78a7dd8bc85e9fab81e50238f01becb60c6722005d52ff39f95d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Naomi Osaka - Round 4 - 1 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_Multi0106/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780383166~acl=/*~id=74738730121402573419985425812017~hmac=8a8b49bfae9d78a7dd8bc85e9fab81e50238f01becb60c6722005d52ff39f95d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Naomi Osaka - Round 4 - 1 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_Multi0106/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780383166~acl=/*~id=74738730121402573419985425812017~hmac=8a8b49bfae9d78a7dd8bc85e9fab81e50238f01becb60c6722005d52ff39f95d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Naomi Osaka - Round 4 - 1 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_Multi0106/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780383166~acl=/*~id=74738730121402573419985425812017~hmac=8a8b49bfae9d78a7dd8bc85e9fab81e50238f01becb60c6722005d52ff39f95d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Aryna Sabalenka vs Naomi Osaka - Round 4 - 1 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2022317/RG_Multi0106/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780383166~acl=/*~id=74738730121402573419985425812017~hmac=8a8b49bfae9d78a7dd8bc85e9fab81e50238f01becb60c6722005d52ff39f95d
