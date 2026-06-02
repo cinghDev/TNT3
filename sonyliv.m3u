@@ -1,1 +1,23 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd T20I - 2 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000299/EnglandW0206/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd T20I - 2 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/20000299/EnglandW0206/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd T20I - 2 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/20000299/EnglandW0206/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd T20I - 2 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/20000299/EnglandW0206/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",3rd T20I - 2 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/20000299/EnglandW0206/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jakub Mensik vs Joao Fonseca - QF - 2 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0206/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jakub Mensik vs Joao Fonseca - QF - 2 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0206/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jakub Mensik vs Joao Fonseca - QF - 2 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0206/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jakub Mensik vs Joao Fonseca - QF - 2 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0206/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Jakub Mensik vs Joao Fonseca - QF - 2 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0206/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Wales vs Ghana - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000300/European0206/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780471678~acl=/*~id=20363824601887022487969785740370~hmac=0159f82b2aa73c3ac0240153c062e63de5efebfd1fb7e5d58a2b47c275a6cf83
