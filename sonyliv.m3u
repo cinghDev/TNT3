@@ -1,17 +1,27 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Matteo Berrettini vs Matteo Arnaldi - QF - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Matteo Berrettini vs Matteo Arnaldi - QF - 3 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Matteo Berrettini vs Matteo Arnaldi - QF - 3 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Matteo Berrettini vs Matteo Arnaldi - QF - 3 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Matteo Berrettini vs Matteo Arnaldi - QF - 3 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Surrey vs Middlesex - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/Surrey_v0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Poland vs Nigeria - 4 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000376/Live_Foo0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Netherlands vs Algeria - 4 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000301/Netherla0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
 #EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raipur Rhinos vs Rajnandgaon Panthers - 3 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000299/criclive0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Vavassori A / Errani S vs Roger-Vasselin E / Siegemund L - Mixed Doubles - 03 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/RG_DAY110306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",King E / Dabrowski G vs Mektic N / Muhammad A - Mixed Doubles - 03 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/RG_SM_Da0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+https://sonydaimenew.akamaized.net/hls/live/20000299/criclive0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Luxembourg vs Italy - 4 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000296/Luxembou0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Gibraltar vs British Virgin Islands - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/Gibralta0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Albania vs Israel - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000293/Albania_0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Denmark vs Congo DR - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000295/Denmark_0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780556002~acl=/*~id=11278488925295303191330350549231~hmac=9dc1348a38bd59eac92df20d2cd49bed8fb3bcfd51bdc65f9f05d56cefcfe9d1
