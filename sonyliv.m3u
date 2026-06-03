@@ -1,15 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Anna Kalinskaya vs Maja Chwalińska - QF - 3 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Anna Kalinskaya vs Maja Chwalińska - QF - 3 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Anna Kalinskaya vs Maja Chwalińska - QF - 3 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Anna Kalinskaya vs Maja Chwalińska - QF - 3 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Anna Kalinskaya vs Maja Chwalińska - QF - 3 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Court Suzanne Lenglen - 3 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/RG_DAY110306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Simonne Mathieu - 3 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2018457/RG_SM_Da0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780524306~acl=/*~id=64853028593409708076169087227515~hmac=359b3d9fd2cd900185673fae0539926dd27de66db4d22714d4a571d2c422f03d
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Felix Auger Aliassime vs Flavio Cobolli - QF - 3 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2005444/RG_Multi0306/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raipur Rhinos vs Rajnandgaon Panthers - 3 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000299/criclive0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Vavassori A / Errani S vs Roger-Vasselin E / Siegemund L - Mixed Doubles - 03 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2005445/RG_DAY110306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",King E / Dabrowski G vs Mektic N / Muhammad A - Mixed Doubles - 03 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2018457/RG_SM_Da0306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780541973~acl=/*~id=01133154106447219673254093833543~hmac=be0e88d3a482808630e55f4b9f05bbd9ab1f92f1b020f4dbedf5e9a8d94b343f
