@@ -1,25 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Diana Shnaider vs Maja Chwalinska - SF - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Diana Shnaider vs Maja Chwalinska - SF - 4 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi0406/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Diana Shnaider vs Maja Chwalinska - SF - 4 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi0406/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Diana Shnaider vs Maja Chwalinska - SF - 4 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi0406/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Diana Shnaider vs Maja Chwalinska - SF - 4 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/RG_Multi0406/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st Test - Day 1 - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000297/Cricket_0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Bastar Bisons vs Bilaspur Bulls - 4 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005445/criclive0406/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",France vs Côte d'Ivoire - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/UEFA_Fra0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780647068~acl=/*~id=37401001583520742956082748655110~hmac=1b4ef95684b0c0be0744b84cb79d89049e59fd94f85d9f1659d414830a7e05af
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Spain vs Iraq - 4 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000377/UEFA_Spa0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780647068~acl=/*~id=37401001583520742956082748655110~hmac=1b4ef95684b0c0be0744b84cb79d89049e59fd94f85d9f1659d414830a7e05af
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Somerset vs Glamorgan - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000389/Vitality0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Sweden vs Greece - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000385/UEFA_Swe0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Northern Ireland vs Guinea - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000300/UEFA_Nor0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Slovenia vs Cyprus - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000298/UEFA_Slo0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Andorra vs Liechtenstein - 4 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000388/UEFA_And0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780639179~acl=/*~id=84179624458695853449007245040217~hmac=388862a9c45498072dca1fddb2bac5ce73e8227f0261270fe9c07be144e18b2d
+https://sonydaimenew.akamaized.net/hls/live/20000389/Vitality0406/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780647068~acl=/*~id=37401001583520742956082748655110~hmac=1b4ef95684b0c0be0744b84cb79d89049e59fd94f85d9f1659d414830a7e05af
