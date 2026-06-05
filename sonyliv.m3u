@@ -1,25 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 13 - 5 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Multi_Da0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 13 - 5 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Multi_Da0506/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 13 - 5 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Multi_Da0506/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 13 - 5 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Multi_Da0506/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 13 - 5 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2005445/Multi_Da0506/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st Test - Day 2 - 5 Jun 2026  [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000301/Cricket_0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Rajnandgaon Panthers vs Bilaspur Bulls - 5 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/Cricket_0506/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 3 - Women's Match - 5 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000300/Rugby_HS0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Yorkshire vs Lancashire - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000299/Cricket_0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780726672~acl=/*~id=16879184830441521839933266771475~hmac=e7018d1ee9edc198db933f7be26c5d8c76ee095ae29ffe2104c4955b60dee9f9
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 3 - Men's Match - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000300/Rugby_HS0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780726672~acl=/*~id=16879184830441521839933266771475~hmac=e7018d1ee9edc198db933f7be26c5d8c76ee095ae29ffe2104c4955b60dee9f9
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hungary vs Finland - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000376/UEFA_Hun0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780726672~acl=/*~id=16879184830441521839933266771475~hmac=e7018d1ee9edc198db933f7be26c5d8c76ee095ae29ffe2104c4955b60dee9f9
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Moldova vs Bulgaria - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000296/UEFA_Mol0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780726672~acl=/*~id=16879184830441521839933266771475~hmac=e7018d1ee9edc198db933f7be26c5d8c76ee095ae29ffe2104c4955b60dee9f9
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Slovakia vs Montenegro - 5 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UEFA_Slo0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Belarus vs Syria - 5 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000298/UEFA_Bel0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Georgia vs Bahrain - 5 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/UEFA_Geo0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
-#EXTINF:-1 tvg-name="LIV" group-title="Golf",Andalucia - Day 2 - 5 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/LIV_Golf0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780719345~acl=/*~id=13091005905108853677907380533372~hmac=0dff6940308871998c34fb88409382abaaa0dc3469a1e676880384bb020010d6
+https://sonydaimenew.akamaized.net/hls/live/20000295/UEFA_Slo0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780726672~acl=/*~id=16879184830441521839933266771475~hmac=e7018d1ee9edc198db933f7be26c5d8c76ee095ae29ffe2104c4955b60dee9f9
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Azerbaijan vs Malta - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000297/UEFA_Aze0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780726672~acl=/*~id=16879184830441521839933266771475~hmac=e7018d1ee9edc198db933f7be26c5d8c76ee095ae29ffe2104c4955b60dee9f9
