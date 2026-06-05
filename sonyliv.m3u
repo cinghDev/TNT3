@@ -1,1 +1,9 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st Test - Day 2 - 5 Jun 2026  [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000301/Cricket_0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780698560~acl=/*~id=16855234660675010278642322496379~hmac=98ec40a4be89da6be20b9f21b346755606bb85cae433301b63b78da731006da4
+#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Surguja Tigers vs Raipur Rhinos - 5 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2005444/Cricket_0506/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780698560~acl=/*~id=16855234660675010278642322496379~hmac=98ec40a4be89da6be20b9f21b346755606bb85cae433301b63b78da731006da4
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Bolelli/Vavassori - Men's Doubles - 05 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094588/RG_SM_050506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780698560~acl=/*~id=16855234660675010278642322496379~hmac=98ec40a4be89da6be20b9f21b346755606bb85cae433301b63b78da731006da4
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 1 - Women's Match - 5 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000300/Rugby_HS0506/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780698560~acl=/*~id=16855234660675010278642322496379~hmac=98ec40a4be89da6be20b9f21b346755606bb85cae433301b63b78da731006da4
