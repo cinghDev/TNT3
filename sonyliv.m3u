@@ -1,7 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",England vs New Zealand - 7 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000300/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780822048~acl=/*~id=72855155697041069053990868728167~hmac=083a1f37fc151f0be031733815571644c1c1285b933aed647cd7815f8334b5d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Durham vs Northampton - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000296/Vitality0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780822048~acl=/*~id=72855155697041069053990868728167~hmac=083a1f37fc151f0be031733815571644c1c1285b933aed647cd7815f8334b5d6
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Switzerland vs Australia - 7 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000299/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780822048~acl=/*~id=72855155697041069053990868728167~hmac=083a1f37fc151f0be031733815571644c1c1285b933aed647cd7815f8334b5d6
+https://sonydaimenew.akamaized.net/hls/live/20000300/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780825685~acl=/*~id=09452708556626929991980240820931~hmac=28d565ae9dda1faebd7e13c93be763685dc334ae7fa432331b54ff67325c5c0f
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Turkiye vs Venezuela - 7 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/UEFA_Tur0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780825685~acl=/*~id=09452708556626929991980240820931~hmac=28d565ae9dda1faebd7e13c93be763685dc334ae7fa432331b54ff67325c5c0f
