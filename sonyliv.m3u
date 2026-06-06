@@ -1,27 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Maja Chwalinska vs Mirra Andreeva - Final - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Maja Chwalinska vs Mirra Andreeva - Final - 6 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Maja Chwalinska vs Mirra Andreeva - Final - 6 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Maja Chwalinska vs Mirra Andreeva - Final - 6 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Maja Chwalinska vs Mirra Andreeva - Final - 6 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 14 - 6 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 14 - 6 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 14 - 6 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 14 - 6 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Day 14 - 6 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st Test - Day 3 - 6 Jun 2026  [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000377/England_0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Belgium vs Tunisia - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000381/UEFA_Bel0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raigarh Lions vs Rajnandgaon Panthers - 6 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/CCPL_Rai0606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 1 - Men's Match - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000380/HSBC_SVN0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
+https://sonydaimenew.akamaized.net/hls/live/20000377/England_0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Bastar Bisons vs Raipur Rhinos - 6 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2005444/CCPL_Bas0606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 4 - Men's & Women's  Match - 6 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000380/HSBC_SVN0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",Andalucia - Day 3 - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000378/LIV_Golf0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
+https://sonydaimenew.akamaized.net/hls/live/20000378/LIV_Golf0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
 #EXTINF:-1 tvg-name="LIV" group-title="Golf",KLM Open - Day 3 - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000379/KLM_Day30606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
+https://sonydaimenew.akamaized.net/hls/live/20000379/KLM_Day30606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Armenia vs Kazakhstan - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000297/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Lithuania vs Latvia - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000382/UEFA_Lit0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780796436~acl=/*~id=79882557214258027477666905533133~hmac=1c83b16965cee457fcf5ea4c51d7220d88c57cd0736cb6c659feb9aeddd860b4
+https://sonydaimenew.akamaized.net/hls/live/20000297/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Estonia vs Faroe Islands - 6 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000383/UEFA_Est0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780803163~acl=/*~id=34597119515565138831149167671691~hmac=54d5193befed19d9e7f1a63b3edea5561410782ea30190549a28e6bdad2f3783
