@@ -1,15 +1,13 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Portugal vs Chile - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/UEFA_Por0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
+https://sonydaimenew.akamaized.net/hls/live/20000292/UEFA_Por0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780817800~acl=/*~id=71483993228248040283739357375928~hmac=d79a9046652aa6aec0d2de9b5dfc8935494ffbe2f8ccaa764dbc57a8c8c1d664
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",England vs New Zealand - 7 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000300/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780817800~acl=/*~id=71483993228248040283739357375928~hmac=d79a9046652aa6aec0d2de9b5dfc8935494ffbe2f8ccaa764dbc57a8c8c1d664
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Durham vs Northampton - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000296/Vitality0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
-#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Bastar Bisons vs Raipur Rhinos - 6 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2005444/CCPL_Bas0606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
+https://sonydaimenew.akamaized.net/hls/live/20000296/Vitality0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780817800~acl=/*~id=71483993228248040283739357375928~hmac=d79a9046652aa6aec0d2de9b5dfc8935494ffbe2f8ccaa764dbc57a8c8c1d664
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Switzerland vs Australia - 7 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000299/Football0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780817800~acl=/*~id=71483993228248040283739357375928~hmac=d79a9046652aa6aec0d2de9b5dfc8935494ffbe2f8ccaa764dbc57a8c8c1d664
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Romania vs Wales - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000295/UEFA_Rom0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 4 - Men's & Women's  Match - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000380/HSBC_SVN0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
+https://sonydaimenew.akamaized.net/hls/live/20000295/UEFA_Rom0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780817800~acl=/*~id=71483993228248040283739357375928~hmac=d79a9046652aa6aec0d2de9b5dfc8935494ffbe2f8ccaa764dbc57a8c8c1d664
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Albania vs Luxembourg - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/UEFA_Alb0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Gibraltar vs Cayman Islands - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000298/UEFA_Gib0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780811105~acl=/*~id=35421405996830531234302463766133~hmac=97238db9d2460e96909b655fcbdf6499d3fe2a0b2e82902451cbe1b6cc298dfb
+https://sonydaimenew.akamaized.net/hls/live/20000293/UEFA_Alb0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780817800~acl=/*~id=71483993228248040283739357375928~hmac=d79a9046652aa6aec0d2de9b5dfc8935494ffbe2f8ccaa764dbc57a8c8c1d664
