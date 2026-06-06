@@ -1,5 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Press Conference - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000291/criclive0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780776319~acl=/*~id=17170245272215249155787026434078~hmac=5d38d647eaad546f6020ef522e0c12de08c757a43c0ac3496e872ab1fcc83bd6
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Heliovaara/Patten - Final - 6 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Heliovaara/Patten - Final - 6 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Heliovaara/Patten - Final - 6 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Heliovaara/Patten - Final - 6 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Granollers/Zeballos vs Heliovaara/Patten - Final - 6 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Day140606/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",1st Test - Day 3 - 6 Jun 2026  [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000377/England_0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
+#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raigarh Lions vs Rajnandgaon Panthers - 6 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/CCPL_Rai0606/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 1 - Men's Match - 6 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000380/HSBC_SVN0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780776319~acl=/*~id=17170245272215249155787026434078~hmac=5d38d647eaad546f6020ef522e0c12de08c757a43c0ac3496e872ab1fcc83bd6
+https://sonydaimenew.akamaized.net/hls/live/20000380/HSBC_SVN0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780784231~acl=/*~id=52819105041627194363606856684317~hmac=104defe1b3beda99e6cff0a655a6956bb98ea7d947e850fddf0f0aa3327b5003
