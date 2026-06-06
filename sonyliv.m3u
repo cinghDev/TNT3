@@ -1,1 +1,5 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Press Conference - 6 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/criclive0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780776319~acl=/*~id=17170245272215249155787026434078~hmac=5d38d647eaad546f6020ef522e0c12de08c757a43c0ac3496e872ab1fcc83bd6
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 1 - Men's Match - 6 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000380/HSBC_SVN0606/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780776319~acl=/*~id=17170245272215249155787026434078~hmac=5d38d647eaad546f6020ef522e0c12de08c757a43c0ac3496e872ab1fcc83bd6
