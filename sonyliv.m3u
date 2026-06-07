@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Surguja Tigers vs Bastar Bisons - 7 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094588/Cricket_0706/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
+#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Rugby",Session 1 - 11th & 9th Position - 7 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/HSBC_SVN0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780867502~acl=/*~id=39153624602952676854852086310409~hmac=7b3aaa5207bc8184fc0a270560ab1aaaa424073da8fea3bfa5ddf66aef5741ce
