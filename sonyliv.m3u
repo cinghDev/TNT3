@@ -1,17 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Flavio Cobolli vs Alexander Zverev - Final - 7 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Flavio Cobolli vs Alexander Zverev - Final - 7 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Flavio Cobolli vs Alexander Zverev - Final - 7 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/TAM/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Flavio Cobolli vs Alexander Zverev - Final - 7 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/TEL/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
-#EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Tennis",Flavio Cobolli vs Alexander Zverev - Final - 7 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2094589/RG_Multi0706/KAN/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Denmark vs Ukraine - 7 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000298/UEFA_Den0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
-#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raigarh Lions vs Bilaspur Bulls - 7 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/Cricket_0706/HIN/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Greece vs Italy - 8 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000376/IF_Greec0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780904117~acl=/*~id=79233672054885729001705365309666~hmac=5afcc4b47a61ec84741ed80524d19f863fcf24f7b421c6a51d98ef0efcec5363
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Croatia vs Slovenia - 8 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/IF_Croat0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780904117~acl=/*~id=79233672054885729001705365309666~hmac=5afcc4b47a61ec84741ed80524d19f863fcf24f7b421c6a51d98ef0efcec5363
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Kosovo vs  Andorra - 7 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000300/UEFA_Kos0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780897426~acl=/*~id=65161611983005647608511164896501~hmac=ee7b5b6dacb5a80ac149e6e50165d867cc399bfe979e54e3cdeb2f35407be653
+https://sonydaimenew.akamaized.net/hls/live/20000300/UEFA_Kos0706/ENG/std_lrh-800300010.m3u8?hdnea=exp=1780904117~acl=/*~id=79233672054885729001705365309666~hmac=5afcc4b47a61ec84741ed80524d19f863fcf24f7b421c6a51d98ef0efcec5363
