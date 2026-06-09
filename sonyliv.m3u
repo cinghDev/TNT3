@@ -1,7 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" group-title="Cricket",Essex vs Kent - 9 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000297/criclive0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781074677~acl=/*~id=31816480445574986549239802967761~hmac=fab54e444d0cc3c0efedd07f9875cd056adfb1ed0c689123ac8a760597c35520
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hungary vs Kazakhstan  - 9 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000292/IF_Hunga0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781074677~acl=/*~id=31816480445574986549239802967761~hmac=fab54e444d0cc3c0efedd07f9875cd056adfb1ed0c689123ac8a760597c35520
-#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Azerbaijan vs San Marino - 9 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/20000293/IF_Azerb0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781074677~acl=/*~id=31816480445574986549239802967761~hmac=fab54e444d0cc3c0efedd07f9875cd056adfb1ed0c689123ac8a760597c35520
+https://sonydaimenew.akamaized.net/hls/live/20000297/criclive0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781081954~acl=/*~id=32360992757022675130810701488943~hmac=30219da096d63981a2a8f1ecae1504bf811a4497347cb323af770c3043d0531c
