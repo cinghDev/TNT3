@@ -1,3 +1,9 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raipur Rhinos vs Raigarh Lions - 9 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094589/criclive0906/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781056405~acl=/*~id=73905387988344956265225623434915~hmac=acaf1f2ffccfda6b5907740cc635ff18280b643c644095ac7f58be9e45473eb7
+https://sonydaimenew.akamaized.net/hls/live/2094589/criclive0906/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781066154~acl=/*~id=32174845235618545167990268050199~hmac=3d8c0818c9d6a87713f4b809446db8c3a7a4cf9508fd3edaeb0b776a2159c69c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Hungary vs Kazakhstan  - 9 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/IF_Hunga0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781066154~acl=/*~id=32174845235618545167990268050199~hmac=3d8c0818c9d6a87713f4b809446db8c3a7a4cf9508fd3edaeb0b776a2159c69c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Armenia vs Moldova  - 9 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/IF_Armen0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781066154~acl=/*~id=32174845235618545167990268050199~hmac=3d8c0818c9d6a87713f4b809446db8c3a7a4cf9508fd3edaeb0b776a2159c69c
+#EXTINF:-1 tvg-name="Sony Sports Ten 2" group-title="Football",Belarus vs Burkina Faso  - 9 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000296/IF_Belar0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781066154~acl=/*~id=32174845235618545167990268050199~hmac=3d8c0818c9d6a87713f4b809446db8c3a7a4cf9508fd3edaeb0b776a2159c69c
