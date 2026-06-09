@@ -1,13 +1,3 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs India A - 9 Jun 2026 [ENG]
-https://sonydaimenew.akamaized.net/hls/live/2037142/cricodi0906/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781047246~acl=/*~id=72593609051693305982787062270329~hmac=d22e0375210aeca6eb89b71c281d99563ee2d5989dc5ffe2df7f570d5a2c0f9c
-#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs India A - 9 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2018457/cricodi0906/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781047246~acl=/*~id=72593609051693305982787062270329~hmac=d22e0375210aeca6eb89b71c281d99563ee2d5989dc5ffe2df7f570d5a2c0f9c
-#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs India A - 9 Jun 2026 [TAM]
-https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi0906/TAM/std_lrh-800300010.m3u8?hdnea=exp=1781047246~acl=/*~id=72593609051693305982787062270329~hmac=d22e0375210aeca6eb89b71c281d99563ee2d5989dc5ffe2df7f570d5a2c0f9c
-#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs India A - 9 Jun 2026 [TEL]
-https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi0906/TEL/std_lrh-800300010.m3u8?hdnea=exp=1781047246~acl=/*~id=72593609051693305982787062270329~hmac=d22e0375210aeca6eb89b71c281d99563ee2d5989dc5ffe2df7f570d5a2c0f9c
-#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs India A - 9 Jun 2026 [KAN]
-https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi0906/KAN/std_lrh-800300010.m3u8?hdnea=exp=1781047246~acl=/*~id=72593609051693305982787062270329~hmac=d22e0375210aeca6eb89b71c281d99563ee2d5989dc5ffe2df7f570d5a2c0f9c
-#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Rajnandgaon Panthers vs Bastar Bisons - 9 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094589/criclive0906/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781047246~acl=/*~id=72593609051693305982787062270329~hmac=d22e0375210aeca6eb89b71c281d99563ee2d5989dc5ffe2df7f570d5a2c0f9c
+#EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Raipur Rhinos vs Raigarh Lions - 9 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/2094589/criclive0906/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781056405~acl=/*~id=73905387988344956265225623434915~hmac=acaf1f2ffccfda6b5907740cc635ff18280b643c644095ac7f58be9e45473eb7
