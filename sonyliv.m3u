@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="Sony Sports Ten 3" group-title="Cricket",Bilaspur Bulls vs Bastar Bisons - 12 Jun 2026 [HIN]
-https://sonydaimenew.akamaized.net/hls/live/2094588/Cricket_1206/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781300297~acl=/*~id=33709828279169686601952658159230~hmac=b4ea15f73be3a55e8d91fb0eb2f0d2194f2674ee9834e2d4c5087b890ae8277b
+https://sonydaimenew.akamaized.net/hls/live/2094588/Cricket_1206/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781311227~acl=/*~id=39275318618037674621332034137660~hmac=4e35ed1adc9ccde0b034dcdbc070600aa7921bed9b683c80c8cb01b19b425a9e
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",International Series Morocco - Day 2 - 12 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000291/AsianTou1206/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781311227~acl=/*~id=39275318618037674621332034137660~hmac=4e35ed1adc9ccde0b034dcdbc070600aa7921bed9b683c80c8cb01b19b425a9e
