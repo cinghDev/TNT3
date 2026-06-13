@@ -1,1 +1,15 @@
 #EXTM3U
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs Afghanistan A - 13 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs Afghanistan A - 13 Jun 2026 [HIN]
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1306/HIN/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs Afghanistan A - 13 Jun 2026 [TAM]
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1306/TAM/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs Afghanistan A - 13 Jun 2026 [TEL]
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1306/TEL/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
+#EXTINF:-1 tvg-name="Sony Sports Ten 1" group-title="Cricket",Sri Lanka A vs Afghanistan A - 13 Jun 2026 [KAN]
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1306/KAN/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
+#EXTINF:-1 tvg-name="LIV" group-title="Archery",Compound Mixed Team And Individual Finals- 13 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000301/Hyundai_1306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
+#EXTINF:-1 tvg-name="LIV" group-title="Golf",International Series Morocco - Day 3 - 13 Jun 2026 [ENG]
+https://sonydaimenew.akamaized.net/hls/live/20000292/Golf_Asi1306/ENG/std_lrh-800300010.m3u8?hdnea=exp=1781395876~acl=/*~id=65574641033708736599155473715603~hmac=76e86f5a001b81bd74e8009bc14ad2491e0bdb691ff267b448eb204ea9659372
